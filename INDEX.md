@@ -26,7 +26,7 @@
 | Kode | File | Link Raw | Isi Singkat |
 |---|---|---|---|
 | 00 | `00_CORE_RULES_AI_GM.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/00_CORE_RULES_AI_GM.md | Aturan mutlak, anti-cheat, format respon wajib, cheat-sheet formula — **selalu difetch pertama** |
-| 👤 | `players.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/players.md ⚠️*(placeholder, lihat §3)* | Data AWAL karakter (statis, dikelola admin — bukan save-state) — dicari lewat nama |
+| 👤 | `players.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/players.md | Data AWAL karakter (statis, dikelola admin — bukan save-state) — dicari lewat nama |
 | 01 | `01_WORLD_OVERVIEW_AND_CAPITAL.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/01_WORLD_OVERVIEW_AND_CAPITAL.md | Peta jarak dunia & Ibu Kota Tianjing |
 | 02 | `02_CENTRAL_PLAINS.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/02_CENTRAL_PLAINS.md | Central Plains: kota, desa, sekte, NPC |
 | 03 | `03_AZURE_MOUNTAIN_RANGE.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/03_AZURE_MOUNTAIN_RANGE.md | Azure Mountain Range |
