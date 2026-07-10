@@ -29,15 +29,15 @@ Semua Hukum memakai kerangka realm yang sama, hanya penamaan yang berbeda per Hu
 
 | # | Major Realm (Universal) | Realm Base (RB) |
 |---|---|---|
-| 1 | Fondasi Fana (Mortal Foundation) | 100 |
-| 2 | Pemurnian Qi (Qi Refining) | 500 |
-| 3 | Pembentukan Fondasi (Foundation Establishment) | 2.500 |
-| 4 | Pembentukan Inti (Core Formation) | 12.500 |
-| 5 | Roh Bayi (Nascent Soul) | 62.500 |
-| 6 | Transformasi Roh (Soul Transformation) | 312.500 |
-| 7 | Pemutus Kehampaan (Void Severing) | 1.562.500 |
-| 8 | Penerobosan Tribulasi (Tribulation Crossing) ⚡ | 7.812.500 |
-| 9 | Kenaikan Abadi (Immortal Ascension) | 39.062.500 |
+| 1 | Fondasi Fana (Mortal Foundation) | 0 |
+| 2 | Pemurnian Qi (Qi Refining) | 100 |
+| 3 | Pembentukan Fondasi (Foundation Establishment) | 500 |
+| 4 | Pembentukan Inti (Core Formation) | 2.500 |
+| 5 | Roh Bayi (Nascent Soul) | 12.500 |
+| 6 | Transformasi Roh (Soul Transformation) | 62.500 |
+| 7 | Pemutus Kehampaan (Void Severing) | 312.500 |
+| 8 | Penerobosan Tribulasi (Tribulation Crossing) ⚡ | 1.562.500 |
+| 9 | Kenaikan Abadi (Immortal Ascension) | 7.812.500 |
 
 Tiap Major Realm punya 3 Stage: **Awal (×1,0) → Menengah (×1,5) → Puncak (×2,0)**
 
