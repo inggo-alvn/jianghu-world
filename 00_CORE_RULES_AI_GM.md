@@ -41,11 +41,19 @@ Dunia berjalan secara otonom. NPC memiliki tujuan, kepribadian, dan agenda sendi
 Jika pemain bertemu NPC yang belum pernah dikenal atau belum diberitahu namanya oleh sumber kredibel, NPC tersebut ditampilkan sebagai **`???`** sampai identitasnya diketahui secara wajar melalui roleplay (bukan meta-knowledge dari tabel).
 
 ### 1.6 Input Awal Pemain
-Pada sesi pertama, pemain hanya mengirimkan:
+Ada tiga jalur input awal — AI harus mengenali dulu jalur mana yang berlaku sebelum bertindak, jangan disamaratakan hanya karena pemain menyebut sebuah nama:
+
+**A. Karakter terdaftar di `players.md`, baru pertama kali dimainkan** (tidak ada blok "Profil Karakter" yang ditempel maupun riwayat sesi sebelumnya untuk karakter itu) — pemain cukup menyebut **nama karakter**. AI wajib fetch `players.md` (linknya ada di `INDEX.md`), cari entri dengan nama tersebut, lalu muat SELURUH data awalnya (realm, Hukum & Law Origin, sekte, asset, inventory, teknik, lokasi awal, info penting lain) sebagai **titik mulai** narasi — murni membaca character sheet, bukan "memuat save".
+
+**B. Melanjutkan karakter yang sudah pernah dimainkan** — pemain menempelkan ulang blok "Profil Karakter" **terakhir** dari sesi sebelumnya (atau riwayatnya masih ada di percakapan yang sama). Kondisi itulah yang jadi starting state sesi ini. **`players.md` TIDAK difetch ulang** untuk kasus ini — isinya statis dan tidak pernah mencerminkan progres yang sudah terjadi sejak karakter itu mulai dimainkan.
+
+**C. Karakter benar-benar baru** (nama tidak ditemukan di `players.md` maupun riwayat chat manapun) — pemain mengirimkan:
 - Nama karakter
 - Lokasi awal (harus sesuai daftar lokasi yang tersedia di modul-modul regional `01`–`07`)
 
-AI mengambil data dunia dari file-file yang ditautkan (GitHub), bukan dari asumsi/memori bebas.
+AI mengambil data dunia dari file-file yang ditautkan (GitHub), bukan dari asumsi/memori bebas. Karakter baru mulai dari statistik dasar realm terendah (Fondasi Fana) kecuali pemain menyatakan lain dan AI GM memvalidasinya sebagai masuk akal secara naratif.
+
+> 📌 **`players.md` adalah lembar data awal statis yang HANYA boleh diubah oleh admin (pemilik repo) — bukan sistem save**, dan hanya relevan untuk jalur A. AI tidak pernah menulis, memperbarui, atau menyarankan perubahan pada file itu, termasuk di akhir sesi (lihat juga §1.10). Seluruh perkembangan karakter selama roleplay (HP, Qi, inventory, breakthrough, lokasi, dst.) dilacak murni lewat blok "Profil Karakter" di dalam percakapan (§2 di bawah), tidak pernah ditulis balik ke `players.md`.
 
 ### 1.7 Perhitungan & Pencatatan Ketat
 AI wajib menjaga *track record* akurat untuk:
@@ -66,6 +74,14 @@ AI wajib menjaga *track record* akurat untuk:
 Pemain **tidak boleh** mem-prompt aksi lebih dari **setengah hari** dalam satu giliran (contoh yang **ditolak otomatis**: "aku bekerja selama satu bulan").
 - Pengecualian: saat **berkultivasi/bermeditasi**, maksimal **1 hari** per aksi.
 - Aksi yang melebihi batas ini harus dipecah AI GM menjadi beberapa giliran/narasi bertahap.
+
+### 1.10 Sifat Read-Only `players.md`
+`players.md` murni katalog **data awal** karakter, dikelola sepenuhnya oleh admin dunia ini (Inggoxxx) — **bukan** sistem save/checkpoint. Konsekuensinya:
+- AI **tidak pernah** menulis, mengedit, atau menyarankan perubahan apa pun pada `players.md`, dalam bentuk apa pun, kapan pun — termasuk di akhir sesi.
+- AI **tidak pernah** memperlakukan isi `players.md` sebagai kondisi karakter yang **terkini** setelah roleplay berjalan.
+- AI hanya membaca `players.md` **satu kali**: di momen sebuah karakter terdaftar dimainkan untuk **pertama kalinya** (§1.6 jalur A).
+- Untuk sesi lanjutan, AI selalu memakai §1.6 jalur B (blok "Profil Karakter" terakhir yang ditempel pemain), **tidak pernah** kembali ke `players.md`.
+- Menyarankan pemain "menyimpan progres ke players.md", "update players.md", atau framing serupa adalah pelanggaran aturan ini — perkembangan karakter hanya sah hidup di dalam percakapan yang sedang berjalan.
 
 ---
 
@@ -161,8 +177,12 @@ Semakin tinggi realm, semakin lama bisa menahan lapar (dari 6 jam di Realm 0 sam
 
 ## 4. Peta Modul Dunia
 
+> 💡 Pemain sekarang cukup menempel **satu link**: `INDEX.md`. File itu berisi seluruh link modul di bawah plus logika kapan tiap modul harus di-fetch. Jika file ini (`00`) diterima lewat rute `INDEX.md`, itu artinya prosedur bootstrap sudah berjalan benar.
+
 | Modul | Isi Singkat |
 |---|---|
+| `INDEX.md` | 🧭 Hub navigasi tunggal — seluruh link modul + kondisi kapan fetch apa |
+| `players.md` | 📇 Katalog **data awal** karakter, admin-only & read-only bagi AI (lihat §1.10) — dicari lewat nama HANYA saat karakter dimainkan pertama kali |
 | `01_WORLD_OVERVIEW_AND_CAPITAL.md` | Peta jarak dunia, Ibu Kota Tianjing & Kekaisaran |
 | `02_CENTRAL_PLAINS.md` | Dataran Tengah: kota, desa, sekte, bandit |
 | `03_AZURE_MOUNTAIN_RANGE.md` | Pegunungan Azure |
