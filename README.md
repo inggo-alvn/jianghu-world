@@ -4,7 +4,9 @@
 **Genre:** Xianxia · Wuxia · Kultivasi · Hardcore Realism
 **Tujuan:** Roleplay kultivasi yang adil, mendalam, konsisten, dan realistis dengan AI Game Master — dioptimalkan agar AI tidak perlu memindai satu dokumen raksasa tiap giliran, dan agar dunia tetap **terkendali & konkrit** lewat rujukan file yang jelas.
 
-Repo ini adalah pecahan dari satu World Bible besar menjadi **15 modul `.md`** yang saling terhubung. Setiap modul berdiri sendiri (bisa ditautkan satu-satu), tapi tetap konsisten satu sama lain lewat sistem rujukan silang (`lihat 09_...md §8.2`, dst).
+Repo ini adalah pecahan dari satu World Bible besar menjadi **17 file `.md`** yang saling terhubung: 15 modul lore/sistem, plus `INDEX.md` (hub navigasi) dan `players.md` (katalog **data awal** karakter, dikelola admin). Setiap modul berdiri sendiri (bisa ditautkan satu-satu), tapi tetap konsisten satu sama lain lewat sistem rujukan silang (`lihat 09_...md §8.2`, dst).
+
+> 🧭 **Cara tercepat mulai main:** tempel **satu link saja** — raw link `INDEX.md` — lalu sebutkan nama karaktermu (atau nama + lokasi awal kalau karakter baru). AI akan menjelajah sendiri ke modul lain sesuai kebutuhan cerita. Lihat bagian "💬 Cara Main" di bawah.
 
 ---
 
@@ -12,8 +14,10 @@ Repo ini adalah pecahan dari satu World Bible besar menjadi **15 modul `.md`** y
 
 | # | File | Isi | Wajib / Situasional |
 |---|---|---|---|
-| — | [`README.md`](./README.md) | Peta navigasi ini | Referensi manusia (tidak perlu ditautkan ke AI) |
-| 00 | [`00_CORE_RULES_AI_GM.md`](./00_CORE_RULES_AI_GM.md) | Aturan mutlak AI GM, anti-cheat, format respon wajib, cheat-sheet formula inti | ✅ **WAJIB tiap sesi** |
+| 🧭 | [`INDEX.md`](./INDEX.md) | **Hub navigasi tunggal** — seluruh link + logika kapan fetch modul apa | ✅ **Inilah yang ditempel ke AI, bukan link lain** |
+| 📇 | [`players.md`](./players.md) | Katalog **data awal** karakter — admin-only, read-only bagi AI, BUKAN save system | Difetch otomatis lewat `INDEX.md` HANYA saat karakter dimainkan pertama kali |
+| — | [`README.md`](./README.md) | Peta navigasi & dokumentasi ini | Referensi manusia (tidak perlu ditautkan ke AI) |
+| 00 | [`00_CORE_RULES_AI_GM.md`](./00_CORE_RULES_AI_GM.md) | Aturan mutlak AI GM, anti-cheat, format respon wajib, cheat-sheet formula inti | ✅ **WAJIB tiap sesi** (difetch otomatis lewat `INDEX.md`) |
 | 01 | [`01_WORLD_OVERVIEW_AND_CAPITAL.md`](./01_WORLD_OVERVIEW_AND_CAPITAL.md) | Peta jarak dunia, Ibu Kota Tianjing & Kekaisaran | Situasional (konteks besar / karakter di ibu kota) |
 | 02 | [`02_CENTRAL_PLAINS.md`](./02_CENTRAL_PLAINS.md) | Dataran Tengah: kota, desa, sekte, bandit, NPC | Saat karakter di Central Plains |
 | 03 | [`03_AZURE_MOUNTAIN_RANGE.md`](./03_AZURE_MOUNTAIN_RANGE.md) | Pegunungan Azure | Saat karakter di Azure Mountain Range |
@@ -35,23 +39,68 @@ Repo ini adalah pecahan dari satu World Bible besar menjadi **15 modul `.md`** y
 ## 🚀 Cara Setup di GitHub
 
 1. Buat repository baru di GitHub — **harus PUBLIC** (repo privat butuh token otentikasi supaya raw link bisa diakses AI, jadi hindari kecuali kamu tahu cara handle itu).
-2. Upload ke-15 file `.md` ini ke root repo (atau ke satu folder, misalnya `/world/`).
+2. Upload ke-17 file `.md` ini ke root repo (atau ke satu folder, misalnya `/world/`) — termasuk `INDEX.md` dan `players.md`.
 3. Setiap file punya "raw link" dengan format:
    ```
    https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/NAMA_FILE.md
    ```
-   Contoh: `https://raw.githubusercontent.com/namamu/wuxian-world/main/00_CORE_RULES_AI_GM.md`
-4. Kumpulkan link-link yang kamu butuhkan (lihat rekomendasi "muatan" di bawah), lalu tempel di chat ke AI.
+   atau `.../refs/heads/BRANCH/NAMA_FILE.md` — keduanya format resmi GitHub yang valid.
+4. Buka `INDEX.md` §1, pastikan seluruh link di tabel sudah cocok dengan username/repo-mu sendiri.
+5. Isi `players.md` dengan karaktermu sendiri (lihat contoh "Jiang Ziling" di dalamnya sebagai referensi format), lalu perbarui link `players.md` di `INDEX.md` §1 dari placeholder ke link raw yang sebenarnya.
+6. Setelah itu, **kamu hanya perlu menempel SATU link** — raw link `INDEX.md` — di setiap sesi baru. Lihat "💬 Cara Main" di bawah.
 
 ---
 
-## 🎯 Rekomendasi "Muatan" per Sesi
+## 💬 Cara Main — Metode Utama (Satu Link)
 
-Supaya hemat token tapi tetap konkrit, kamu tidak perlu menempel ke-13 modul tiap kali chat. Pakai pola ini:
+Sejak ada `INDEX.md`, kamu tidak perlu lagi mengumpulkan link satu-satu tiap sesi. `INDEX.md` sudah memuat seluruh direktori link + logika "kondisi apa → fetch modul apa" (lihat `INDEX.md` §2), jadi AI yang bisa browsing/fetch link (mis. Claude dengan web search/fetch aktif) akan menjelajah sendiri.
+
+Pilih salah satu dari tiga template di bawah sesuai situasimu. `players.md` **hanya** relevan untuk Template A (katalog data awal, admin-only) — ia bukan save system, jadi Template C (melanjutkan karakter) tidak pernah menyentuhnya.
+
+### A. Mulai Karakter dari Katalog `players.md` (Pertama Kali Dimainkan)
+```
+Kamu akan jadi AI Game Master untuk roleplay Wuxian World. Baca dan ikuti seluruh isi link berikut sebagai satu-satunya sumber kebenaran (link itu sendiri berisi instruksi cara menjelajah ke modul lain sesuai kondisi cerita):
+
+https://raw.githubusercontent.com/USERNAME/REPO/refs/heads/main/INDEX.md
+
+Aku mau mulai main sebagai: [nama karakter — harus persis sama dengan heading di players.md]
+(Ini kali pertama karakter ini dimainkan.)
+```
+
+### B. Karakter Custom Baru (Belum Terdaftar di `players.md`)
+```
+Kamu akan jadi AI Game Master untuk roleplay Wuxian World. Baca dan ikuti seluruh isi link berikut sebagai satu-satunya sumber kebenaran:
+
+https://raw.githubusercontent.com/USERNAME/REPO/refs/heads/main/INDEX.md
+
+Data karakterku (karakter baru, belum terdaftar di players.md):
+- Nama: [nama karaktermu]
+- Lokasi awal: [pilih dari daftar lokasi di modul wilayah yang sesuai]
+```
+
+### C. Melanjutkan Karakter yang Sudah Pernah Dimainkan
+```
+Lanjutkan roleplay Wuxian World sebagai AI GM. Ikuti seluruh isi link berikut sebagai satu-satunya sumber kebenaran:
+
+https://raw.githubusercontent.com/USERNAME/REPO/refs/heads/main/INDEX.md
+
+Status karakterku terakhir (lanjutkan dari sini):
+[tempel ulang blok "Profil Karakter" terakhir dari sesi sebelumnya]
+```
+
+> Ganti `USERNAME/REPO` dengan path repo GitHub-mu sendiri (untuk repo `inggo-alvn/jianghu-world`, link `INDEX.md`-nya adalah `https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/INDEX.md`). `players.md` tidak pernah menyimpan progres — untuk Template C kamu sendiri yang menyimpan blok "Profil Karakter" terakhir (copy-paste dari balasan AI di sesi sebelumnya) dan menempelkannya kembali. Kecuali AI-mu tidak bisa membuka link secara mandiri, lihat metode manual di bawah.
+
+---
+
+## 🎯 Metode Manual (Fallback, Jika AI Tidak Bisa Fetch Link)
+
+Kalau AI yang kamu pakai tidak punya kemampuan membuka link sendiri, kamu masih bisa menempel modul satu-satu secara manual. Pakai pola ini supaya hemat token — tidak perlu menempel ke-15 modul tiap kali chat:
 
 | Situasi | Link yang Ditempel |
 |---|---|
 | **Selalu** (tiap sesi baru / ganti chat) | `00_CORE_RULES_AI_GM.md` + modul wilayah tempat karaktermu berada saat ini |
+| Mulai karakter dari katalog `players.md` (pertama kali) | + `players.md` |
+| Melanjutkan karakter yang sudah pernah main | Tempel manual blok "Profil Karakter" terakhir (**bukan** `players.md`) |
 | Karakter pindah wilayah | Ganti link modul wilayah ke wilayah tujuan |
 | Mau breakthrough / klaim teknik baru | + `09_CULTIVATION_LAW_SYSTEM.md` |
 | Mau berdagang / lihat harga | + `10_ECONOMY_SYSTEM.md` |
@@ -59,42 +108,7 @@ Supaya hemat token tapi tetap konkrit, kamu tidak perlu menempel ke-13 modul tia
 | Bertemu pembunuh bayaran/info broker/buronan lintas wilayah | + `08_CROSS_REGION_ORGANIZATIONS.md` |
 | Cek detail status HP/lapar yang rumit | + `11_VITALITY_HUNGER_SYSTEM.md` |
 
-`00_CORE_RULES_AI_GM.md` sudah memuat ringkasan formula inti (§3), jadi untuk adegan ringan (dialog, eksplorasi tanpa combat/transaksi berat), **00 + modul wilayah saja sudah cukup**.
-
----
-
-## 💬 Template Pesan Pembuka Sesi
-
-### Sesi Pertama (Karakter Baru)
-
-```
-Kamu akan jadi AI Game Master untuk roleplay Wuxian World. Ikuti SELURUH aturan di link berikut secara ketat, terutama bagian anti-cheat dan format respon wajib:
-
-1. Aturan Inti: https://raw.githubusercontent.com/USERNAME/REPO/main/00_CORE_RULES_AI_GM.md
-2. Wilayah awal: https://raw.githubusercontent.com/USERNAME/REPO/main/0X_NAMA_WILAYAH.md
-
-Data karakterku:
-- Nama: [nama karaktermu]
-- Lokasi awal: [pilih dari daftar lokasi di modul wilayah]
-
-Mulai sesi dari sini, ikuti format respon wajib di setiap balasan.
-```
-
-### Sesi Lanjutan
-
-```
-Lanjutkan roleplay Wuxian World sebagai AI GM, ikuti aturan ketat di:
-1. https://raw.githubusercontent.com/USERNAME/REPO/main/00_CORE_RULES_AI_GM.md
-2. https://raw.githubusercontent.com/USERNAME/REPO/main/0X_NAMA_WILAYAH.md
-(tambahkan link modul lain di sini jika relevan dengan situasi saat ini — combat/ekonomi/kultivasi/dsb)
-
-Status karakterku terakhir:
-[tempel blok "Profil Karakter" terakhir dari sesi sebelumnya]
-
-Lanjutkan dari sini.
-```
-
-> Ganti `USERNAME/REPO/main` dengan path repo GitHub-mu sendiri. Simpan template ini di suatu tempat (Notes, dsb.) supaya tinggal copy-paste tiap mulai sesi baru.
+`00_CORE_RULES_AI_GM.md` sudah memuat ringkasan formula inti (§3), jadi untuk adegan ringan (dialog, eksplorasi tanpa combat/transaksi berat), **00 + modul wilayah saja sudah cukup**. Logika lengkap trigger→modul yang sama juga dipakai otomatis oleh AI lewat `INDEX.md` §2.
 
 ---
 
@@ -115,13 +129,23 @@ Lanjutkan dari sini.
 - Ditambahkan: blok "Fakta Cepat" di tiap modul wilayah (Qi Density Modifier, monster khas, dsb.), tag Hukum kultivasi tiap sekte langsung di deskripsinya, dan rujukan silang antar modul (`lihat 09_...md §8.2`) supaya AI/pemain tidak perlu menghafal semua di kepala.
 - **Tidak ada NPC, lokasi, angka, atau formula yang dihapus atau diubah nilainya** dari dokumen asli — murni reorganisasi & pembersihan format.
 
+**v2.1 — Update Navigasi Satu-Link:**
+- Ditambahkan `INDEX.md` sebagai hub navigasi tunggal — pemain sekarang cukup menempel satu link, AI menjelajah ke modul lain secara otomatis sesuai kondisi cerita (lihat `INDEX.md` §2 untuk logika lengkapnya).
+- Ditambahkan `players.md` sebagai katalog data awal karakter berformat konsisten (realm, Hukum & Law Origin, sekte, kondisi awal, currency, inventory, teknik, latar belakang) — lengkap dengan satu contoh terisi ("Jiang Ziling") sebagai referensi format.
+
+**v2.2 — Klarifikasi: `players.md` Bukan Sistem Save:**
+- `players.md` ditegaskan sebagai katalog **data awal** yang read-only bagi AI dan hanya diedit admin — bukan save/checkpoint. Semua bahasa "save data"/"save state"/"riwayat breakthrough berjalan" dari v2.1 sudah diperbaiki di seluruh modul (`INDEX.md`, `00_CORE_RULES_AI_GM.md`, `README.md`, `players.md`).
+- Ditambahkan aturan eksplisit `00_CORE_RULES_AI_GM.md` §1.10 dan jalur input awal ketiga di §1.6 (mulai dari katalog / karakter custom baru / melanjutkan karakter via paste "Profil Karakter") supaya AI tidak keliru mengira `players.md` menyimpan progres.
+
 ---
 
 ## ✅ Checklist Sebelum Main
 
-- [ ] Repo GitHub sudah publik & ke-15 file sudah ter-upload
-- [ ] Link raw sudah dites bisa dibuka di browser (harus menampilkan teks mentah markdown, bukan 404)
-- [ ] Template pesan pembuka sudah disiapkan dengan username/repo yang benar
+- [ ] Repo GitHub sudah publik & ke-17 file (termasuk `INDEX.md` & `players.md`) sudah ter-upload
+- [ ] Link raw `INDEX.md` sudah dites bisa dibuka di browser (harus menampilkan teks mentah markdown, bukan 404)
+- [ ] Semua link di dalam `INDEX.md` §1 sudah dicek cocok dengan username/repo-mu sendiri
+- [ ] Link `players.md` di `INDEX.md` §1 sudah diganti dari placeholder ke link raw yang sebenarnya setelah file itu di-upload
+- [ ] `players.md` sudah diisi dengan karaktermu sendiri (atau pakai dulu contoh "Jiang Ziling" untuk coba sistemnya)
 - [ ] Tahu karaktermu mulai dari lokasi mana (cek daftar lokasi di modul wilayah terkait sebelum sesi pertama)
 
 Selamat berkelana di Jianghu. 🗡️
