@@ -31,6 +31,11 @@
 
 **Currency Awal:** [none]
 
+**Equipment Awal (terpakai/digenggam):**
+- Senjata: [nama item — Tier/Grade, asal singkat, atau "Tidak ada"]
+- Zirah/Pelindung: [nama item, atau "Tidak ada"]
+- Aksesoris: [nama item, atau "Tidak ada"]
+
 **Inventory Awal:**
 - [Item 1 — none]
 - [Item 2 — none]
