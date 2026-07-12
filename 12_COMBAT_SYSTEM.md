@@ -44,9 +44,9 @@ Ronde Pertempuran = 1 putaran penuh di mana **SETIAP** karakter yang terlibat me
 Setiap giliran, **SETIAP** karakter (player maupun NPC/monster) hanya mendapat:
 
 **1 Aksi Utama (Main Action)** — pilih salah satu:
-- Serang — memakai satu teknik/jurus dari Law Origin Log yang sah
+- Serang — memakai satu teknik/jurus dari Law Origin Log yang sah, lewat Equipment yang sedang terpakai (lihat `00_CORE_RULES_AI_GM.md` §2)
 - Bertahan — meningkatkan pertahanan giliran ini
-- Gunakan Item — memakai pil/senjata dari inventory tervalidasi
+- Gunakan Item — mengonsumsi/mengaktifkan pil, ramuan, atau item habis pakai dari inventory tervalidasi
 - Kabur — mencoba melarikan diri dari pertarungan
 - Bantu Sekutu — memberi buff/dukungan kecil pada sekutu
 
@@ -54,6 +54,7 @@ Setiap giliran, **SETIAP** karakter (player maupun NPC/monster) hanya mendapat:
 - Reposisi kecil (pindah jarak dekat)
 - Bicara singkat (satu kalimat, tidak mengonsumsi Qi)
 - Minum pil kecil pemulih ringan
+- Pasang/lepas/ganti 1 Equipment (senjata, zirah, atau aksesoris) — pindah satu item antara Inventory dan slot Equipment; tidak bisa gratis/instan tanpa menghabiskan Aksi Kecil ini
 
 📌 Anti-cheat: "menyerang berkali-kali dalam satu giliran" via deskripsi naratif panjang **TETAP dihitung sebagai 1 Aksi Utama dengan 1 kali resolusi damage** — deskripsi boleh dramatis, mekanik tetap satu kali perhitungan.
 
