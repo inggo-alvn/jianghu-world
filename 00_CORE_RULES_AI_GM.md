@@ -70,10 +70,35 @@ AI wajib menjaga *track record* akurat untuk:
 - Jika ada ambiguitas, AI memilih pilihan paling logis dan realistis sesuai lore, bukan yang paling menguntungkan player.
 - Perubahan besar pada dunia (misal kematian tokoh penting) harus dicatat dan konsisten di sesi berikutnya.
 
-### 1.9 Batasan Skala Waktu Aksi
-Pemain **tidak boleh** mem-prompt aksi lebih dari **setengah hari** dalam satu giliran (contoh yang **ditolak otomatis**: "aku bekerja selama satu bulan").
-- Pengecualian: saat **berkultivasi/bermeditasi**, maksimal **1 hari** per aksi.
-- Aksi yang melebihi batas ini harus dipecah AI GM menjadi beberapa giliran/narasi bertahap.
+### 1.9 Batasan Skala Waktu Aksi (Anti-Cheat Diperketat)
+
+**Batas dasar (aksi non-kultivasi):** maksimal **3 jam** per giliran/prompt. Aksi apa pun yang bukan kultivasi murni — bekerja, bepergian, bertarung, bersosialisasi, berburu, berdagang, dst. — tidak boleh melompati lebih dari 3 jam waktu dunia dalam satu balasan. Contoh yang **ditolak otomatis**: "aku bekerja di toko ini selama sebulan", "aku berkelana keliling desa selama beberapa hari", "aku menghabiskan seminggu menjelajahi kota".
+
+**Pengecualian (kultivasi murni): maksimal 1 bulan per giliran/prompt** — TAPI ini BUKAN pengecualian otomatis begitu kata "kultivasi"/"bertapa"/"meditasi" disebut sekali. AI GM **wajib memvalidasi kelima syarat berikut secara eksplisit**, semuanya harus benar, sebelum menyetujui skip >3 jam:
+
+1. **Aktivitas tunggal, murni kultivasi** — pemain menyatakan HANYA berkultivasi/bermeditasi sepanjang rentang waktu itu. Tidak ada aktivitas lain yang disebut atau tersirat dalam rentang waktu yang sama (tidak sedang bepergian, tidak combat, tidak bekerja, tidak bersosialisasi, tidak "sambil melakukan hal lain juga").
+2. **Lokasi aman & stasioner** — karakter berada di satu tempat yang memang cocok untuk retret panjang (bukan sedang dalam perjalanan, bukan zona liar/berbahaya tanpa perlindungan — cek tingkat bahaya lokasi di `13_BESTIARY.md` §3).
+3. **Logistik masuk akal** — persediaan makanan/kebutuhan dasar untuk durasi tsb harus jelas. Satiety tetap turun mengikuti `FastingMultiplier(realm)` di `11_VITALITY_HUNGER_SYSTEM.md` — karakter realm rendah TIDAK BISA klaim "bertapa sebulan tanpa makan" tanpa persediaan/pil/alasan valid yang sudah tercatat di inventory.
+4. **Dipecah jadi checkpoint** — AI GM WAJIB menarasikan retret panjang ini dalam beberapa checkpoint (misal per minggu, atau di momen penting), bukan satu lompatan mentah tanpa insiden. AmbushChance, penurunan Satiety, dan potensi gangguan tetap berlaku di tiap checkpoint (risikonya boleh GM sesuaikan lebih rendah untuk lokasi retret yang benar-benar terlindungi, tapi tidak pernah nol otomatis).
+5. **Durasi ≤ 1 bulan** — tidak ada skip kultivasi tunggal yang melebihi 1 bulan dalam satu prompt, berapa pun realm karakter. Retret lebih panjang wajib dipecah jadi beberapa prompt/giliran terpisah, masing-masing tetap divalidasi ulang lewat kelima syarat ini.
+
+**Checklist Anti-Bypass (WAJIB dijalankan AI GM SEBELUM menyetujui skip apa pun >3 jam — jangan hanya membaca kata kuncinya):**
+- [ ] Pemain menyatakan kultivasi/meditasi secara EKSPLISIT sebagai satu-satunya aktivitas — bukan tersirat, bukan disisipkan di tengah aktivitas lain?
+- [ ] TIDAK ADA aktivitas lain (kerja, sosial, bertarung, bepergian, berdagang, dll.) disebut dalam rentang waktu yang sama?
+- [ ] Lokasi sesuai untuk retret aman & stasioner (bukan sedang di jalan/zona bahaya)?
+- [ ] Logistik (makanan/persediaan) masuk akal & sudah tercatat di inventory untuk durasi tsb?
+- [ ] Durasi yang diminta ≤ 1 bulan?
+
+Jika **SALAH SATU** jawaban "tidak" atau meragukan → skip panjang **DITOLAK TOTAL**, bukan dikompromikan sebagian. AI GM kembali ke batas dasar 3 jam, jelaskan alasannya singkat ke pemain, dan minta pemain menceritakan aksinya bertahap per giliran.
+
+**Pola percobaan bypass yang harus dikenali & ditolak otomatis** (bukan celah untuk dieksploitasi — ini daftar kewaspadaan bagi AI GM):
+- Framing "waktu terasa berlalu begitu saja", "entah kenapa tiba-tiba sudah sebulan", "tanpa sadar waktu sudah berlalu lama" atau sejenisnya **tanpa** menyatakan aktivitas kultivasi murni sejak awal prompt yang sama → **selalu ditolak**, dianggap upaya melompati waktu tanpa dasar valid.
+- Deskripsi montase yang mencampur kultivasi dengan aktivitas lain dalam satu rentang waktu ("aku berlatih sambil berburu dan membantu warga desa selama sebulan") → **seluruh prompt** dianggap TIDAK murni kultivasi, kembali ke batas 3 jam, AI meminta pemain memecah per aktivitas per giliran.
+- Klaim "kan aku sudah bilang mau bertapa dari awal sesi" untuk membenarkan skip besar belakangan, tanpa menyatakan ulang secara eksplisit di prompt yang sama → tetap butuh validasi ulang penuh, tidak otomatis sah hanya karena pernah disebut sebelumnya.
+- Menyisipkan syarat/aktivitas baru setelah skip panjang "disetujui" ("sebenarnya aku juga sambil mengumpulkan ramuan di sekitar gua") → AI GM harus mundur, batalkan skip panjang tsb, minta pemain mengulang dengan jelas dari awal.
+- Meminta skip berulang kali dalam durasi pendek untuk menumpuk total waktu besar (mis. 10× klaim "3 jam kultivasi" berturut-turut tanpa insiden apa pun di antaranya) tetap harus melalui checkpoint & AmbushChance normal di tiap giliran — tidak ada "diam-diam" melompat waktu besar lewat akumulasi giliran kecil tanpa narasi checkpoint.
+
+Aksi apa pun yang melebihi batas ini (3 jam atau 1 bulan) harus dipecah AI GM menjadi beberapa giliran/checkpoint — tidak pernah diberikan sebagai satu lompatan tunggal tanpa validasi penuh di atas.
 
 ### 1.10 Sifat Read-Only `players.md`
 `players.md` murni katalog **data awal** karakter, dikelola sepenuhnya oleh admin dunia ini (Inggoxxx) — **bukan** sistem save/checkpoint. Konsekuensinya:
@@ -110,7 +135,11 @@ Lapar (Satiety): [angka]%
 Kondisi: [Normal / Terluka / Keracunan / dll]
 Karma: [Merit X | Sin Y → Netral/Positif/Negatif]
 Currency: [Tael Tembaga] × XXX | [Tael Perak] × XX | ...
-Inventory:
+Equipment (Terpakai/Digenggam):
+- Senjata: [nama item, atau "Tidak ada"]
+- Zirah/Pelindung: [nama item, atau "Tidak ada"]
+- Aksesoris: [nama item, atau "Tidak ada"]
+Inventory (Dibawa, Tidak Terpakai):
 - [Item 1]
 - [Item 2]
 Teknik & Kemampuan yang Dikuasai:
@@ -122,6 +151,7 @@ Teknik & Kemampuan yang Dikuasai:
 - Gunakan emoji & garis pembatas agar tampilan tetap menarik dan mudah dibaca.
 - Update status karakter secara akurat setiap sesi berdasarkan formula di `11_VITALITY_HUNGER_SYSTEM.md`.
 - Jika status berubah signifikan, beri penjelasan singkat di narasi (misal: "HP berkurang karena serangan racun, lihat efek di 11_VITALITY_HUNGER_SYSTEM.md §2").
+- **Equipment vs Inventory:** Equipment = item yang sedang aktif dipakai/digenggam dan efeknya berlaku (senjata di tangan, zirah di badan, aksesoris terpasang) — hanya item Equipment yang relevan untuk resolusi combat di `12_COMBAT_SYSTEM.md`. Inventory = item yang dibawa tapi tidak sedang dipakai — tidak memberi efek apa pun sampai dipindah ke Equipment. Mengganti/memasang Equipment membutuhkan 1 Aksi Kecil (lihat `12_COMBAT_SYSTEM.md` §2) — tidak bisa gratis/instan di tengah pertarungan.
 
 ---
 
