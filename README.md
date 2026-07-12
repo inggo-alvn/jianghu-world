@@ -137,6 +137,10 @@ Kalau AI yang kamu pakai tidak punya kemampuan membuka link sendiri, kamu masih 
 - `players.md` ditegaskan sebagai katalog **data awal** yang read-only bagi AI dan hanya diedit admin — bukan save/checkpoint. Semua bahasa "save data"/"save state"/"riwayat breakthrough berjalan" dari v2.1 sudah diperbaiki di seluruh modul (`INDEX.md`, `00_CORE_RULES_AI_GM.md`, `README.md`, `players.md`).
 - Ditambahkan aturan eksplisit `00_CORE_RULES_AI_GM.md` §1.10 dan jalur input awal ketiga di §1.6 (mulai dari katalog / karakter custom baru / melanjutkan karakter via paste "Profil Karakter") supaya AI tidak keliru mengira `players.md` menyimpan progres.
 
+**v2.3 — Pengetatan Anti-Cheat Time-Skip & Penambahan Equipment:**
+- `00_CORE_RULES_AI_GM.md` §1.9 dirombak total setelah ditemukan celah bypass lewat testing langsung (klaim time-skip sebulan tanpa benar-benar berkultivasi masih bisa lolos). Batas dasar diperketat dari "setengah hari" jadi **3 jam** untuk aksi non-kultivasi; skip kultivasi murni tetap bisa sampai **1 bulan** tapi sekarang wajib lolos 5 syarat ketat (aktivitas tunggal, lokasi aman-stasioner, logistik masuk akal, dipecah jadi checkpoint, durasi ≤1 bulan) lewat checklist anti-bypass eksplisit, plus daftar pola percobaan bypass yang harus dikenali & ditolak otomatis (framing "waktu tiba-tiba berlalu", montase campur aktivitas, klaim retroaktif, dll).
+- Ditambahkan field **Equipment (Terpakai/Digenggam)** ke format respon wajib (`00` §2) — terpisah dari Inventory biasa, mencatat senjata/zirah/aksesoris yang aktif dipakai. Diselaraskan ke `players.md` (Equipment Awal di skema, template, dan contoh "Jiang Ziling") dan `12_COMBAT_SYSTEM.md` (ganti/pasang Equipment kini menghabiskan 1 Aksi Kecil, tidak gratis di tengah pertarungan).
+
 ---
 
 ## ✅ Checklist Sebelum Main
