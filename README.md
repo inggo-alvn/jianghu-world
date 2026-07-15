@@ -31,6 +31,7 @@ Repo ini adalah pecahan dari satu World Bible besar menjadi **17 file `.md`** ya
 | 11 | [`11_VITALITY_HUNGER_SYSTEM.md`](./11_VITALITY_HUNGER_SYSTEM.md) | Formula HP, status luka, regenerasi, kelaparan | Saat cek status detail / efek kelaparan |
 | 12 | [`12_COMBAT_SYSTEM.md`](./12_COMBAT_SYSTEM.md) | Giliran, initiative, damage, defense, escape | Setiap kali terjadi pertarungan |
 | 13 | [`13_BESTIARY.md`](./13_BESTIARY.md) | Monster & spirit beast per wilayah, ambush, loot | Perjalanan liar / hunting / ambush |
+| 14 | [`14_SECTS_AND_DOJOS_COMPENDIUM.md`](./14_SECTS_AND_DOJOS_COMPENDIUM.md) | Kompendium lengkap 21 sekte/dojo/organisasi: hierarki, fasilitas, artefak, kurikulum teknik bertingkat, Hukum kultivasi detail | Bergabung sekte, eksplorasi fasilitas, belajar teknik |
 
 > Semua NPC, lokasi, formula, dan angka di modul-modul ini **identik** dengan `JIANGHU.docx` asli — hanya format & organisasinya yang diperbaiki (tabel dirapikan, bold yang rusak diperbaiki, ditambah rujukan silang dan "Fakta Cepat" di tiap wilayah). Tidak ada isi yang dihapus atau diubah nilainya.
 
@@ -124,7 +125,7 @@ Kalau AI yang kamu pakai tidak punya kemampuan membuka link sendiri, kamu masih 
 ## 🛠️ Riwayat Perubahan dari Dokumen Asli
 
 - Sumber: `JIANGHU.docx` v1.0 (Wuxian World + Sistem Hukum Kultivasi + Sistem Ekonomi + Sistem Vitalitas & Kelaparan + Sistem Pertempuran + Bestiarium, semuanya jadi satu file Word).
-- Dipecah menjadi 15 file `.md` bertopik agar AI hanya perlu memuat modul yang relevan per giliran.
+- Dipecah menjadi 18 file `.md` bertopik (15 modul lore/sistem + `INDEX.md` + `players.md` + kompendium sekte) agar AI hanya perlu memuat modul yang relevan per giliran.
 - Semua tabel dirapikan ke format Markdown standar (tabel asli di docx banyak mengalami artefak bold `****` akibat konversi — sudah dibersihkan tanpa mengubah data).
 - Ditambahkan: blok "Fakta Cepat" di tiap modul wilayah (Qi Density Modifier, monster khas, dsb.), tag Hukum kultivasi tiap sekte langsung di deskripsinya, dan rujukan silang antar modul (`lihat 09_...md §8.2`) supaya AI/pemain tidak perlu menghafal semua di kepala.
 - **Tidak ada NPC, lokasi, angka, atau formula yang dihapus atau diubah nilainya** dari dokumen asli — murni reorganisasi & pembersihan format.
@@ -141,11 +142,16 @@ Kalau AI yang kamu pakai tidak punya kemampuan membuka link sendiri, kamu masih 
 - `00_CORE_RULES_AI_GM.md` §1.9 dirombak total setelah ditemukan celah bypass lewat testing langsung (klaim time-skip sebulan tanpa benar-benar berkultivasi masih bisa lolos). Batas dasar diperketat dari "setengah hari" jadi **3 jam** untuk aksi non-kultivasi; skip kultivasi murni tetap bisa sampai **1 bulan** tapi sekarang wajib lolos 5 syarat ketat (aktivitas tunggal, lokasi aman-stasioner, logistik masuk akal, dipecah jadi checkpoint, durasi ≤1 bulan) lewat checklist anti-bypass eksplisit, plus daftar pola percobaan bypass yang harus dikenali & ditolak otomatis (framing "waktu tiba-tiba berlalu", montase campur aktivitas, klaim retroaktif, dll).
 - Ditambahkan field **Equipment (Terpakai/Digenggam)** ke format respon wajib (`00` §2) — terpisah dari Inventory biasa, mencatat senjata/zirah/aksesoris yang aktif dipakai. Diselaraskan ke `players.md` (Equipment Awal di skema, template, dan contoh "Jiang Ziling") dan `12_COMBAT_SYSTEM.md` (ganti/pasang Equipment kini menghabiskan 1 Aksi Kecil, tidak gratis di tengah pertarungan).
 
+**v2.4 — Kompendium Sekte, Dojo & Organisasi (`14_SECTS_AND_DOJOS_COMPENDIUM.md`):**
+- Ditambahkan **satu file kompendium** mencakup seluruh **21 sekte/dojo/organisasi** di dunia (12 sekte besar, 7 dojo kecil, 2 organisasi pembunuh bayaran lintas wilayah) — masing-masing lengkap dengan hierarki keanggotaan bertingkat, anggota kunci (NPC kanon + tambahan 🆕 yang tidak bertentangan), fasilitas, artefak/pusaka, kurikulum teknik per-tingkat (dengan klasifikasi Serangan Biasa/Andalan/Ultimate & Tier manual), detail penuh Hukum kultivasi, kode etik internal, dan cara bergabung untuk karakter pemain.
+- Awalnya dipecah jadi 6 file per wilayah, lalu **dikonsolidasi jadi 1 file** sesuai permintaan, lengkap dengan Daftar Isi di bagian atas untuk navigasi cepat di file besar ini.
+- Ditemukan & dilengkapi 2 organisasi yang sebelumnya cuma disebut sekilas di `08_CROSS_REGION_ORGANIZATIONS.md`: **Perkumpulan Pisau Sunyi** (didaftarkan Custom Law baru: **Hukum Pisau Sunyi**, disinkronkan penuh ke `09_CULTIVATION_LAW_SYSTEM.md` §8.2–8.3, `11_VITALITY_HUNGER_SYSTEM.md` §1.2, dan `12_COMBAT_SYSTEM.md` §3.1) dan **Kelompok Racun Bayangan**.
+
 ---
 
 ## ✅ Checklist Sebelum Main
 
-- [ ] Repo GitHub sudah publik & ke-17 file (termasuk `INDEX.md` & `players.md`) sudah ter-upload
+- [ ] Repo GitHub sudah publik & ke-18 file (termasuk `INDEX.md`, `players.md`, `14_SECTS_AND_DOJOS_COMPENDIUM.md`) sudah ter-upload
 - [ ] Link raw `INDEX.md` sudah dites bisa dibuka di browser (harus menampilkan teks mentah markdown, bukan 404)
 - [ ] Semua link di dalam `INDEX.md` §1 sudah dicek cocok dengan username/repo-mu sendiri
 - [ ] Link `players.md` di `INDEX.md` §1 sudah diganti dari placeholder ke link raw yang sebenarnya setelah file itu di-upload

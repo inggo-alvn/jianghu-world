@@ -29,15 +29,15 @@ Semua Hukum memakai kerangka realm yang sama, hanya penamaan yang berbeda per Hu
 
 | # | Major Realm (Universal) | Realm Base (RB) |
 |---|---|---|
-| 1 | Fondasi Fana (Mortal Foundation) | 0 |
-| 2 | Pemurnian Qi (Qi Refining) | 100 |
-| 3 | Pembentukan Fondasi (Foundation Establishment) | 500 |
-| 4 | Pembentukan Inti (Core Formation) | 2.500 |
-| 5 | Roh Bayi (Nascent Soul) | 12.500 |
-| 6 | Transformasi Roh (Soul Transformation) | 62.500 |
-| 7 | Pemutus Kehampaan (Void Severing) | 312.500 |
-| 8 | Penerobosan Tribulasi (Tribulation Crossing) ⚡ | 1.562.500 |
-| 9 | Kenaikan Abadi (Immortal Ascension) | 7.812.500 |
+| 1 | Fondasi Fana (Mortal Foundation) | 100 |
+| 2 | Pemurnian Qi (Qi Refining) | 500 |
+| 3 | Pembentukan Fondasi (Foundation Establishment) | 2.500 |
+| 4 | Pembentukan Inti (Core Formation) | 12.500 |
+| 5 | Roh Bayi (Nascent Soul) | 62.500 |
+| 6 | Transformasi Roh (Soul Transformation) | 312.500 |
+| 7 | Pemutus Kehampaan (Void Severing) | 1.562.500 |
+| 8 | Penerobosan Tribulasi (Tribulation Crossing) ⚡ | 7.812.500 |
+| 9 | Kenaikan Abadi (Immortal Ascension) | 39.062.500 |
 
 Tiap Major Realm punya 3 Stage: **Awal (×1,0) → Menengah (×1,5) → Puncak (×2,0)**
 
@@ -230,6 +230,8 @@ Memengaruhi regenerasi qi Hukum Dao Abadi (§3.C) dan ketersediaan bahan terobos
 | Whitecloud Medicine Hall | Northern Desolate Territory | *Bukan Hukum tempur* — Jalur Alkimia/Support | Netral, fokus pengobatan; tidak butuh Qi Cap tempur, tapi tetap tunduk cap qi standar bila anggotanya bertarung |
 | Ghost Valley Sect | Northern Desolate Territory | Custom Law: **Hukum Roh Hantu** | Ilmu roh ekstrem → butuh Custom Law baru (§8.3), Sin Points naik otomatis |
 | Azure Cloud Temple | Western Sacred Deserts | Hukum Dao Abadi (varian Welas Asih/Buddhis) | Qi miskin di wilayah ini dikompensasi lewat Dao Insight welas asih |
+| 🆕 Perkumpulan Pisau Sunyi | Lintas Wilayah | Custom Law: **Hukum Pisau Sunyi** | Organisasi pembunuh bayaran paling terstruktur di dunia, kode "satu kontrak satu nyawa" butuh mekanik disiplin tersendiri (§8.3) |
+| 🆕 Kelompok Racun Bayangan | Lintas Wilayah (kota besar) | Hukum Gu Karma (varian Racun) | Spesialis racun kontrak — selaras Nine Serpent Den, skala jauh lebih kecil & fokus urban |
 
 ### 8.3 Custom Law Baru (Diformalkan sesuai Faksi, tetap tunduk §3.E)
 
@@ -242,6 +244,11 @@ Memengaruhi regenerasi qi Hukum Dao Abadi (§3.C) dan ketersediaan bahan terobos
 - Sumber daya: Qi Roh (Soul Qi), dikonversi dari vitalitas/jiwa alih-alih qi lingkungan — cocok wilayah miskin qi (Northern Territory, ×0,6).
 - Mekanik unik: bisa "meminjam" qi dari roh yang telah diikat (mirip Gu, tapi berbasis jiwa bukan makhluk hidup).
 - Kelemahan wajib: setiap penggunaan qi roh berlebih menambah Sin Points otomatis (+3–8 per pemakaian besar).
+
+**🆕 Hukum Pisau Sunyi** (Perkumpulan Pisau Sunyi — lihat detail lengkap di `14_SECTS_AND_DOJOS_COMPENDIUM.md`)
+- Sumber daya: Qi standar, LawHPMultiplier ×0,8, LawAttackMultiplier ×1,25 (lihat `11_VITALITY_HUNGER_SYSTEM.md` §1.2 dan `12_COMBAT_SYSTEM.md` §3.1).
+- Mekanik unik: +10% HitChance selama kontrak resmi (lewat Token Pisau) masih berjalan dan belum diselesaikan/dibatalkan — representasi fokus ekstrem eksekutor profesional.
+- Kelemahan wajib: melanggar kode "satu kontrak, satu nyawa, tanpa pengecualian" (membatalkan/menggagalkan kontrak di tengah jalan) memicu +20 Sin Points instan (terpisah dari Sin Points normal akibat membunuh, §6) DAN −10% QiCap efektif selama 7 hari in-game. Anggota yang belum pernah menerima kontrak resmi tidak mendapat bonus HitChance apa pun.
 
 ### 8.4 Lokasi Trial & Tribulasi (mengikat §4 & §5 ke peta)
 
