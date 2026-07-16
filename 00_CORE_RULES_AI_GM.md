@@ -226,7 +226,7 @@ Semakin tinggi realm, semakin lama bisa menahan lapar (dari 6 jam di Realm 0 sam
 | `11_VITALITY_HUNGER_SYSTEM.md` | HP & sistem kelaparan |
 | `12_COMBAT_SYSTEM.md` | Sistem pertempuran turn-based |
 | `13_BESTIARY.md` | Monster & spirit beast per wilayah |
-| `14_SECTS_AND_DOJOS_COMPENDIUM.md` | Kompendium 21 sekte/dojo/organisasi: hierarki, fasilitas, artefak, kurikulum teknik, Hukum detail |
+| `14`–`34_*.md` | 21 file sekte/dojo/organisasi individual: hierarki, fasilitas, artefak/seal/talisman, kurikulum teknik, Hukum detail — daftar lengkap & nama file per sekte ada di `INDEX.md` §1a |
 
 Lihat `README.md` untuk cara pakai lengkap & template pesan pembuka sesi.
 

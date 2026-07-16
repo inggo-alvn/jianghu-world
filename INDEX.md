@@ -40,8 +40,61 @@
 | 11 | `11_VITALITY_HUNGER_SYSTEM.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/11_VITALITY_HUNGER_SYSTEM.md | Formula HP, status luka, kelaparan |
 | 12 | `12_COMBAT_SYSTEM.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/12_COMBAT_SYSTEM.md | Giliran, initiative, damage, defense, escape |
 | 13 | `13_BESTIARY.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/13_BESTIARY.md | Monster & spirit beast per wilayah, ambush, loot |
-| 14 | `14_SECTS_AND_DOJOS_COMPENDIUM.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/14_SECTS_AND_DOJOS_COMPENDIUM.md | Kompendium lengkap 21 sekte/dojo/organisasi: hierarki, fasilitas, artefak, kurikulum teknik, Hukum kultivasi detail |
+| 14–34 | *(21 file sekte/dojo/organisasi individual)* | — | Lihat **§1a** di bawah untuk daftar lengkap per-file — **JANGAN** fetch semuanya sekaligus, cari nama sekte yang relevan lalu fetch HANYA file itu |
 | — | `README.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/README.md | Dokumentasi setup untuk manusia (jarang perlu difetch AI) |
+
+### 1a. Direktori Sekte, Dojo & Organisasi (21 File Individual)
+
+> Setiap sekte/dojo/organisasi punya **file sendiri**, lengkap dengan hierarki, fasilitas, artefak/pusaka/seal-talisman, kurikulum teknik bertingkat, Hukum kultivasi detail, relasi antar-faksi, dan rahasia internal. Fetch HANYA file yang relevan dengan situasi saat ini — jangan fetch banyak sekaligus.
+
+**Central Plains** *(base URL: `https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/`)*
+| Sekte/Dojo | File |
+|---|---|
+| Heavenly Sword Pavilion | `14_HEAVENLY_SWORD_PAVILION.md` |
+| Profound Heaven Sect | `15_PROFOUND_HEAVEN_SECT.md` |
+| Silver Rain Sword School | `16_SILVER_RAIN_SWORD_SCHOOL.md` |
+| Dojo Bunga Aprikot | `17_DOJO_BUNGA_APRIKOT.md` |
+| Dojo Godam Besi | `18_DOJO_GODAM_BESI.md` |
+
+**Azure Mountain Range**
+| Sekte/Dojo | File |
+|---|---|
+| Golden Bell Monastery | `19_GOLDEN_BELL_MONASTERY.md` |
+| Dojo Pahat Naga | `20_DOJO_PAHAT_NAGA.md` |
+
+**Southern Demon Domain**
+| Sekte/Dojo | File |
+|---|---|
+| Demonic Flame Palace | `21_DEMONIC_FLAME_PALACE.md` |
+| Nine Serpent Den | `22_NINE_SERPENT_DEN.md` |
+| Seven Sins Cult | `23_SEVEN_SINS_CULT.md` |
+| Blood Shadow Alliance | `24_BLOOD_SHADOW_ALLIANCE.md` |
+| Dojo Bayangan Kelam | `25_DOJO_BAYANGAN_KELAM.md` |
+
+**Eastern Sea Region**
+| Sekte/Dojo | File |
+|---|---|
+| Jade Purity Palace | `26_JADE_PURITY_PALACE.md` |
+| Dojo Ombak Tenang | `27_DOJO_OMBAK_TENANG.md` |
+
+**Northern Desolate Territory**
+| Sekte/Dojo | File |
+|---|---|
+| Whitecloud Medicine Hall | `28_WHITECLOUD_MEDICINE_HALL.md` |
+| Ghost Valley Sect | `29_GHOST_VALLEY_SECT.md` |
+| Dojo Cakar Serigala | `30_DOJO_CAKAR_SERIGALA.md` |
+
+**Western Sacred Deserts**
+| Sekte/Dojo | File |
+|---|---|
+| Azure Cloud Temple | `31_AZURE_CLOUD_TEMPLE.md` |
+| Dojo Mata Elang Pasir | `32_DOJO_MATA_ELANG_PASIR.md` |
+
+**Lintas Wilayah**
+| Organisasi | File |
+|---|---|
+| Perkumpulan Pisau Sunyi | `33_PERKUMPULAN_PISAU_SUNYI.md` |
+| Kelompok Racun Bayangan | `34_KELOMPOK_RACUN_BAYANGAN.md` |
 
 ---
 
@@ -66,7 +119,7 @@
 | Perlu hitung detail regen HP / efek kelaparan lanjut | `11_VITALITY_HUNGER_SYSTEM.md` | Formula dasarnya sudah ada ringkas di `00` §3 |
 | Pertarungan resmi dimulai (giliran, initiative, damage) | `12_COMBAT_SYSTEM.md` | |
 | Lawan monster/spirit beast liar, perjalanan lewat zona liar (ambush) | `13_BESTIARY.md` | Dipakai bersamaan dengan `12` |
-| Karakter mau bergabung sekte/dojo, eksplorasi fasilitas sekte, belajar teknik bertingkat, atau cek hierarki/artefak sekte tertentu | `14_SECTS_AND_DOJOS_COMPENDIUM.md` | File besar (21 organisasi) — fetch hanya saat interaksi sekte benar-benar mendalam, bukan tiap sekte disebut sekilas |
+| Karakter mau bergabung sekte/dojo, eksplorasi fasilitas sekte, belajar teknik bertingkat, atau cek hierarki/artefak sekte tertentu | Cari nama sekte di **§1a**, fetch HANYA file itu | 21 file terpisah — jangan fetch lebih dari yang relevan dengan sekte yang sedang berinteraksi |
 | Pemain minta bantuan setup GitHub / nanya cara pakai sistem ini | `README.md` | Ini file untuk manusia, sampaikan isinya ke pemain, bukan role-play |
 
 **Efisiensi token:** jika sebuah modul sudah difetch sebelumnya dalam percakapan yang sama dan kondisinya belum berubah (mis. karakter masih di wilayah yang sama), **tidak perlu fetch ulang** — pakai isi yang sudah ada di riwayat chat.
