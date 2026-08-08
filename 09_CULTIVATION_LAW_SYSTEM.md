@@ -29,15 +29,17 @@ Semua Hukum memakai kerangka realm yang sama, hanya penamaan yang berbeda per Hu
 
 | # | Major Realm (Universal) | Realm Base (RB) |
 |---|---|---|
-| 1 | Fondasi Fana (Mortal Foundation) | 100 |
-| 2 | Pemurnian Qi (Qi Refining) | 500 |
-| 3 | Pembentukan Fondasi (Foundation Establishment) | 2.500 |
-| 4 | Pembentukan Inti (Core Formation) | 12.500 |
-| 5 | Roh Bayi (Nascent Soul) | 62.500 |
-| 6 | Transformasi Roh (Soul Transformation) | 312.500 |
-| 7 | Pemutus Kehampaan (Void Severing) | 1.562.500 |
-| 8 | Penerobosan Tribulasi (Tribulation Crossing) ⚡ | 7.812.500 |
-| 9 | Kenaikan Abadi (Immortal Ascension) | 39.062.500 |
+| 1 | Fondasi Fana (Mortal Foundation) | 0 |
+| 2 | Pemurnian Qi (Qi Refining) | 100 |
+| 3 | Pembentukan Fondasi (Foundation Establishment) | 500 |
+| 4 | Pembentukan Inti (Core Formation) | 2.500 |
+| 5 | Roh Bayi (Nascent Soul) | 12.500 |
+| 6 | Transformasi Roh (Soul Transformation) | 62.500 |
+| 7 | Pemutus Kehampaan (Void Severing) | 312.500 |
+| 8 | Penerobosan Tribulasi (Tribulation Crossing) ⚡ | 1.562.500 |
+| 9 | Kenaikan Abadi (Immortal Ascension) | 7.812.500 |
+
+📌 **Catatan desain (v3.0):** Fondasi Fana (Realm 1) sengaja diberi RealmBase **0** — mortal sejati yang belum benar-benar berkultivasi memang tidak punya Qi Cap sama sekali, ini pilihan desain untuk realisme, bukan kesalahan. Konsekuensinya, RealmBase tiap realm di atasnya bergeser turun satu tingkat dibanding versi sebelumnya (setiap Realm sekarang bernilai 1/5 dari versi lama). **Ini mengubah QiCap SEMUA karakter di seluruh dunia** — lihat §9 di bagian bawah file ini untuk aturan migrasi.
 
 Tiap Major Realm punya 3 Stage: **Awal (×1,0) → Menengah (×1,5) → Puncak (×2,0)**
 
@@ -47,7 +49,9 @@ Tiap Major Realm punya 3 Stage: **Awal (×1,0) → Menengah (×1,5) → Puncak (
 QiCap(realm, stage) = RealmBase(realm) × StageMultiplier(stage)
 ```
 
-Contoh: Core Formation Puncak = 12.500 × 2,0 = **25.000 poin Qi maksimum**. Klaim di atas ini otomatis DITOLAK sistem.
+Contoh: Core Formation Puncak = 2.500 × 2,0 = **5.000 poin Qi maksimum**. Klaim di atas ini otomatis DITOLAK sistem.
+
+⚠️ **ATURAN WAJIB — Qi Cap SELALU dihitung ulang dari formula ini, TIDAK PERNAH dibaca langsung dari angka "Qi Cap: X" yang tertulis di tabel NPC manapun (`01`–`08`, `14`–`37`, `players.md`).** Angka-angka tersebut ditulis sebelum RealmBase direvisi ke versi v3.0 ini dan sebagian besar **sudah tidak akurat (5× terlalu tinggi)** untuk Realm 2 ke atas. AI GM WAJIB menghitung ulang QiCap dari Realm+Stage karakter/NPC yang tertulis menggunakan tabel RealmBase v3.0 di atas — bukan dari angka Qi Cap lama yang mungkin masih tertulis di file lain. Lihat §9 untuk detail & daftar file yang sudah diperbarui manual vs yang masih perlu dihitung ulang saat dipakai.
 
 Realm 8 (Tribulation Crossing) hanya bisa dicapai lewat event Tribulasi Petir (§5) — tidak bisa lewat pil/item sebesar apapun.
 
@@ -160,10 +164,10 @@ KarmaModifier = clamp(1 + (Sin_Points − Merit_Points) / 1000, 0,5, 3,0)
 
 **Contoh perhitungan** (Realm 7→8, Full Tribulation, karma netral):
 ```
-BasePunishment = 5% × QiCap(7, Puncak) = 5% × (1.562.500 × 2,0) = 156.250 per bolt
+BasePunishment = 5% × QiCap(7, Puncak) = 5% × (312.500 × 2,0) = 31.250 per bolt
 KarmaModifier  = 1,0 (netral)
 BoltFactor     = 7 bolt
-Total Damage   = 156.250 × 1,0 × 7 × (rata-rata 1,0) ≈ 1.093.750 damage kumulatif
+Total Damage   = 31.250 × 1,0 × 7 × (rata-rata 1,0) ≈ 218.750 damage kumulatif
 ```
 
 HP/Vitalitas karakter (lihat `11_VITALITY_HUNGER_SYSTEM.md`) harus lebih besar dari total ini (atau punya mitigasi tervalidasi GM: pil pelindung, formasi, bantuan sesama) atau karakter mengalami **Qi Deviation Permanen / Kematian Tribulasi** sesuai tingkat kegagalan.
@@ -270,3 +274,33 @@ Memengaruhi regenerasi qi Hukum Dao Abadi (§3.C) dan ketersediaan bahan terobos
 | Artefak/Insight Point langka | Reruntuhan Gushatta & Menara Bintang Jatuh (Western Sacred Deserts) |
 
 📌 **Anti-cheat tambahan:** breakthrough yang mengklaim bahan dari wilayah tertentu HARUS konsisten dengan jarak tempuh & waktu perjalanan karakter (`01_WORLD_OVERVIEW_AND_CAPITAL.md`) — tidak bisa "instan" dapat bahan dari Hellfire Island kalau posisi karakter sedang di Northern Territory tanpa waktu tempuh yang logis.
+
+---
+
+## 🔄 9. Migrasi RealmBase v3.0 (WAJIB DIBACA AI GM)
+
+Tabel RealmBase di §2 direvisi oleh admin dunia ini: **Fondasi Fana (Realm 1) sekarang RealmBase = 0** (mortal sejati benar-benar tanpa Qi Cap, by design, untuk realisme). Konsekuensinya, **setiap Realm 2–9 sekarang bernilai 1/5 dari versi sebelumnya**. Ini BUKAN typo — sudah dikonfirmasi eksplisit oleh admin.
+
+### 9.1 Tabel Konversi Cepat (Qi Cap Lama → Qi Cap Baru)
+
+Gunakan tabel ini untuk mengoreksi angka "Qi Cap: X" apa pun yang masih tertulis dengan nilai LAMA di file manapun (`01`–`08`, `14`–`37`, `players.md`):
+
+| Realm & Stage | Qi Cap LAMA (v2.x, jangan dipakai lagi) | Qi Cap BARU (v3.0, resmi) |
+|---|---|---|
+| Mortal Foundation, Awal/Menengah/Puncak | 100 / 150 / 200 | **0 / 0 / 0** |
+| Qi Refining, Awal/Menengah/Puncak | 500 / 750 / 1.000 | **100 / 150 / 200** |
+| Foundation Establishment, Awal/Menengah/Puncak | 2.500 / 3.750 / 5.000 | **500 / 750 / 1.000** |
+| Core Formation, Awal/Menengah/Puncak | 12.500 / 18.750 / 25.000 | **2.500 / 3.750 / 5.000** |
+| Nascent Soul, Awal/Menengah/Puncak | 62.500 / 93.750 / 125.000 | **12.500 / 18.750 / 25.000** |
+| Soul Transformation, Awal/Menengah/Puncak | 312.500 / 468.750 / 625.000 | **62.500 / 93.750 / 125.000** |
+| Void Severing, Awal/Menengah/Puncak | 1.562.500 / 2.343.750 / 3.125.000 | **312.500 / 468.750 / 625.000** |
+| Tribulation Crossing, Awal/Menengah/Puncak | 7.812.500 / 11.718.750 / 15.625.000 | **1.562.500 / 2.343.750 / 3.125.000** |
+| Immortal Ascension, Awal/Menengah/Puncak | 39.062.500 / 58.593.750 / 78.125.000 | **7.812.500 / 11.718.750 / 15.625.000** |
+
+Pola cepat: **Qi Cap Baru = Qi Cap Lama ÷ 5** untuk Realm 2 ke atas. Realm 1 (Mortal Foundation) selalu **0**, berapa pun stage-nya.
+
+### 9.2 Aturan Wajib untuk AI GM
+1. **Realm & Stage tertulis di NPC/karakter TETAP SAH** (mis. "Kaisar Long Wei, Nascent Soul, Puncak" tidak berubah) — yang berubah HANYA angka Qi Cap turunannya.
+2. Jika sebuah NPC/karakter menyebutkan angka "Qi Cap: X" yang cocok dengan kolom **LAMA** di tabel §9.1 → AI GM diam-diam mengoreksinya ke kolom **BARU** saat dipakai dalam sesi (tidak perlu mengoreksi teks file, cukup pakai angka yang benar saat menghitung).
+3. Formula HP (`11_VITALITY_HUNGER_SYSTEM.md`), AttackPower & Defense (`12_COMBAT_SYSTEM.md`), MonsterHP/MonsterAttackPower (`13_BESTIARY.md`) semuanya diturunkan dari QiCap — otomatis ikut terkoreksi begitu QiCap dihitung ulang dengan benar, tanpa perlu formula terpisah diubah.
+4. Status file per Agustus 2026: tabel resmi di `09` §2 (file ini), cheat-sheet di `00_CORE_RULES_AI_GM.md` §3, contoh HP di `11_VITALITY_HUNGER_SYSTEM.md`, dan seluruh tabel monster di `13_BESTIARY.md` **sudah** memakai RealmBase v3.0. Sebagian besar angka "Qi Cap: X" di NPC individual pada file `01`–`08` dan `14`–`37` **kemungkinan masih memakai angka lama** dan belum satu-per-satu diperbarui manual — AI GM **tidak boleh mempercayainya secara verbatim**, selalu validasi lewat §9.1 atau hitung ulang dari §2.

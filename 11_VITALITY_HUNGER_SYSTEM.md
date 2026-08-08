@@ -46,9 +46,9 @@ HP(realm, stage, law) = HPBase(realm, stage) × LawHPMultiplier(law)
 
 ### 1.3 Contoh Perhitungan
 
-- **Murid Inti Lin Xue** (Core Formation Puncak, Hukum Dao Abadi): QiCap(4,Puncak)=25.000 → HPBase=10.000 → HP=10.000×1,0=**10.000 HP**
-- **Kepala Biara Jin Zhong** (Soul Transformation Puncak, Hukum Raga Sejati): QiCap(6,Puncak)=625.000 → HPBase=250.000 → HP=250.000×1,5=**375.000 HP** (konsisten dengan lore "sekeras lonceng emas legendaris")
-- **Ratu Ular She Yin** (Soul Transformation Menengah, Hukum Gu Karma): QiCap(6,Menengah)=468.750 → HPBase=187.500 → HP=187.500×0,7=**131.250 HP** (lebih rapuh meski Realm setara)
+- **Murid Inti Lin Xue** (Core Formation Puncak, Hukum Dao Abadi): QiCap(4,Puncak)=5.000 → HPBase=2.000 → HP=2.000×1,0=**2.000 HP**
+- **Kepala Biara Jin Zhong** (Soul Transformation Puncak, Hukum Raga Sejati): QiCap(6,Puncak)=125.000 → HPBase=50.000 → HP=50.000×1,5=**75.000 HP** (konsisten dengan lore "sekeras lonceng emas legendaris")
+- **Ratu Ular She Yin** (Soul Transformation Menengah, Hukum Gu Karma): QiCap(6,Menengah)=93.750 → HPBase=37.500 → HP=37.500×0,7=**26.250 HP** (lebih rapuh meski Realm setara)
 
 ---
 
@@ -161,6 +161,6 @@ Jika salah satu poin gagal → status kelaparan DIKOREKSI oleh AI GM sesuai form
 
 ## 7. Integrasi dengan Sistem Lain
 
-- **Dengan Sistem Hukum Kultivasi:** HP memakai `QiCap(realm, stage)` sebagai basis, memastikan Tribulasi Petir tetap berisiko nyata — HPBase Realm 7 Puncak (1.250.000 dengan K_HP=0,4) hampir sepadan dengan total damage Tribulasi Penuh (≈1.093.750, lihat `09_CULTIVATION_LAW_SYSTEM.md` §5).
+- **Dengan Sistem Hukum Kultivasi:** HP memakai `QiCap(realm, stage)` sebagai basis, memastikan Tribulasi Petir tetap berisiko nyata — HPBase Realm 7 Puncak (250.000 dengan K_HP=0,4) hampir sepadan dengan total damage Tribulasi Penuh (≈218.750, lihat `09_CULTIVATION_LAW_SYSTEM.md` §5).
 - **Dengan Sistem Ekonomi:** semua penyembuhan HP di luar regenerasi alami dan semua makanan tunduk pada `FinalPrice` & Item Origin Log (`10_ECONOMY_SYSTEM.md`).
 - **Dengan World Document:** wilayah miskin qi tidak memengaruhi Satiety secara langsung, tapi memengaruhi ketersediaan makanan (desa miskin hanya punya varian "sederhana").
