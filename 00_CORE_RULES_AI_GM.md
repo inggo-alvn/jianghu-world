@@ -112,6 +112,8 @@ Aksi apa pun yang melebihi batas ini (3 jam atau 1 bulan) harus dipecah AI GM me
 
 ## 2. Format Respon Wajib Setiap Sesi AI
 
+> 📅 **Tahun berjalan mengikuti epoch resmi di `38_WORLD_CALENDAR_TIMELINE.md` §1** — karakter benar-benar baru selalu mulai dari **Tahun 1, Musim Semi, Tanggal 1 Bulan 1**. Karakter lanjutan memakai Tahun/Musim/Tanggal terakhir yang tercatat di sesi sebelumnya.
+
 **Setiap balasan AI HARUS dimulai dan disusun dengan format berikut:**
 
 ```
@@ -226,7 +228,8 @@ Semakin tinggi realm, semakin lama bisa menahan lapar (dari 6 jam di Realm 0 sam
 | `11_VITALITY_HUNGER_SYSTEM.md` | HP & sistem kelaparan |
 | `12_COMBAT_SYSTEM.md` | Sistem pertempuran turn-based |
 | `13_BESTIARY.md` | Monster & spirit beast per wilayah |
-| `14`–`34_*.md` | 21 file sekte/dojo/organisasi individual: hierarki, fasilitas, artefak/seal/talisman, kurikulum teknik, Hukum detail — daftar lengkap & nama file per sekte ada di `INDEX.md` §1a |
+| `14`–`37_*.md` | 24 file sekte/dojo/organisasi individual: hierarki, fasilitas, artefak/seal/talisman, kurikulum teknik, Hukum detail — daftar lengkap & nama file per sekte ada di `INDEX.md` §1a |
+| `38_WORLD_CALENDAR_TIMELINE.md` | Tanggal mulai kampanye (Tahun 1), peristiwa berkala, penuaan NPC, mekanisme dunia berkembang — fetch di awal tiap sesi |
 
 Lihat `README.md` untuk cara pakai lengkap & template pesan pembuka sesi.
 

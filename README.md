@@ -31,7 +31,8 @@ Repo ini adalah pecahan dari satu World Bible besar menjadi **17 file `.md`** ya
 | 11 | [`11_VITALITY_HUNGER_SYSTEM.md`](./11_VITALITY_HUNGER_SYSTEM.md) | Formula HP, status luka, regenerasi, kelaparan | Saat cek status detail / efek kelaparan |
 | 12 | [`12_COMBAT_SYSTEM.md`](./12_COMBAT_SYSTEM.md) | Giliran, initiative, damage, defense, escape | Setiap kali terjadi pertarungan |
 | 13 | [`13_BESTIARY.md`](./13_BESTIARY.md) | Monster & spirit beast per wilayah, ambush, loot | Perjalanan liar / hunting / ambush |
-| 14–34 | *(lihat `INDEX.md` §1a)* | 21 file individual — satu file per sekte/dojo/organisasi: hierarki, fasilitas, artefak/seal/talisman, kurikulum teknik bertingkat, Hukum kultivasi detail, relasi antar-faksi, rahasia internal | Bergabung sekte, eksplorasi fasilitas, belajar teknik (fetch hanya file sekte yang relevan) |
+| 14–37 | *(lihat `INDEX.md` §1a)* | 24 file individual — satu file per sekte/dojo/organisasi: hierarki, fasilitas, artefak/seal/talisman, kurikulum teknik bertingkat, Hukum kultivasi detail, relasi antar-faksi, rahasia internal | Bergabung sekte, eksplorasi fasilitas, belajar teknik (fetch hanya file sekte yang relevan) |
+| 38 | [`38_WORLD_CALENDAR_TIMELINE.md`](./38_WORLD_CALENDAR_TIMELINE.md) | Tanggal mulai kampanye (Tahun 1), peristiwa berkala, penuaan NPC, mekanisme dunia berkembang seiring waktu | Fetch di awal tiap sesi & tiap checkpoint waktu besar |
 
 > Semua NPC, lokasi, formula, dan angka di modul-modul ini **identik** dengan `JIANGHU.docx` asli — hanya format & organisasinya yang diperbaiki (tabel dirapikan, bold yang rusak diperbaiki, ditambah rujukan silang dan "Fakta Cepat" di tiap wilayah). Tidak ada isi yang dihapus atau diubah nilainya.
 
@@ -152,11 +153,24 @@ Kalau AI yang kamu pakai tidak punya kemampuan membuka link sendiri, kamu masih 
 - Semua referensi basi ke nama file kompendium lama (`14_SECTS_AND_DOJOS_COMPENDIUM.md`, yang sudah dihapus) diperbaiki di `INDEX.md`, `00_CORE_RULES_AI_GM.md`, `09_CULTIVATION_LAW_SYSTEM.md`, `11_VITALITY_HUNGER_SYSTEM.md`, `12_COMBAT_SYSTEM.md`, dan `README.md` — semua sekarang menunjuk ke file individual yang benar.
 - `INDEX.md` mendapat sub-direktori baru **§1a** yang memetakan tiap sekte/dojo/organisasi ke nama filenya secara eksplisit per wilayah, supaya AI tidak perlu menebak nama file.
 
+**v2.6 — Organisasi Jasa Lintas Wilayah (3 File Tambahan):**
+- Ditambahkan 3 organisasi jasa non-kombatan yang sebelumnya cuma disebut sekilas di `08_CROSS_REGION_ORGANIZATIONS.md`: **Serambi Seribu Bisik** (`35_SERAMBI_SERIBU_BISIK.md`, info broker terbesar dunia), **Rumah Gadai Giok Sejuk** (`36_RUMAH_GADAI_GIOK_SEJUK.md`, "bank" tak resmi jianghu, terintegrasi mekanik `10_ECONOMY_SYSTEM.md`), dan **Perhimpunan Tabib Pengembara** (`37_PERHIMPUNAN_TABIB_PENGEMBARA.md`, dilindungi kode "tidak menyerang penyembuh").
+- Total file sekte/dojo/organisasi individual sekarang **24 file** (`14`–`37`).
+
+**v2.7 — Migrasi RealmBase v3.0 (Mortal Foundation = 0 Qi Cap):**
+- Admin merevisi tabel RealmBase resmi: **Fondasi Fana (Realm 1) sekarang RealmBase 0** (mortal sejati belum berkultivasi = benar-benar tanpa Qi Cap, keputusan desain untuk realisme). Konsekuensinya, RealmBase Realm 2–9 semuanya turun jadi 1/5 dari nilai sebelumnya.
+- `09_CULTIVATION_LAW_SYSTEM.md` mendapat **§9 Migrasi RealmBase v3.0** — tabel konversi cepat Qi Cap lama→baru untuk 27 kombinasi Realm×Stage, plus aturan wajib AI GM untuk selalu menghitung ulang QiCap dari formula, tidak pernah percaya angka lama yang mungkin masih tertulis di NPC manapun.
+- Contoh perhitungan & seluruh 25 entri tabel monster di `11_VITALITY_HUNGER_SYSTEM.md` dan `13_BESTIARY.md` sudah diperbarui ke nilai v3.0. Angka Qi Cap NPC individual di `01`–`08` dan `14`–`37` **belum satu-per-satu diperbarui manual** — AI GM wajib memvalidasi lewat tabel konversi `09` §9.1, bukan memakai angka tertulis secara verbatim.
+
+**v2.8 — Kalender Dunia & Timeline (`38_WORLD_CALENDAR_TIMELINE.md`):**
+- Ditetapkan **titik mulai resmi kampanye: Tahun 1, Kalender Tianyuan, Musim Semi, Tanggal 1 Bulan 1** — semua umur NPC di seluruh World Bible dihitung "per Tahun 1" dan bertambah otomatis seiring waktu in-game berjalan.
+- Ditambahkan sistem peristiwa berkala terjadwal (Turnamen Besar Lima Tahunan di Danau Cermin, Turnamen Immortal Peach Island tiap 60 tahun, ujian rekrutmen tahunan, musim dagang Haiyun, sensus kekaisaran), tabel perkiraan umur hidup per Realm, dan **mekanisme wajib "dunia berkembang seiring waktu"** — AI GM menjalankan checklist perkembangan dunia (peristiwa jatuh tempo, penuaan NPC, progres rahasia internal sekte, drift ekonomi) di tiap checkpoint waktu signifikan, diselipkan naratif bukan dibacakan mentah.
+
 ---
 
 ## ✅ Checklist Sebelum Main
 
-- [ ] Repo GitHub sudah publik & ke-38 file (15 modul inti `00`–`13`, 21 file sekte/dojo/organisasi `14`–`34`, `INDEX.md`, `players.md`, `README.md`) sudah ter-upload
+- [ ] Repo GitHub sudah publik & ke-42 file (15 modul inti `00`–`13`, 24 file sekte/dojo/organisasi `14`–`37`, `38_WORLD_CALENDAR_TIMELINE.md`, `INDEX.md`, `players.md`, `README.md`) sudah ter-upload
 - [ ] Link raw `INDEX.md` sudah dites bisa dibuka di browser (harus menampilkan teks mentah markdown, bukan 404)
 - [ ] Semua link di dalam `INDEX.md` §1 sudah dicek cocok dengan username/repo-mu sendiri
 - [ ] Link `players.md` di `INDEX.md` §1 sudah diganti dari placeholder ke link raw yang sebenarnya setelah file itu di-upload

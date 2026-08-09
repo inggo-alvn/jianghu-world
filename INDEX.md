@@ -15,9 +15,10 @@
    - **(b) Melanjutkan karakter yang sudah pernah dimainkan** (pemain menempel blok "Profil Karakter" dari sesi sebelumnya, atau riwayatnya masih ada di chat yang sama) → pakai kondisi TERKINI itu sebagai starting state. **JANGAN fetch `players.md`** — isinya statis, tidak pernah mencerminkan progres yang sudah terjadi.
    - **(c) Karakter benar-benar baru** (nama tidak ada di `players.md` maupun riwayat manapun) → perlakukan sebagai karakter baru custom sesuai `00_CORE_RULES_AI_GM.md` §1.6, minta Nama + Lokasi Awal.
 3. **Tentukan lokasi karakter** (dari `players.md` atau dari input baru pemain), lalu fetch modul wilayah yang sesuai (`01`–`07`) dari tabel §1.
-4. **Mulai sesi** mengikuti format respon wajib di `00`.
-5. **Selama sesi berlangsung**, fetch modul tambahan secara dinamis begitu kondisinya muncul — lihat tabel pemicu di §2. Jangan fetch ke-18 file sekaligus di awal; itu boros token dan bertentangan dengan tujuan modularitas sistem ini.
-6. Jika sebuah link gagal diakses (404/error), beri tahu pemain bahwa file itu mungkin belum ter-upload atau nama filenya salah — **jangan mengarang isinya**.
+4. **Fetch `38_WORLD_CALENDAR_TIMELINE.md`** — tentukan Tahun/Musim/Tanggal berjalan (Tahun 1 untuk karakter benar-benar baru, atau lanjutkan dari waktu terakhir untuk karakter lama). Ini WAJIB agar peristiwa berkala & penuaan NPC konsisten sepanjang kampanye.
+5. **Mulai sesi** mengikuti format respon wajib di `00`.
+6. **Selama sesi berlangsung**, fetch modul tambahan secara dinamis begitu kondisinya muncul — lihat tabel pemicu di §2. Jangan fetch ke-18 file sekaligus di awal; itu boros token dan bertentangan dengan tujuan modularitas sistem ini.
+7. Jika sebuah link gagal diakses (404/error), beri tahu pemain bahwa file itu mungkin belum ter-upload atau nama filenya salah — **jangan mengarang isinya**.
 
 ---
 
@@ -40,10 +41,11 @@
 | 11 | `11_VITALITY_HUNGER_SYSTEM.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/11_VITALITY_HUNGER_SYSTEM.md | Formula HP, status luka, kelaparan |
 | 12 | `12_COMBAT_SYSTEM.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/12_COMBAT_SYSTEM.md | Giliran, initiative, damage, defense, escape |
 | 13 | `13_BESTIARY.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/13_BESTIARY.md | Monster & spirit beast per wilayah, ambush, loot |
-| 14–34 | *(21 file sekte/dojo/organisasi individual)* | — | Lihat **§1a** di bawah untuk daftar lengkap per-file — **JANGAN** fetch semuanya sekaligus, cari nama sekte yang relevan lalu fetch HANYA file itu |
+| 14–37 | *(24 file sekte/dojo/organisasi individual)* | — | Lihat **§1a** di bawah untuk daftar lengkap per-file — **JANGAN** fetch semuanya sekaligus, cari nama sekte yang relevan lalu fetch HANYA file itu |
+| 38 | `38_WORLD_CALENDAR_TIMELINE.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/38_WORLD_CALENDAR_TIMELINE.md | Tanggal mulai kampanye (Tahun 1), peristiwa berkala, penuaan NPC, mekanisme dunia berkembang seiring waktu |
 | — | `README.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/README.md | Dokumentasi setup untuk manusia (jarang perlu difetch AI) |
 
-### 1a. Direktori Sekte, Dojo & Organisasi (21 File Individual)
+### 1a. Direktori Sekte, Dojo & Organisasi (24 File Individual)
 
 > Setiap sekte/dojo/organisasi punya **file sendiri**, lengkap dengan hierarki, fasilitas, artefak/pusaka/seal-talisman, kurikulum teknik bertingkat, Hukum kultivasi detail, relasi antar-faksi, dan rahasia internal. Fetch HANYA file yang relevan dengan situasi saat ini — jangan fetch banyak sekaligus.
 
@@ -95,6 +97,9 @@
 |---|---|
 | Perkumpulan Pisau Sunyi | `33_PERKUMPULAN_PISAU_SUNYI.md` |
 | Kelompok Racun Bayangan | `34_KELOMPOK_RACUN_BAYANGAN.md` |
+| Serambi Seribu Bisik (info broker) | `35_SERAMBI_SERIBU_BISIK.md` |
+| Rumah Gadai Giok Sejuk (bank tak resmi) | `36_RUMAH_GADAI_GIOK_SEJUK.md` |
+| Perhimpunan Tabib Pengembara | `37_PERHIMPUNAN_TABIB_PENGEMBARA.md` |
 
 ---
 
@@ -119,7 +124,8 @@
 | Perlu hitung detail regen HP / efek kelaparan lanjut | `11_VITALITY_HUNGER_SYSTEM.md` | Formula dasarnya sudah ada ringkas di `00` §3 |
 | Pertarungan resmi dimulai (giliran, initiative, damage) | `12_COMBAT_SYSTEM.md` | |
 | Lawan monster/spirit beast liar, perjalanan lewat zona liar (ambush) | `13_BESTIARY.md` | Dipakai bersamaan dengan `12` |
-| Karakter mau bergabung sekte/dojo, eksplorasi fasilitas sekte, belajar teknik bertingkat, atau cek hierarki/artefak sekte tertentu | Cari nama sekte di **§1a**, fetch HANYA file itu | 21 file terpisah — jangan fetch lebih dari yang relevan dengan sekte yang sedang berinteraksi |
+| Karakter mau bergabung sekte/dojo, eksplorasi fasilitas sekte, belajar teknik bertingkat, atau cek hierarki/artefak sekte tertentu | Cari nama sekte di **§1a**, fetch HANYA file itu | 24 file terpisah — jangan fetch lebih dari yang relevan dengan sekte yang sedang berinteraksi |
+| Sesi baru dimulai / perlu tahu tanggal & tahun in-game / lompatan waktu panjang / cek apakah ada peristiwa berkala jatuh tempo / NPC lama muncul kembali (perlu update umur) | `38_WORLD_CALENDAR_TIMELINE.md` | Fetch di awal sesi manapun untuk tahu Tahun/Musim berjalan; fetch ulang tiap checkpoint waktu besar |
 | Pemain minta bantuan setup GitHub / nanya cara pakai sistem ini | `README.md` | Ini file untuk manusia, sampaikan isinya ke pemain, bukan role-play |
 
 **Efisiensi token:** jika sebuah modul sudah difetch sebelumnya dalam percakapan yang sama dan kondisinya belum berubah (mis. karakter masih di wilayah yang sama), **tidak perlu fetch ulang** — pakai isi yang sudah ada di riwayat chat.
