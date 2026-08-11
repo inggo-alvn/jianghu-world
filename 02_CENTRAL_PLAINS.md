@@ -27,10 +27,10 @@
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Kepala Serikat Wang Fu | Ketua Serikat Dagang Delapan Penjuru | 55 | Foundation Establishment, Puncak | 1.000 | *Pukulan Sempoa Besi* — memakai sempoa berat sebagai senjata darurat, lebih terbiasa bicara daripada bertarung | Ramah dan sabar dalam negosiasi, tapi bisa sangat keras kepala soal angka dan untung-rugi |
-| Kepala Biro Liang Feng | Pemimpin Biro Pengawalan Wan'an | 47 | Core Formation, Awal | 2.500 | *Golok Penjaga Setia* — ayunan golok defensif melindungi barang bawaan, bukan menyerang lebih dulu | Tegas dan berwibawa, tenang di bawah tekanan, hanya menyerang bila konvoi benar-benar terancam |
-| Pedagang Kain Chen Mei | Pemilik toko kain terbesar kota | 34 | Qi Refining, Awal | 100 | Tidak bertarung — mengandalkan gunting kain sebagai alat pertahanan darurat | Genit, lincah bicara, mudah tersinggung bila ditawar terlalu rendah, gemar bergosip |
-| Nona Misterius Berjubah Ungu | Orang misterius, sering terlihat di kedai teh malam hari | ??? | Void Severing, Menengah (disembunyikan) | 468.750 | *Selendang Ungu Membelah Angin* — selendang sutra yang bisa mengeras jadi senjata tajam dalam sekejap | Dingin, sangat tertutup, tak pernah menyerang tanpa provokasi jelas, tapi mengerikan begitu marah |
+| Kepala Serikat Wang Fu | Ketua Serikat Dagang Delapan Penjuru | 55 | Foundation Establishment, Puncak | **200** | *Pukulan Sempoa Besi* — memakai sempoa berat sebagai senjata darurat, lebih terbiasa bicara daripada bertarung | Ramah dan sabar dalam negosiasi, tapi bisa sangat keras kepala soal angka dan untung-rugi |
+| Kepala Biro Liang Feng | Pemimpin Biro Pengawalan Wan'an | 47 | Core Formation, Awal | **500** | *Golok Penjaga Setia* — ayunan golok defensif melindungi barang bawaan, bukan menyerang lebih dulu | Tegas dan berwibawa, tenang di bawah tekanan, hanya menyerang bila konvoi benar-benar terancam |
+| Pedagang Kain Chen Mei | Pemilik toko kain terbesar kota | 34 | Qi Refining, Awal | **100** | Tidak bertarung — mengandalkan gunting kain sebagai alat pertahanan darurat | Genit, lincah bicara, mudah tersinggung bila ditawar terlalu rendah, gemar bergosip |
+| Nona Misterius Berjubah Ungu | Orang misterius, sering terlihat di kedai teh malam hari | ??? | Void Severing, Menengah (disembunyikan) | **93.750** | *Selendang Ungu Membelah Angin* — selendang sutra yang bisa mengeras jadi senjata tajam dalam sekejap | Dingin, sangat tertutup, tak pernah menyerang tanpa provokasi jelas, tapi mengerikan begitu marah |
 | Pengemis Cilik Xiao Bao | Anak jalanan | 12 | Non-Kultivator | — | Tidak bertarung — hanya lari dan bersembunyi lincah di gang sempit | Cerdik, sedikit licik demi bertahan hidup, ramah pada yang berbaik hati padanya |
 
 ### Desa Xingcun (450 li dari Tianjing)
@@ -39,7 +39,7 @@ Desa pertanian damai, sering jadi titik awal kisah pendekar muda.
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
 | Kepala Desa Wu Lao | Kepala Desa Xingcun | 70 | Non-Kultivator | — | Tidak bertarung — mengandalkan tongkat kayu sebagai alat jalan sekaligus pertahanan darurat | Bijaksana dan tenang, jarang marah, selalu jadi penengah damai tiap konflik warga |
-| Murid Senior Ah Jian | Murid utama Dojo Bunga Aprikot | 19 | Qi Refining, Puncak | 200 | *Tebasan Aprikot Berduri* — pedang cepat dengan gerak tipuan ganda | Ambisius dan sedikit sombong, mudah terpancing tantangan duel, suka pamer pada murid baru |
+| Murid Senior Ah Jian | Murid utama Dojo Bunga Aprikot | 19 | Qi Refining, Puncak | **40** | *Tebasan Aprikot Berduri* — pedang cepat dengan gerak tipuan ganda | Ambisius dan sedikit sombong, mudah terpancing tantangan duel, suka pamer pada murid baru |
 | Petani Miskin Bibi Chun | Warga desa | 45 | Non-Kultivator | — | Tidak bertarung | Ramah dan penyabar, tak pernah marah pada siapa pun, suka membantu tanpa pamrih |
 
 ### Desa Qingshui (380 li dari Tianjing)
@@ -47,7 +47,7 @@ Dikenal sumur suci penyembuh luka ringan.
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Tabib Desa Old Bai | Penjaga sumur suci & tabib | 72 | Foundation Establishment, Awal | 500 | *Tusuk Jarum Penenang Qi* — teknik akupunktur darurat meredakan luka dalam ringan | Pendiam dan sabar, nyaris tak pernah marah, sangat teliti dan hati-hati dalam bertindak |
+| Tabib Desa Old Bai | Penjaga sumur suci & tabib | 72 | Foundation Establishment, Awal | **100** | *Tusuk Jarum Penenang Qi* — teknik akupunktur darurat meredakan luka dalam ringan | Pendiam dan sabar, nyaris tak pernah marah, sangat teliti dan hati-hati dalam bertindak |
 | Kepala Desa Feng | Kepala Desa Qingshui | 58 | Non-Kultivator | — | Tidak bertarung | Tegas soal aturan sumur suci, bisa sangat keras jika ada yang melanggar kesuciannya |
 
 ### Desa Tiedao (520 li dari Tianjing)
@@ -55,7 +55,7 @@ Desa pandai besi turun-temurun.
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Pandai Besi Kepala Tie Gang | Kepala Dojo Godam Besi | 50 | Core Formation, Awal | 2.500 | *Godam Peremuk Besi* — satu ayunan godam berat yang bisa menghancurkan baju zirah biasa | Berotot dan blak-blakan, gampang naik darah kalau ditipu, tapi sangat jujur dan tak pernah menyerang lebih dulu |
+| Pandai Besi Kepala Tie Gang | Kepala Dojo Godam Besi | 50 | Core Formation, Awal | **500** | *Godam Peremuk Besi* — satu ayunan godam berat yang bisa menghancurkan baju zirah biasa | Berotot dan blak-blakan, gampang naik darah kalau ditipu, tapi sangat jujur dan tak pernah menyerang lebih dulu |
 | Murid Muda Xiao Chui | Murid magang pandai besi | 16 | Mortal Foundation, Puncak | 0 | *Pukulan Palu Kecil* — ayunan sederhana meniru gerak menempa besi | Bersemangat tinggi, sedikit ceroboh dan suka bikin onar karena penasaran berlebihan |
 
 ### 🆕 Kota Baru: Fengyang (鳳陽城, "Kota Phoenix")
@@ -63,8 +63,8 @@ Desa pandai besi turun-temurun.
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Ketua Kota Netral Rong Bo | Pemimpin dewan kota Fengyang | 61 | Nascent Soul, Awal | 12.500 | *Telapak Penenang Massa* — hentakan qi lembut yang meredam ketegangan tanpa melukai, dipakai memisahkan perkelahian | Diplomatis dan sangat sabar, jarang sekali marah, hanya bertindak keras jika netralitas kota diancam serius |
-| Pemilik Kedai Paviliun Bunga Emas | Toko/Paviliun terkenal, tempat transaksi netral | 44 | Foundation Establishment, Menengah | 750 | Tidak bertarung — mengandalkan penjaga bayaran di paviliunnya | Licik tapi profesional, ramah pada semua pelanggan berbayar, tak suka konflik terbuka |
+| Ketua Kota Netral Rong Bo | Pemimpin dewan kota Fengyang | 61 | Nascent Soul, Awal | **2.500** | *Telapak Penenang Massa* — hentakan qi lembut yang meredam ketegangan tanpa melukai, dipakai memisahkan perkelahian | Diplomatis dan sangat sabar, jarang sekali marah, hanya bertindak keras jika netralitas kota diancam serius |
+| Pemilik Kedai Paviliun Bunga Emas | Toko/Paviliun terkenal, tempat transaksi netral | 44 | Foundation Establishment, Menengah | **150** | Tidak bertarung — mengandalkan penjaga bayaran di paviliunnya | Licik tapi profesional, ramah pada semua pelanggan berbayar, tak suka konflik terbuka |
 
 ---
 
@@ -77,10 +77,10 @@ Sekte pedang tertua di dunia. Sangat disiplin, kaku pada kehormatan, cenderung m
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Ketua Sekte Xuan Yijian | Ketua Heavenly Sword Pavilion | 89 | Void Severing, Puncak | 625.000 | *Satu Pedang Membelah Langit* — satu tebasan tunggal berkekuatan penuh, jarang dikeluarkan | Kaku, penuh kehormatan, sangat sabar dan tak mudah terpancing, tapi mengerikan begitu benar-benar marah |
-| Tetua Sword Elder Meng | Tetua sekte, pelatih murid inti | 74 | Soul Transformation, Menengah | 93.750 | *Tujuh Sayatan Guruh* — rangkaian tujuh tebasan cepat berturut-turut | Galak dan tegas pada murid malas, cepat naik darah soal kedisiplinan, tapi penuh kasih diam-diam |
-| Murid Inti Lin Xue | Murid berbakat, calon penerus | 22 | Core Formation, Puncak | 5.000 | *Pedang Embun Pagi* — tusukan presisi tinggi dengan gerak minimal | Dingin dan tertutup, jarang menyerang tanpa perhitungan matang, penuh keraguan batin |
-| Penjaga Gerbang Anak Tangga | Penjaga 3.000 anak tangga | 35 | Foundation Establishment, Puncak | 1.000 | *Tongkat Penjaga Tangga* — pukulan tongkat panjang bergaya bertahan | Sangat sabar dan tenang, tak pernah menyerang duluan, hanya menguji lewat ucapan dan pengamatan |
+| Ketua Sekte Xuan Yijian | Ketua Heavenly Sword Pavilion | 89 | Void Severing, Puncak | **125.000** | *Satu Pedang Membelah Langit* — satu tebasan tunggal berkekuatan penuh, jarang dikeluarkan | Kaku, penuh kehormatan, sangat sabar dan tak mudah terpancing, tapi mengerikan begitu benar-benar marah |
+| Tetua Sword Elder Meng | Tetua sekte, pelatih murid inti | 74 | Soul Transformation, Menengah | **18.750** | *Tujuh Sayatan Guruh* — rangkaian tujuh tebasan cepat berturut-turut | Galak dan tegas pada murid malas, cepat naik darah soal kedisiplinan, tapi penuh kasih diam-diam |
+| Murid Inti Lin Xue | Murid berbakat, calon penerus | 22 | Core Formation, Puncak | **1.000** | *Pedang Embun Pagi* — tusukan presisi tinggi dengan gerak minimal | Dingin dan tertutup, jarang menyerang tanpa perhitungan matang, penuh keraguan batin |
+| Penjaga Gerbang Anak Tangga | Penjaga 3.000 anak tangga | 35 | Foundation Establishment, Puncak | **200** | *Tongkat Penjaga Tangga* — pukulan tongkat panjang bergaya bertahan | Sangat sabar dan tenang, tak pernah menyerang duluan, hanya menguji lewat ucapan dan pengamatan |
 
 ### 🏛️ Profound Heaven Sect
 *Istana di awan, 550 li dari Tianjing — Hukum utama: Hukum Dao Abadi (standar)*
@@ -89,9 +89,9 @@ Sekte ortodoks terbesar & terkaya, punya kursi tetap di Dewan Sembilan Menteri. 
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Ketua Sekte Chen Tianhe | Ketua Profound Heaven Sect | 95 | Void Severing, Menengah | 468.750 | *Telapak Langit Suci* — hentakan qi murni jarak jauh, elegan tanpa gerak berlebihan | Sangat politis, ramah di permukaan, jarang marah terbuka tapi penuh perhitungan tersembunyi |
-| Tetua Perbendaharaan Yu Cang | Pengelola harta sekte | 66 | Nascent Soul, Puncak | 25.000 | *Cambuk Rantai Emas* — senjata rantai yang juga dipakai mengangkut harta karun sekte | Pelit dan cerewet soal pengeluaran, tapi jujur dan tak pernah korupsi harta sekte |
-| Murid Diplomat Ruan Xi | Utusan sekte ke istana | 27 | Core Formation, Menengah | 3.750 | *Kipas Penenang Kata* — kipas lipat yang juga jadi senjata darurat ringan | Cerdik bicara dan sabar, menghindari konfrontasi fisik sebisa mungkin |
+| Ketua Sekte Chen Tianhe | Ketua Profound Heaven Sect | 95 | Void Severing, Menengah | **93.750** | *Telapak Langit Suci* — hentakan qi murni jarak jauh, elegan tanpa gerak berlebihan | Sangat politis, ramah di permukaan, jarang marah terbuka tapi penuh perhitungan tersembunyi |
+| Tetua Perbendaharaan Yu Cang | Pengelola harta sekte | 66 | Nascent Soul, Puncak | **5.000** | *Cambuk Rantai Emas* — senjata rantai yang juga dipakai mengangkut harta karun sekte | Pelit dan cerewet soal pengeluaran, tapi jujur dan tak pernah korupsi harta sekte |
+| Murid Diplomat Ruan Xi | Utusan sekte ke istana | 27 | Core Formation, Menengah | **750** | *Kipas Penenang Kata* — kipas lipat yang juga jadi senjata darurat ringan | Cerdik bicara dan sabar, menghindari konfrontasi fisik sebisa mungkin |
 
 ### 🗡️ Silver Rain Sword School
 *400 li dari Tianjing — Hukum utama: Hukum Raga Sejati + Dao Abadi (hybrid)*
@@ -100,15 +100,15 @@ Sekte menengah, populer di kalangan murid muda berbakat. Lebih santai dan terbuk
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Ketua Muda Yin Shuang | Ketua sekte, masih muda untuk ukuran ketua | 40 | Nascent Soul, Awal | 12.500 | *Hujan Perak Seribu Tusukan* — serangan pedang ringan bertubi-tubi dari berbagai arah | Santai dan terbuka, jarang marah, cenderung ramah bahkan pada calon musuh sekalipun |
-| Murid Pindahan Xiao Tie | Mantan murid Dojo Godam Besi yang direkrut | 17 | Qi Refining, Menengah | 150 | *Pukulan Besi Ringan* — gaya bertarung berat khas pandai besi, disesuaikan jadi lebih gesit | Bersemangat, masih canggung, agak minder dibanding murid asli sekte besar |
+| Ketua Muda Yin Shuang | Ketua sekte, masih muda untuk ukuran ketua | 40 | Nascent Soul, Awal | **2.500** | *Hujan Perak Seribu Tusukan* — serangan pedang ringan bertubi-tubi dari berbagai arah | Santai dan terbuka, jarang marah, cenderung ramah bahkan pada calon musuh sekalipun |
+| Murid Pindahan Xiao Tie | Mantan murid Dojo Godam Besi yang direkrut | 17 | Qi Refining, Menengah | **30** | *Pukulan Besi Ringan* — gaya bertarung berat khas pandai besi, disesuaikan jadi lebih gesit | Bersemangat, masih canggung, agak minder dibanding murid asli sekte besar |
 
 ### 🌸 Dojo Bunga Aprikot (Desa Xingcun)
 Perguruan kecil keluarga tunggal. Dipandang remeh sekte besar, hanya belasan murid, tapi punya reputasi rakyat sebagai "tempat lahir pendekar sejati" karena beberapa alumninya jadi legenda.
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Guru Li Xingchun | Kepala Dojo Bunga Aprikot | 63 | Foundation Establishment, Puncak | 1.000 | *Jurus Pedang Bunga Gugur* — gerakan pedang lembut namun mematikan, meniru kelopak bunga jatuh | Sederhana, sabar luar biasa pada murid, tapi tegas dan cepat bertindak saat desa terancam |
+| Guru Li Xingchun | Kepala Dojo Bunga Aprikot | 63 | Foundation Establishment, Puncak | **200** | *Jurus Pedang Bunga Gugur* — gerakan pedang lembut namun mematikan, meniru kelopak bunga jatuh | Sederhana, sabar luar biasa pada murid, tapi tegas dan cepat bertindak saat desa terancam |
 
 *(Lihat juga Murid Senior Ah Jian di tabel Desa Xingcun di atas.)*
 
@@ -129,8 +129,8 @@ Bukit kecil berhias pohon melati dengan kabut tipis tiap pagi. Tidak ada banguna
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Agen Bayangan "Teh Melati" | Perantara info broker lokal | ??? | Core Formation, Awal (disembunyikan) | 2.500 | *Sentuhan Bisu Penidur* — titik tekan ringan yang membuat lawan pingsan tanpa suara, dipakai hanya untuk kabur | Tenang dan penuh kontrol diri, tak pernah menyerang kecuali identitasnya terancam terbongkar |
-| Kurir Rahasia Diam | Pembawa pesan Serambi Seribu Bisik | 24 | Foundation Establishment, Awal | 500 | *Langkah Seribu Bayangan* — teknik lari cepat menghindar tanpa jejak | Bisu dan sangat sabar, tak pernah melawan, murni mengandalkan kecepatan kabur |
+| Agen Bayangan "Teh Melati" | Perantara info broker lokal | ??? | Core Formation, Awal (disembunyikan) | **500** | *Sentuhan Bisu Penidur* — titik tekan ringan yang membuat lawan pingsan tanpa suara, dipakai hanya untuk kabur | Tenang dan penuh kontrol diri, tak pernah menyerang kecuali identitasnya terancam terbongkar |
+| Kurir Rahasia Diam | Pembawa pesan Serambi Seribu Bisik | 24 | Foundation Establishment, Awal | **100** | *Langkah Seribu Bayangan* — teknik lari cepat menghindar tanpa jejak | Bisu dan sangat sabar, tak pernah melawan, murni mengandalkan kecepatan kabur |
 
 ### Danau Cermin
 *(Central Plains, 550 li dari Tianjing)*
@@ -139,7 +139,7 @@ Danau tenang seluas ratusan li, permukaannya nyaris seperti kaca. Tuan rumah Tur
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Wasit Turnamen Gu Jing | Pengawas Turnamen Besar Lima Tahunan | 80 | Nascent Soul, Menengah | 18.750 | *Telapak Pemutus Duel* — hentakan qi yang bisa menghentikan pertarungan paksa tanpa melukai | Netral dan tegas, tak segan menghukum siapa pun yang curang, tenang tapi berwibawa |
+| Wasit Turnamen Gu Jing | Pengawas Turnamen Besar Lima Tahunan | 80 | Nascent Soul, Menengah | **3.750** | *Telapak Pemutus Duel* — hentakan qi yang bisa menghentikan pertarungan paksa tanpa melukai | Netral dan tegas, tak segan menghukum siapa pun yang curang, tenang tapi berwibawa |
 | Nelayan Danau Ah Fu | Nelayan lokal danau | 52 | Non-Kultivator | — | Tidak bertarung | Ramah dan banyak bicara, senang bergosip soal turnamen pada siapa saja yang mau dengar |
 
 ### Ancient Battlefield of Gods
@@ -149,7 +149,7 @@ Reruntuhan medan perang dewa-dewa purba. Tak ada sekte tinggal permanen di sini;
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Master Tersembunyi "Bayangan Reruntuhan" | Penghuni rahasia reruntuhan | ??? | Soul Transformation, Puncak (disembunyikan) | 125.000 | *Warisan Pedang Dewa Purba* — jurus kuno yang hanya diajarkan sebagian pada yang dianggap layak | Misterius dan penuh teka-teki, tidak menyerang kecuali diuji dulu lewat teka-teki atau ujian tersembunyi |
+| Master Tersembunyi "Bayangan Reruntuhan" | Penghuni rahasia reruntuhan | ??? | Soul Transformation, Puncak (disembunyikan) | **25.000** | *Warisan Pedang Dewa Purba* — jurus kuno yang hanya diajarkan sebagian pada yang dianggap layak | Misterius dan penuh teka-teki, tidak menyerang kecuali diuji dulu lewat teka-teki atau ujian tersembunyi |
 
 > Lihat juga: **Roh Prajurit Gugur** (monster undead di lokasi ini) — `13_BESTIARY.md`.
 
@@ -160,8 +160,8 @@ Gua-gua tersembunyi di lereng gunung yang diperebutkan tiga sekte besar — band
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Kepala Bandit "Golok Tunggal" Hei Dao | Ketua kawanan | 44 | Foundation Establishment, Puncak | 1.000 | *Golok Membelah Gunung* — satu ayunan golok berat yang bisa merobohkan pohon besar | Brutal, tak kenal ampun pada korban, tapi setia mati-matian pada anak buahnya sendiri |
-| Wakil Bandit Licik San Gou | Wakil ketua, otak strategi | 37 | Qi Refining, Puncak | 200 | *Jerat Bayangan* — jebakan tali tersembunyi dikombinasikan serangan kejut | Licik dan pengecut, sering kabur duluan saat kalah |
+| Kepala Bandit "Golok Tunggal" Hei Dao | Ketua kawanan | 44 | Foundation Establishment, Puncak | **200** | *Golok Membelah Gunung* — satu ayunan golok berat yang bisa merobohkan pohon besar | Brutal, tak kenal ampun pada korban, tapi setia mati-matian pada anak buahnya sendiri |
+| Wakil Bandit Licik San Gou | Wakil ketua, otak strategi | 37 | Qi Refining, Puncak | **40** | *Jerat Bayangan* — jebakan tali tersembunyi dikombinasikan serangan kejut | Licik dan pengecut, sering kabur duluan saat kalah |
 | Anak Buah Kasar | Anggota biasa (banyak) | 20–40an | Mortal Foundation, campur | 0 | Serangan senjata kasar tanpa qi terarah | Mayoritas mantan petani/prajurit desersi, non-kultivator murni yang hanya mengandalkan senjata dan jumlah |
 
 ### ⚔️ Markas Bajak Sungai Emas
@@ -171,5 +171,5 @@ Tidak punya markas tetap — kelompok ini berpindah-pindah titik sepanjang alira
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Kapten Bajak "Ikan Duri" Yu Ci | Ketua bajak sungai | 41 | Foundation Establishment, Menengah | 750 | *Tombak Ombak Sungai* — tusukan cepat berantai memanfaatkan gerak perahu | Kasar, gemar memeras pedagang kecil, tapi menghindari kapal milik sekte besar |
+| Kapten Bajak "Ikan Duri" Yu Ci | Ketua bajak sungai | 41 | Foundation Establishment, Menengah | **150** | *Tombak Ombak Sungai* — tusukan cepat berantai memanfaatkan gerak perahu | Kasar, gemar memeras pedagang kecil, tapi menghindari kapal milik sekte besar |
 | Perompak Non-Kultivator Gendut | Anak buah biasa | 33 | Non-Kultivator | — | Hanya mengandalkan kapak & jumlah orang | Preman kampung yang jadi bajak demi bertahan hidup, bukan pilihan ideologis |
