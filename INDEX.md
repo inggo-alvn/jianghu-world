@@ -47,60 +47,59 @@
 
 ### 1a. Direktori Sekte, Dojo & Organisasi (24 File Individual)
 
-> Setiap sekte/dojo/organisasi punya **file sendiri**, lengkap dengan hierarki, fasilitas, artefak/pusaka/seal-talisman, kurikulum teknik bertingkat, Hukum kultivasi detail, relasi antar-faksi, dan rahasia internal. Fetch HANYA file yang relevan dengan situasi saat ini — jangan fetch banyak sekaligus.
+> Setiap sekte/dojo/organisasi punya **file sendiri**, lengkap dengan hierarki, fasilitas, artefak/pusaka/seal-talisman, kurikulum teknik bertingkat, Hukum kultivasi detail, relasi antar-faksi, dan rahasia internal. **Fetch HANYA** link file yang relevan dengan situasi saat ini — jangan fetch banyak sekaligus.
 
-**Central Plains** *(base URL: `https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/`)*
-| Sekte/Dojo | File |
+**Central Plains**
+| Sekte/Dojo | Link RAW (langsung klik/fetch) |
 |---|---|
-| Heavenly Sword Pavilion | `14_HEAVENLY_SWORD_PAVILION.md` |
-| Profound Heaven Sect | `15_PROFOUND_HEAVEN_SECT.md` |
-| Silver Rain Sword School | `16_SILVER_RAIN_SWORD_SCHOOL.md` |
-| Dojo Bunga Aprikot | `17_DOJO_BUNGA_APRIKOT.md` |
-| Dojo Godam Besi | `18_DOJO_GODAM_BESI.md` |
+| Heavenly Sword Pavilion | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/14_HEAVENLY_SWORD_PAVILION.md |
+| Profound Heaven Sect | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/15_PROFOUND_HEAVEN_SECT.md |
+| Silver Rain Sword School | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/16_SILVER_RAIN_SWORD_SCHOOL.md |
+| Dojo Bunga Aprikot | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/17_DOJO_BUNGA_APRIKOT.md |
+| Dojo Godam Besi | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/18_DOJO_GODAM_BESI.md |
 
 **Azure Mountain Range**
-| Sekte/Dojo | File |
+| Sekte/Dojo | Link RAW (langsung klik/fetch) |
 |---|---|
-| Golden Bell Monastery | `19_GOLDEN_BELL_MONASTERY.md` |
-| Dojo Pahat Naga | `20_DOJO_PAHAT_NAGA.md` |
+| Golden Bell Monastery | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/19_GOLDEN_BELL_MONASTERY.md |
+| Dojo Pahat Naga | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/20_DOJO_PAHAT_NAGA.md |
 
 **Southern Demon Domain**
-| Sekte/Dojo | File |
+| Sekte/Dojo | Link RAW (langsung klik/fetch) |
 |---|---|
-| Demonic Flame Palace | `21_DEMONIC_FLAME_PALACE.md` |
-| Nine Serpent Den | `22_NINE_SERPENT_DEN.md` |
-| Seven Sins Cult | `23_SEVEN_SINS_CULT.md` |
-| Blood Shadow Alliance | `24_BLOOD_SHADOW_ALLIANCE.md` |
-| Dojo Bayangan Kelam | `25_DOJO_BAYANGAN_KELAM.md` |
+| Demonic Flame Palace | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/21_DEMONIC_FLAME_PALACE.md |
+| Nine Serpent Den | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/22_NINE_SERPENT_DEN.md |
+| Seven Sins Cult | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/23_SEVEN_SINS_CULT.md |
+| Blood Shadow Alliance | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/24_BLOOD_SHADOW_ALLIANCE.md |
+| Dojo Bayangan Kelam | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/25_DOJO_BAYANGAN_KELAM.md |
 
 **Eastern Sea Region**
-| Sekte/Dojo | File |
+| Sekte/Dojo | Link RAW (langsung klik/fetch) |
 |---|---|
-| Jade Purity Palace | `26_JADE_PURITY_PALACE.md` |
-| Dojo Ombak Tenang | `27_DOJO_OMBAK_TENANG.md` |
+| Jade Purity Palace | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/26_JADE_PURITY_PALACE.md |
+| Dojo Ombak Tenang | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/27_DOJO_OMBAK_TENANG.md |
 
 **Northern Desolate Territory**
-| Sekte/Dojo | File |
+| Sekte/Dojo | Link RAW (langsung klik/fetch) |
 |---|---|
-| Whitecloud Medicine Hall | `28_WHITECLOUD_MEDICINE_HALL.md` |
-| Ghost Valley Sect | `29_GHOST_VALLEY_SECT.md` |
-| Dojo Cakar Serigala | `30_DOJO_CAKAR_SERIGALA.md` |
+| Whitecloud Medicine Hall | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/28_WHITECLOUD_MEDICINE_HALL.md |
+| Ghost Valley Sect | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/29_GHOST_VALLEY_SECT.md |
+| Dojo Cakar Serigala | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/30_DOJO_CAKAR_SERIGALA.md |
 
 **Western Sacred Deserts**
-| Sekte/Dojo | File |
+| Sekte/Dojo | Link RAW (langsung klik/fetch) |
 |---|---|
-| Azure Cloud Temple | `31_AZURE_CLOUD_TEMPLE.md` |
-| Dojo Mata Elang Pasir | `32_DOJO_MATA_ELANG_PASIR.md` |
+| Azure Cloud Temple | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/31_AZURE_CLOUD_TEMPLE.md |
+| Dojo Mata Elang Pasir | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/32_DOJO_MATA_ELANG_PASIR.md |
 
 **Lintas Wilayah**
-| Organisasi | File |
+| Organisasi | Link RAW (langsung klik/fetch) |
 |---|---|
-| Perkumpulan Pisau Sunyi | `33_PERKUMPULAN_PISAU_SUNYI.md` |
-| Kelompok Racun Bayangan | `34_KELOMPOK_RACUN_BAYANGAN.md` |
-| Serambi Seribu Bisik (info broker) | `35_SERAMBI_SERIBU_BISIK.md` |
-| Rumah Gadai Giok Sejuk (bank tak resmi) | `36_RUMAH_GADAI_GIOK_SEJUK.md` |
-| Perhimpunan Tabib Pengembara | `37_PERHIMPUNAN_TABIB_PENGEMBARA.md` |
-
+| Perkumpulan Pisau Sunyi | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/33_PERKUMPULAN_PISAU_SUNYI.md |
+| Kelompok Racun Bayangan | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/34_KELOMPOK_RACUN_BAYANGAN.md |
+| Serambi Seribu Bisik (info broker) | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/35_SERAMBI_SERIBU_BISIK.md |
+| Rumah Gadai Giok Sejuk (bank tak resmi) | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/36_RUMAH_GADAI_GIOK_SEJUK.md |
+| Perhimpunan Tabib Pengembara | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/37_PERHIMPUNAN_TABIB_PENGEMBARA.md |
 ---
 
 ## 2. Alur Navigasi Otomatis (Trigger → Modul yang Difetch)
@@ -124,7 +123,7 @@
 | Perlu hitung detail regen HP / efek kelaparan lanjut | `11_VITALITY_HUNGER_SYSTEM.md` | Formula dasarnya sudah ada ringkas di `00` §3 |
 | Pertarungan resmi dimulai (giliran, initiative, damage) | `12_COMBAT_SYSTEM.md` | |
 | Lawan monster/spirit beast liar, perjalanan lewat zona liar (ambush) | `13_BESTIARY.md` | Dipakai bersamaan dengan `12` |
-| Karakter mau bergabung sekte/dojo, eksplorasi fasilitas sekte, belajar teknik bertingkat, atau cek hierarki/artefak sekte tertentu | Cari nama sekte di **§1a**, fetch HANYA file itu | 24 file terpisah — jangan fetch lebih dari yang relevan dengan sekte yang sedang berinteraksi |
+| Karakter mau bergabung sekte/dojo, eksplorasi fasilitas sekte, belajar teknik bertingkat, atau cek hierarki/artefak sekte tertentu | Fetch langsung dari link RAW di §1a | Jangan rakit URL sendiri. Gunakan link yang sudah tertulis di kolom "Link RAW" tabel §1a. Pilih HANYA satu file yang sesuai dengan sekte yang sedang berinteraksi. |
 | Sesi baru dimulai / perlu tahu tanggal & tahun in-game / lompatan waktu panjang / cek apakah ada peristiwa berkala jatuh tempo / NPC lama muncul kembali (perlu update umur) | `38_WORLD_CALENDAR_TIMELINE.md` | Fetch di awal sesi manapun untuk tahu Tahun/Musim berjalan; fetch ulang tiap checkpoint waktu besar |
 | Pemain minta bantuan setup GitHub / nanya cara pakai sistem ini | `README.md` | Ini file untuk manusia, sampaikan isinya ke pemain, bukan role-play |
 
