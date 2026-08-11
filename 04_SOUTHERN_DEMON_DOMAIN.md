@@ -31,8 +31,8 @@ Pemukiman kultivator demonic kelas bawah, penuh pasar gelap.
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Kepala Dojo "Bayangan Tua" | Kepala Dojo Bayangan Kelam | 60 | Foundation Establishment, Puncak | 5.000 | *Cengkeraman Bayangan Kelam* — tangkapan cepat dari arah tak terduga, memanfaatkan gelap | Dingin dan pragmatis, tak mudah marah tapi tanpa ragu menyerang jika ada yang mengkhianati kesepakatan |
-| Pemuda Putus Asa Hei Zi | Calon murid baru | 17 | Mortal Foundation, Menengah | 150 | *Tinju Amarah Membara* — pukulan asal-asalan namun bertenaga besar karena emosi | Pemarah dan penuh dendam, mudah tersulut, suka menyerang duluan saat tersinggung |
+| Kepala Dojo "Bayangan Tua" | Kepala Dojo Bayangan Kelam | 60 | Foundation Establishment, Puncak | 1.000 | *Cengkeraman Bayangan Kelam* — tangkapan cepat dari arah tak terduga, memanfaatkan gelap | Dingin dan pragmatis, tak mudah marah tapi tanpa ragu menyerang jika ada yang mengkhianati kesepakatan |
+| Pemuda Putus Asa Hei Zi | Calon murid baru | 17 | Mortal Foundation, Menengah | 0 | *Tinju Amarah Membara* — pukulan asal-asalan namun bertenaga besar karena emosi | Pemarah dan penuh dendam, mudah tersulut, suka menyerang duluan saat tersinggung |
 | Gelandangan Buta Meng | Pengemis buta di gang desa | 55 | Non-Kultivator (disembunyikan?) | — | Tidak bertarung terbuka — memanfaatkan pendengaran tajam untuk menghindar | Tenang dan penuh rahasia, jarang bicara, mengamati lebih banyak daripada bertindak |
 
 ### Kampung Xueyu (450 li)
@@ -40,24 +40,24 @@ Kota kecil arena pertarungan ilegal, ramai tiap purnama.
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Bandar Arena Xue Wang | Pengatur pertarungan ilegal | 48 | Core Formation, Puncak | 25.000 | *Cambuk Penentu Taruhan* — cambuk panjang untuk mengendalikan arena, jarang dipakai menyerang langsung | Licik dan penuh perhitungan, tenang di permukaan, cepat marah bila ada yang curang di arenanya |
-| Petarung Arena Kuda Hitam | Petarung bayaran arena | 31 | Foundation Establishment, Puncak | 5.000 | *Tinju Kuda Liar* — rentetan pukulan brutal tanpa henti | Kasar dan agresif di arena, suka menyerang membabi buta, tapi lembut pada keluarganya di desa |
+| Bandar Arena Xue Wang | Pengatur pertarungan ilegal | 48 | Core Formation, Puncak | 5.000 | *Cambuk Penentu Taruhan* — cambuk panjang untuk mengendalikan arena, jarang dipakai menyerang langsung | Licik dan penuh perhitungan, tenang di permukaan, cepat marah bila ada yang curang di arenanya |
+| Petarung Arena Kuda Hitam | Petarung bayaran arena | 31 | Foundation Establishment, Puncak | 1.000 | *Tinju Kuda Liar* — rentetan pukulan brutal tanpa henti | Kasar dan agresif di arena, suka menyerang membabi buta, tapi lembut pada keluarganya di desa |
 
 ### Desa Duchong (600 li)
 Penghasil racun & penawar terbaik dunia.
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Kepala Racun Du Po | Ahli racun & penawar desa | 66 | Nascent Soul, Awal | 62.500 | *Kabut Racun Seribu Bunga* — sebaran serbuk racun halus dari jarak jauh | Eksentrik dan tenang, jarang marah, tapi tanpa ampun pada siapa pun yang ia anggap "tak pantas hidup" |
-| Anak Magang Du Xiao | Murid racun cilik | 13 | Mortal Foundation, Awal | 100 | *Cipratan Racun Ringan* — lemparan racun ringan sekadar untuk kabur | Riang dan polos, tidak suka konflik, lebih senang bermain dengan serangga racunnya |
+| Kepala Racun Du Po | Ahli racun & penawar desa | 66 | Nascent Soul, Awal | 12.500 | *Kabut Racun Seribu Bunga* — sebaran serbuk racun halus dari jarak jauh | Eksentrik dan tenang, jarang marah, tapi tanpa ampun pada siapa pun yang ia anggap "tak pantas hidup" |
+| Anak Magang Du Xiao | Murid racun cilik | 13 | Mortal Foundation, Awal | 0 | *Cipratan Racun Ringan* — lemparan racun ringan sekadar untuk kabur | Riang dan polos, tidak suka konflik, lebih senang bermain dengan serangga racunnya |
 
 ### 🆕 Kota Baru: Chishui (赤水鎮, "Kota Air Merah")
 750 li dari perbatasan, kota pelabuhan sungai yang jadi titik transit demonic menuju Eastern Sea; karakteristik penduduknya keras tapi punya kode etik dagang yang justru lebih jujur dibanding kota ortodoks, karena reputasi buruk membuat mereka lebih hati-hati menjaga nama baik.
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Kepala Pelabuhan Chi Hong | Penguasa tak resmi kota Chishui | 53 | Nascent Soul, Menengah | 93.750 | *Tinju Air Merah* — pukulan bertenaga besar yang memanfaatkan aliran sungai setempat | Keras dan tegas, cepat marah bila ada yang mengkhianati kesepakatan dagang, tapi berpegang teguh kejujuran |
-| Pedagang Jujur Ah Shui | Pemilik toko barang selundupan legal-abu | 39 | Foundation Establishment, Awal | 2.500 | Tidak bertarung — mengandalkan penjaga bayaran | Tenang dan hati-hati, sangat menjaga reputasi jujurnya meski berdagang barang abu-abu |
+| Kepala Pelabuhan Chi Hong | Penguasa tak resmi kota Chishui | 53 | Nascent Soul, Menengah | 18.750 | *Tinju Air Merah* — pukulan bertenaga besar yang memanfaatkan aliran sungai setempat | Keras dan tegas, cepat marah bila ada yang mengkhianati kesepakatan dagang, tapi berpegang teguh kejujuran |
+| Pedagang Jujur Ah Shui | Pemilik toko barang selundupan legal-abu | 39 | Foundation Establishment, Awal | 500 | Tidak bertarung — mengandalkan penjaga bayaran | Tenang dan hati-hati, sangat menjaga reputasi jujurnya meski berdagang barang abu-abu |
 
 ---
 
@@ -70,8 +70,8 @@ Aliansi longgar pembunuh bayaran. Tidak punya struktur kaku seperti sekte lain, 
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Pembunuh Bayaran Legendaris "Bayangan Tanpa Nama" | Anggota paling ditakuti aliansi | ??? | Void Severing, Menengah (disembunyikan) | 2.343.750 | *Sayatan Tanpa Jejak* — satu tebasan cepat dari bayangan, target sering tak sadar sudah terluka | Sangat dingin dan tenang, tak pernah bicara sebelum bertindak, profesional mutlak tanpa emosi |
-| Perekrut Muda Ah Sha | Perekrut anggota baru | 26 | Core Formation, Awal | 12.500 | *Pukulan Persuasi Paksa* — serangan ringan untuk "meyakinkan" target rekrutan yang menolak | Ramah palsu di permukaan, dingin dan manipulatif saat bekerja |
+| Pembunuh Bayaran Legendaris "Bayangan Tanpa Nama" | Anggota paling ditakuti aliansi | ??? | Void Severing, Menengah (disembunyikan) | 468.750 | *Sayatan Tanpa Jejak* — satu tebasan cepat dari bayangan, target sering tak sadar sudah terluka | Sangat dingin dan tenang, tak pernah bicara sebelum bertindak, profesional mutlak tanpa emosi |
+| Perekrut Muda Ah Sha | Perekrut anggota baru | 26 | Core Formation, Awal | 2.500 | *Pukulan Persuasi Paksa* — serangan ringan untuk "meyakinkan" target rekrutan yang menolak | Ramah palsu di permukaan, dingin dan manipulatif saat bekerja |
 
 ### 🔥 Demonic Flame Palace
 *Hellfire Island, 400 li dari daratan selatan — Hukum utama: Hukum Qi Naga Api*
@@ -80,10 +80,10 @@ Kekuatan militer demonic terbesar, dipimpin "Iblis Api Abadi". Sangat hierarkis 
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Iblis Api Abadi, Yan Wushen | Ketua Demonic Flame Palace | 210 | Tribulation Crossing, Awal | 7.812.500 | *Lautan Api Abadi* — semburan api dalam radius luas, jarang dikeluarkan penuh | Karismatik dan tenang di permukaan, tapi mengerikan dan tanpa ampun saat benar-benar marah |
-| Penguji Zona Inti Huo Jiang | Penjaga Zona Inti pulau ujian | 78 | Soul Transformation, Awal | 312.500 | *Cakar Api Penguji* — cakaran tangan berapi untuk menguji ketahanan murid | Kejam tapi adil, tegas soal aturan ujian, tak pernah membunuh murid yang menyerah |
-| Murid Zona Luar Xiao Yan | Murid baru menjalani ujian | 15 | Mortal Foundation, Puncak | 200 | *Tendangan Api Kecil* — tendangan dasar dengan sedikit api tersulut dari amarah | Gigih dan penakut sekaligus, mudah panik tapi tak pernah menyerah |
-| Murid Inti Calon Feng Mo | Murid yang hampir lulus zona inti | 24 | Foundation Establishment, Puncak | 5.000 | *Tinju Api Ambisi* — pukulan berapi yang makin kuat saat ia merasa terancam disaingi | Ambisius dan sedikit kejam pada sesama murid, suka menyerang duluan pada saingan terkuatnya |
+| Iblis Api Abadi, Yan Wushen | Ketua Demonic Flame Palace | 210 | Tribulation Crossing, Awal | 1.562.500 | *Lautan Api Abadi* — semburan api dalam radius luas, jarang dikeluarkan penuh | Karismatik dan tenang di permukaan, tapi mengerikan dan tanpa ampun saat benar-benar marah |
+| Penguji Zona Inti Huo Jiang | Penjaga Zona Inti pulau ujian | 78 | Soul Transformation, Awal | 62.500 | *Cakar Api Penguji* — cakaran tangan berapi untuk menguji ketahanan murid | Kejam tapi adil, tegas soal aturan ujian, tak pernah membunuh murid yang menyerah |
+| Murid Zona Luar Xiao Yan | Murid baru menjalani ujian | 15 | Mortal Foundation, Puncak | 0 | *Tendangan Api Kecil* — tendangan dasar dengan sedikit api tersulut dari amarah | Gigih dan penakut sekaligus, mudah panik tapi tak pernah menyerah |
+| Murid Inti Calon Feng Mo | Murid yang hampir lulus zona inti | 24 | Foundation Establishment, Puncak | 1.000 | *Tinju Api Ambisi* — pukulan berapi yang makin kuat saat ia merasa terancam disaingi | Ambisius dan sedikit kejam pada sesama murid, suka menyerang duluan pada saingan terkuatnya |
 
 ### 👁️ Seven Sins Cult
 *Hutan belantara selatan — Custom Law: Hukum Gu Karma (varian instan, Sin tinggi)*
@@ -92,8 +92,8 @@ Kultus perekrut lewat janji kekuatan instan. Paling dibenci semua faksi termasuk
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Pemimpin Kultus "Tujuh Wajah" | Ketua Seven Sins Cult | 130 | Void Severing, Awal | 1.562.500 | *Bisikan Tujuh Wajah* — teknik manipulasi pikiran, menyerang mental bukan fisik | Manipulatif dan tenang, tak pernah marah terbuka, licik dan penuh kepura-puraan |
-| Pengikut Baru Terpedaya Lian | Korban rekrutan yang baru bergabung | 22 | Qi Refining, Puncak | 1.000 | *Pukulan Putus Asa* — serangan asal dari orang yang baru belajar, tak terarah | Naif dan mudah panik, gampang tersulut emosi karena kebingungan batinnya sendiri |
+| Pemimpin Kultus "Tujuh Wajah" | Ketua Seven Sins Cult | 130 | Void Severing, Awal | 312.500 | *Bisikan Tujuh Wajah* — teknik manipulasi pikiran, menyerang mental bukan fisik | Manipulatif dan tenang, tak pernah marah terbuka, licik dan penuh kepura-puraan |
+| Pengikut Baru Terpedaya Lian | Korban rekrutan yang baru bergabung | 22 | Qi Refining, Puncak | 200 | *Pukulan Putus Asa* — serangan asal dari orang yang baru belajar, tak terarah | Naif dan mudah panik, gampang tersulut emosi karena kebingungan batinnya sendiri |
 
 ### 🐍 Nine Serpent Den
 *Thousand Poison Marsh — Hukum utama: Hukum Gu Karma (varian Racun)*
@@ -102,7 +102,7 @@ Sekte kecil ahli racun. Tertutup, jarang berinteraksi dengan dunia luar, dihorma
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Ratu Ular She Yin | Ketua Nine Serpent Den | 88 | Soul Transformation, Menengah | 468.750 | *Gigitan Sembilan Ular* — serangan racun ganda dari sembilan titik berbeda sekaligus | Tenang dan tertutup, jarang emosi, tapi sangat berbahaya dan cepat bertindak bila sarangnya diganggu |
+| Ratu Ular She Yin | Ketua Nine Serpent Den | 88 | Soul Transformation, Menengah | 93.750 | *Gigitan Sembilan Ular* — serangan racun ganda dari sembilan titik berbeda sekaligus | Tenang dan tertutup, jarang emosi, tapi sangat berbahaya dan cepat bertindak bila sarangnya diganggu |
 | Penjaga Sarang Ular Kembar | Dua penjaga kembar sarang | 40 | Foundation Establishment, Puncak | 5.000 (masing-masing) | *Serangan Berpasangan Ular Kembar* — kombinasi serangan racun dari dua arah sekaligus | Pendiam dan sangat kompak, saling melengkapi, tak pernah bertarung sendirian |
 
 ### 🌑 Dojo Bayangan Kelam (Desa Heiyan)

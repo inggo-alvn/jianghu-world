@@ -81,12 +81,12 @@
 ### 👤 Jiang Ziling *(CONTOH — admin bisa hapus/ganti dengan karakter sungguhan)*
 
 **Lokasi Awal:** Desa Xingcun, Central Plains *(lihat `02_CENTRAL_PLAINS.md`)*
-**Realm & Stage Awal:** Foundation Establishment (Pembentukan Fondasi), Menengah — Qi Cap: 3.750 *(2.500 × 1,5)*
+**Realm & Stage Awal:** Foundation Establishment (Pembentukan Fondasi), Menengah — Qi Cap: 750 *(500 × 1,5, RealmBase v3.0 — lihat `09_CULTIVATION_LAW_SYSTEM.md` §9)*
 **Hukum Kultivasi Awal:** Dao Abadi (varian pedang ringan, gaya Dojo Bunga Aprikot)
 **Law Origin:** Jalur Guru — diajarkan oleh **Guru Li Xingchun**, Kepala Dojo Bunga Aprikot, sejak usia 14 tahun. Teknik yang sudah dikuasai: *Jurus Pedang Bunga Gugur* (tingkat dasar).
 **Sekte/Afiliasi Awal:** Dojo Bunga Aprikot (Desa Xingcun) — murid biasa, belum murid inti
 
-**Kondisi Awal:** HP 1.500/1.500 · Qi 3.750/3.750 · Stamina 100/100 · Satiety 70% · Kondisi Normal · Karma Netral (belum ada catatan Merit/Sin)
+**Kondisi Awal:** HP 300/300 · Qi 750/750 · Stamina 100/100 · Satiety 70% · Kondisi Normal · Karma Netral (belum ada catatan Merit/Sin)
 
 **Currency Awal:**
 - Tael Tembaga × 340

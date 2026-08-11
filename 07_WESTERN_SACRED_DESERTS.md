@@ -27,23 +27,23 @@ Satu-satunya sumber air besar, dikelola bergantian oleh kafilah.
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Tetua Kafilah Gan Lu | Pengatur giliran kafilah di oasis | 71 | Foundation Establishment, Menengah | 3.750 | *Tongkat Penengah Kafilah* — pukulan tongkat ringan sekadar melerai perselisihan | Bijaksana dan sangat sabar, dipercaya semua kafilah menjaga aturan tetap adil |
+| Tetua Kafilah Gan Lu | Pengatur giliran kafilah di oasis | 71 | Foundation Establishment, Menengah | 750 | *Tongkat Penengah Kafilah* — pukulan tongkat ringan sekadar melerai perselisihan | Bijaksana dan sangat sabar, dipercaya semua kafilah menjaga aturan tetap adil |
 
 ### Desa Shayan (700 li)
 Pemandu gurun turun-temurun, miskin sumber daya tapi keahliannya dihargai.
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Kepala Pemandu Sha Ying | Kepala Dojo Mata Elang Pasir | 54 | Foundation Establishment, Puncak | 5.000 | *Panah Elang Pasir* — tembakan panah presisi tinggi dari jarak jauh | Netral profesional, tenang dan tajam mengamati, jarang menyerang kecuali dibayar untuk melindungi |
-| Pemandu Muda Xiao Ying | Pemandu magang | 17 | Qi Refining, Menengah | 750 | *Lemparan Pisau Pelacak* — pisau kecil untuk menandai jejak, bukan untuk membunuh | Berbakat dan penasaran, ingin menjelajah lebih jauh, sedikit gegabah karena masih muda |
+| Kepala Pemandu Sha Ying | Kepala Dojo Mata Elang Pasir | 54 | Foundation Establishment, Puncak | 1.000 | *Panah Elang Pasir* — tembakan panah presisi tinggi dari jarak jauh | Netral profesional, tenang dan tajam mengamati, jarang menyerang kecuali dibayar untuk melindungi |
+| Pemandu Muda Xiao Ying | Pemandu magang | 17 | Qi Refining, Menengah | 150 | *Lemparan Pisau Pelacak* — pisau kecil untuk menandai jejak, bukan untuk membunuh | Berbakat dan penasaran, ingin menjelajah lebih jauh, sedikit gegabah karena masih muda |
 
 ### Reruntuhan Gushatta (900 li)
 Bekas kota kuno, kini pasar gelap barang antik spiritual.
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Pedagang Artefak Gu Sha | Pedagang barang antik spiritual | 49 | Core Formation, Awal | 12.500 | Tidak bertarung — mengandalkan penjaga bayaran & jebakan toko | Licik tapi ahli menilai barang, tenang saat tawar-menawar, cemas bila artefak palsu ketahuan |
-| Penjaga Reruntuhan Tak Dikenal | Sisa formasi/entitas penjaga kota kuno | — | Setara Void Severing (formasi purba) | 1.562.500 | *Jebakan Formasi Purba* — serangan energi otomatis dari reruntuhan kuno | Tidak punya emosi — mekanisme kuno yang bereaksi hanya pada penjarah tak berizin |
+| Pedagang Artefak Gu Sha | Pedagang barang antik spiritual | 49 | Core Formation, Awal | 2.500 | Tidak bertarung — mengandalkan penjaga bayaran & jebakan toko | Licik tapi ahli menilai barang, tenang saat tawar-menawar, cemas bila artefak palsu ketahuan |
+| Penjaga Reruntuhan Tak Dikenal | Sisa formasi/entitas penjaga kota kuno | — | Setara Void Severing (formasi purba) | 312.500 | *Jebakan Formasi Purba* — serangan energi otomatis dari reruntuhan kuno | Tidak punya emosi — mekanisme kuno yang bereaksi hanya pada penjarah tak berizin |
 
 > Ini adalah salah satu dari dua lokasi resmi **Trial Kehampaan (Realm 6→7)** — lihat `09_CULTIVATION_LAW_SYSTEM.md` §8.4.
 
@@ -52,8 +52,8 @@ Bekas kota kuno, kini pasar gelap barang antik spiritual.
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Kepala Konsorsium Jin Sha | Ketua Konsorsium Kafilah Jinsha | 56 | Nascent Soul, Awal | 62.500 | *Pukulan Pasir Emas* — pukulan tangan yang menyebarkan pasir tajam ke wajah lawan | Ahli negosiasi, tenang tapi protektif berlebihan pada rute dagang rahasianya |
-| Pemilik Kedai Air Ah Quan | Pemilik satu-satunya sumber air permanen kota | 60 | Foundation Establishment, Awal | 2.500 | Tidak bertarung | Dihormati dan adil, tenang, tak pernah pilih kasih membagi air pada siapa pun |
+| Kepala Konsorsium Jin Sha | Ketua Konsorsium Kafilah Jinsha | 56 | Nascent Soul, Awal | 12.500 | *Pukulan Pasir Emas* — pukulan tangan yang menyebarkan pasir tajam ke wajah lawan | Ahli negosiasi, tenang tapi protektif berlebihan pada rute dagang rahasianya |
+| Pemilik Kedai Air Ah Quan | Pemilik satu-satunya sumber air permanen kota | 60 | Foundation Establishment, Awal | 500 | Tidak bertarung | Dihormati dan adil, tenang, tak pernah pilih kasih membagi air pada siapa pun |
 
 ---
 
@@ -66,8 +66,8 @@ Sekte ortodoks Buddha. Paling welas asih di antara semua sekte ortodoks, menerim
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Kepala Biara Kong Ci | Ketua Azure Cloud Temple | 110 | Nascent Soul, Puncak | 125.000 | *Telapak Welas Asih* — dorongan qi lembut yang lebih sering menyembuhkan daripada melukai | Sangat welas asih dan sabar, hampir tak pernah marah, menerima siapa pun tanpa pandang asal-usul |
-| Biksu Muda Ren Ci | Murid biara termuda | 15 | Mortal Foundation, Menengah | 150 | *Pukulan Lembut Penolong* — gerak dasar bertahan tanpa niat melukai | Polos dan penuh belas kasih, tak suka konflik sama sekali, suka menolong tanpa berpikir panjang |
+| Kepala Biara Kong Ci | Ketua Azure Cloud Temple | 110 | Nascent Soul, Puncak | 25.000 | *Telapak Welas Asih* — dorongan qi lembut yang lebih sering menyembuhkan daripada melukai | Sangat welas asih dan sabar, hampir tak pernah marah, menerima siapa pun tanpa pandang asal-usul |
+| Biksu Muda Ren Ci | Murid biara termuda | 15 | Mortal Foundation, Menengah | 0 | *Pukulan Lembut Penolong* — gerak dasar bertahan tanpa niat melukai | Polos dan penuh belas kasih, tak suka konflik sama sekali, suka menolong tanpa berpikir panjang |
 
 ### 🦅 Dojo Mata Elang Pasir (Desa Shayan)
 Perguruan kecil. Bukan sekte petarung, lebih dikenal sebagai kelompok pemandu profesional yang disewa sekte besar manapun tanpa terikat afiliasi tetap — netralitas inilah yang membuat mereka dipercaya semua pihak. *(NPC: lihat tabel Desa Shayan di atas.)*
@@ -81,7 +81,7 @@ Perguruan kecil. Bukan sekte petarung, lebih dikenal sebagai kelompok pemandu pr
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Kepala Menara Luo Xing | Ketua Menara Bintang Jatuh | 68 | Core Formation, Puncak | 25.000 | *Cakar Pemburu Harta* — cakaran tangan cepat, dilatih dari kebiasaan menggali reruntuhan | Ambisius dan sedikit serakah soal harta karun, tenang tapi kompetitif pada rival dagangnya |
+| Kepala Menara Luo Xing | Ketua Menara Bintang Jatuh | 68 | Core Formation, Puncak | 5.000 | *Cakar Pemburu Harta* — cakaran tangan cepat, dilatih dari kebiasaan menggali reruntuhan | Ambisius dan sedikit serakah soal harta karun, tenang tapi kompetitif pada rival dagangnya |
 
 ### ⚔️ Markas Perampok Kafilah "Serigala Pasir"
 *(bukit pasir tersembunyi, 300 li dari Oasis Ganlu)*
@@ -90,5 +90,5 @@ Perkemahan sementara di balik bukit pasir tinggi yang berubah bentuk tiap badai,
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik |
 |---|---|---|---|---|---|---|
-| Ketua Perampok Sha Lang | Ketua kelompok perampok gurun | 46 | Foundation Establishment, Puncak | 5.000 | *Badai Pasir Buatan* — menyebar pasir halus beracun mata untuk membutakan sementara | Oportunis, menyerang kafilah lemah saja, kabur dari yang kuat tanpa malu |
+| Ketua Perampok Sha Lang | Ketua kelompok perampok gurun | 46 | Foundation Establishment, Puncak | 1.000 | *Badai Pasir Buatan* — menyebar pasir halus beracun mata untuk membutakan sementara | Oportunis, menyerang kafilah lemah saja, kabur dari yang kuat tanpa malu |
 | Perampok Muda Non-Kultivator | Anggota biasa | 19–28 | Non-Kultivator | — | Senjata curian & pisau lempar sederhana | Kebanyakan pemuda desa miskin yang tak punya pilihan hidup lain |

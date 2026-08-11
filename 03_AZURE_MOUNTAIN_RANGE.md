@@ -30,23 +30,23 @@ Desa petani teh di ketinggian, sejuk dan damai.
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
 | Kepala Desa Yun Cha | Kepala Desa Yunwu | 64 | Non-Kultivator | — | Tidak bertarung | Tenang dan sabar, sangat dihormati karena kearifannya soal teh dan kehidupan |
-| Petani Teh Muda A-Lan | Pemetik teh | 20 | Mortal Foundation, Menengah | 150 | *Sabit Petani Sederhana* — gerak dasar memanen yang bisa jadi pertahanan darurat | Ceria dan penuh semangat, tidak suka konflik, bermimpi jadi kultivator hebat |
+| Petani Teh Muda A-Lan | Pemetik teh | 20 | Mortal Foundation, Menengah | 0 | *Sabit Petani Sederhana* — gerak dasar memanen yang bisa jadi pertahanan darurat | Ceria dan penuh semangat, tidak suka konflik, bermimpi jadi kultivator hebat |
 
 ### Kampung Shiban (350 li dari perbatasan)
 Pemukiman tukang batu dan pemahat.
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Kepala Pemahat Shi Long | Kepala Dojo Pahat Naga | 57 | Foundation Establishment, Menengah | 3.750 | *Pahat Penembus Batu* — pukulan tangan bertenaga fokus meniru gerak memahat | Teliti dan sedikit obsesif, tenang tapi keras kepala soal kesempurnaan karya |
-| Pemuda Pemahat Gang | Murid pemahat | 18 | Mortal Foundation, Awal | 100 | *Pukulan Palu Batu Kecil* — gerak dasar memahat sebagai serangan darurat | Pendiam, sabar luar biasa, jarang bicara kecuali ditanya |
+| Kepala Pemahat Shi Long | Kepala Dojo Pahat Naga | 57 | Foundation Establishment, Menengah | 750 | *Pahat Penembus Batu* — pukulan tangan bertenaga fokus meniru gerak memahat | Teliti dan sedikit obsesif, tenang tapi keras kepala soal kesempurnaan karya |
+| Pemuda Pemahat Gang | Murid pemahat | 18 | Mortal Foundation, Awal | 0 | *Pukulan Palu Batu Kecil* — gerak dasar memahat sebagai serangan darurat | Pendiam, sabar luar biasa, jarang bicara kecuali ditanya |
 
 ### 🆕 Kota Baru: Qingfeng (清風鎮, "Kota Angin Sejuk")
 500 li ke dalam pegunungan, kota peristirahatan bagi kultivator yang ingin menyepi sementara dari politik jianghu; terkenal dengan penginapan-penginapan tenang tanpa pertanyaan soal latar belakang tamu.
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Pemilik Penginapan "Angin Sunyi" | Pemilik penginapan tanpa pertanyaan | 49 | Core Formation, Menengah | 18.750 | *Telapak Angin Bungkam* — pukulan angin ringan yang bisa meredam suara di sekitar, dipakai menjaga privasi tamu | Tertutup dan misterius, tenang luar biasa, hanya bertindak jika kerahasiaan penginapannya dilanggar |
-| Tamu Misterius Berjubah Abu | Orang misterius yang menginap lama | ??? | Nascent Soul, Puncak (disembunyikan) | 125.000 | *Langkah Menghilang di Kabut* — teknik menghilang cepat memanfaatkan kabut pegunungan | Sangat jarang bicara, tenang mengerikan, langsung pergi tanpa jejak begitu merasa dicurigai |
+| Pemilik Penginapan "Angin Sunyi" | Pemilik penginapan tanpa pertanyaan | 49 | Core Formation, Menengah | 3.750 | *Telapak Angin Bungkam* — pukulan angin ringan yang bisa meredam suara di sekitar, dipakai menjaga privasi tamu | Tertutup dan misterius, tenang luar biasa, hanya bertindak jika kerahasiaan penginapannya dilanggar |
+| Tamu Misterius Berjubah Abu | Orang misterius yang menginap lama | ??? | Nascent Soul, Puncak (disembunyikan) | 25.000 | *Langkah Menghilang di Kabut* — teknik menghilang cepat memanfaatkan kabut pegunungan | Sangat jarang bicara, tenang mengerikan, langsung pergi tanpa jejak begitu merasa dicurigai |
 
 ---
 
@@ -59,9 +59,9 @@ Biara pertapa ortodoks. Sangat tertutup, jarang campur tangan urusan luar, hanya
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Kepala Biara Jin Zhong | Ketua Golden Bell Monastery | 102 | Soul Transformation, Puncak | 625.000 | *Lonceng Emas Pemecah Tulang* — pukulan tubuh keras meniru dentang lonceng, sangat jarang dipakai | Sangat tenang, nyaris tak pernah bicara, luar biasa sabar, tak pernah menyerang kecuali diserang lebih dulu |
-| Biksu Penjaga Gerbang De Ren | Penjaga gerbang biara | 55 | Nascent Soul, Awal | 62.500 | *Telapak Penjaga Gerbang* — dorongan tangan kosong untuk menghalau, bukan melukai | Ramah tapi tegas, sabar menguji lewat pertanyaan filosofis sebelum bertindak |
-| Murid Baru Kecil Dawa | Murid termuda biara | 14 | Mortal Foundation, Puncak | 200 | *Sapu Lantai Berputar* — gerak dasar menyapu yang jadi latihan pertahanan awal | Polos, rajin, penurut, tak pernah membantah perintah tetua |
+| Kepala Biara Jin Zhong | Ketua Golden Bell Monastery | 102 | Soul Transformation, Puncak | 125.000 | *Lonceng Emas Pemecah Tulang* — pukulan tubuh keras meniru dentang lonceng, sangat jarang dipakai | Sangat tenang, nyaris tak pernah bicara, luar biasa sabar, tak pernah menyerang kecuali diserang lebih dulu |
+| Biksu Penjaga Gerbang De Ren | Penjaga gerbang biara | 55 | Nascent Soul, Awal | 12.500 | *Telapak Penjaga Gerbang* — dorongan tangan kosong untuk menghalau, bukan melukai | Ramah tapi tegas, sabar menguji lewat pertanyaan filosofis sebelum bertindak |
+| Murid Baru Kecil Dawa | Murid termuda biara | 14 | Mortal Foundation, Puncak | 0 | *Sapu Lantai Berputar* — gerak dasar menyapu yang jadi latihan pertahanan awal | Polos, rajin, penurut, tak pernah membantah perintah tetua |
 
 ### 🗿 Dojo Pahat Naga (Kampung Shiban)
 Perguruan kecil pemahat. Dipandang sebelah mata oleh sekte besar, tapi sering "beruntung" menemukan peninggalan formasi kuno saat memahat batu gunung, membuat sekte besar diam-diam menjaga hubungan baik dengan mereka. *(NPC: Shi Long & Gang — lihat tabel Kampung Shiban di atas.)*
