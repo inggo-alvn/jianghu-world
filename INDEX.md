@@ -1,4 +1,4 @@
-# 🧭 Wuxian World — INDEX (Satu Link untuk Semua)
+# 🧭 Wuxian World — INDEX
 
 > **Ini adalah SATU-SATUNYA link yang perlu ditempel pemain di setiap sesi.**
 > Semua modul lain (aturan, wilayah, sistem, data karakter) dijangkau AI secara otomatis dari sini lewat `web_fetch`/browsing, sesuai kondisi yang sedang terjadi di roleplay.
@@ -27,7 +27,7 @@
 | Kode | File | Link Raw | Isi Singkat |
 |---|---|---|---|
 | 00 | `00_CORE_RULES_AI_GM.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/00_CORE_RULES_AI_GM.md | Aturan mutlak, anti-cheat, format respon wajib, cheat-sheet formula — **selalu difetch pertama** |
-| 👤 | `players.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/players.md ⚠️*(placeholder, lihat §3)* | Data AWAL karakter (statis, dikelola admin — bukan save-state) — dicari lewat nama |
+| 👤 | `players.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/players.md | Data AWAL karakter (statis, dikelola admin — bukan save-state) — dicari lewat nama |
 | 01 | `01_WORLD_OVERVIEW_AND_CAPITAL.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/01_WORLD_OVERVIEW_AND_CAPITAL.md | Peta jarak dunia & Ibu Kota Tianjing |
 | 02 | `02_CENTRAL_PLAINS.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/02_CENTRAL_PLAINS.md | Central Plains: kota, desa, sekte, NPC |
 | 03 | `03_AZURE_MOUNTAIN_RANGE.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/03_AZURE_MOUNTAIN_RANGE.md | Azure Mountain Range |
@@ -136,6 +136,8 @@
 
 `players.md` berisi data AWAL tiap karakter pemain — realm, Hukum kultivasi, sekte, asset, inventory, teknik, relasi NPC, dan info penting lain **saat karakter itu mulai dimainkan**. File ini **statis dan hanya boleh diubah oleh admin (pemilik repo)** — AI tidak pernah mengedit, memperbarui, atau menyarankan perubahan terhadapnya. Detail skema & satu contoh lengkap ada di file itu sendiri.
 
+> ✅ **Link `players.md` di tabel §1 sudah aktif.** File ini berisi data statis awal karakter yang dikelola admin. Untuk karakter yang belum pernah dimainkan, fetch file ini di awal sesuai §0 langkah 2a. File ini bukan save-state; perkembangan selanjutnya dilacak di percakapan.
+
 **Alur pemakaian (HANYA untuk karakter yang belum pernah dimainkan):**
 1. Pemain bilang nama karakternya di pesan pertama.
 2. AI fetch `players.md`, cari heading `### 👤 [Nama]` yang cocok (ada di §4 file itu).
@@ -144,8 +146,6 @@
 5. Jika nama tidak ada di `players.md` → ikuti prosedur karakter baru custom (`00` §1.6).
 
 **Untuk sesi lanjutan** (karakter itu sudah pernah dimainkan) → **tidak** fetch `players.md` lagi. Pemain menempel ulang blok "Profil Karakter" terakhir dari sesi sebelumnya, dan itulah kondisi terkini yang dipakai.
-
-> ⚠️ **Link `players.md` di tabel §1 masih PLACEHOLDER** (mengikuti pola repo yang sama). Ganti dengan link raw yang sebenarnya setelah file itu di-upload ke GitHub — lihat catatan lengkap di `players.md` itu sendiri.
 
 ---
 
