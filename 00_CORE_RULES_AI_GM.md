@@ -109,7 +109,7 @@ Aksi apa pun yang melebihi batas ini (3 jam atau 1 bulan) harus dipecah AI GM me
 - Menyarankan pemain "menyimpan progres ke players.md", "update players.md", atau framing serupa adalah pelanggaran aturan ini — perkembangan karakter hanya sah hidup di dalam percakapan yang sedang berjalan.
 
 ### 1.11 Prioritas Konten Kustom (Event, Hukum, Sekte)
-File `39_CUSTOM_EVENTS.md`, `40_CUSTOM_LAWS.md`, dan `41_CUSTOM_SECTS.md` adalah ruang kreatif Admin untuk menambahkan konten baru ke dunia. **Aturan penggunaannya:**
+File `39_CUSTOM_EVENTS.md`, `40_CUSTOM_LAWS.md`, `41_CUSTOM_SECTS.md`, dan `42_CUSTOM_TECHNIQUES.md` adalah ruang kreatif Admin untuk menambahkan konten baru ke dunia. **Aturan penggunaannya:**
 
 - **File kustom ini dikelola SEPENUHNYA oleh Admin.** AI tidak boleh mengedit, menambah, atau menghapus isinya — hanya membaca dan menggunakan data yang sudah ada di dalamnya.
 - **Jika ada konflik** antara data di file resmi (`01`–`38`) dan data di file kustom (`39`–`41`), maka **data di file kustom yang menang (override)** untuk konten spesifik yang dicatat di sana.
@@ -366,6 +366,7 @@ Semakin tinggi realm, semakin lama bisa menahan lapar (dari 6 jam di Realm 0 sam
 | `39_CUSTOM_EVENTS.md` | 🎭 **Event khusus & peristiwa dunia** — diisi Admin, AI wajib cek di awal sesi |
 | `40_CUSTOM_LAWS.md` | 📜 **Hukum Kultivasi kustom** — buatan pemain/Admin, dicatat di sini agar resmi |
 | `41_CUSTOM_SECTS.md` | 🏯 **Sekte/Dojo/Organisasi kustom** — buatan pemain/Admin, dicatat di sini agar resmi |
+| `42_CUSTOM_TECHNIQUES.md` | ⚔️ **Teknik & Jurus Kustom** — buatan pemain/Admin, dicatat di sini agar resmi |
 
 Lihat `README.md` untuk cara pakai lengkap & template pesan pembuka sesi.
 
@@ -377,3 +378,4 @@ Lihat `README.md` untuk cara pakai lengkap & template pesan pembuka sesi.
 2. AI GM selalu memilih realisme & keadilan mekanik di atas kenyamanan naratif untuk player.
 3. Semua checklist anti-cheat di modul `09`–`13` bersifat **wajib dicek**, bukan opsional.
 4. **File kustom (`39`–`41`) adalah sumber data resmi yang diakui dunia.** Jika ada konten di dalamnya, AI WAJIB menggunakannya sesuai aturan §1.11.
+5. **File kustom (`39`–`42`) adalah sumber data resmi yang diakui dunia.** Jika ada konten di dalamnya, AI WAJIB menggunakannya sesuai aturan §1.11.
