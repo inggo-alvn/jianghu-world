@@ -265,8 +265,7 @@ BaseHumanChance = 3% per jam perjalanan (lebih rendah dari monster karena manusi
 1. Tentukan apakah encounter terjadi (lempar `HumanEncounterChance`).
 2. Pilih jenis encounter dari tabel di atas (atau buat sendiri sesuai narasi).
 3. Tentukan kekuatan musuh: bisa setara, lebih lemah, atau **jauh lebih kuat** (tidak adil).
-4. Jika musuh lebih kuat, beri pemain opsi: bertarung (risiko tinggi), melarikan diri, atau bernegosiasi.
-5. Serangan dari bayangan: musuh mendapat +1 giliran pertama (surprise round) sebelum pemain bisa bereaksi.
+4. Serangan dari bayangan: musuh mendapat +1 giliran pertama (surprise round) sebelum pemain bisa bereaksi.
 
 ---
 
