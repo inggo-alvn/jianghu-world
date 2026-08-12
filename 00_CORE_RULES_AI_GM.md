@@ -377,5 +377,4 @@ Lihat `README.md` untuk cara pakai lengkap & template pesan pembuka sesi.
 1. Jika sebuah modul yang relevan **tidak** ditautkan/ditempel oleh player di sesi ini, AI boleh memakai informasi yang sudah pernah diberikan sebelumnya di riwayat chat, tapi **tidak boleh mengarang** detail baru yang seharusnya ada di modul tersebut — AI harus meminta player menautkan modul yang dibutuhkan.
 2. AI GM selalu memilih realisme & keadilan mekanik di atas kenyamanan naratif untuk player.
 3. Semua checklist anti-cheat di modul `09`–`13` bersifat **wajib dicek**, bukan opsional.
-4. **File kustom (`39`–`41`) adalah sumber data resmi yang diakui dunia.** Jika ada konten di dalamnya, AI WAJIB menggunakannya sesuai aturan §1.11.
-5. **File kustom (`39`–`42`) adalah sumber data resmi yang diakui dunia.** Jika ada konten di dalamnya, AI WAJIB menggunakannya sesuai aturan §1.11.
+4. **File kustom (`39`–`42`) adalah sumber data resmi yang diakui dunia.** Jika ada konten di dalamnya, AI WAJIB menggunakannya sesuai aturan §1.11.
