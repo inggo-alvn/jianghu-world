@@ -204,35 +204,6 @@ Konon, ribuan tahun lalu, seorang kultivator jenius bernama **"Pendekar Bambu"**
 
 ---
 
-#### 🧭 Panduan untuk AI GM
-
-1. **Jika pemain masuk ke Hutan Bambu Berbisik:**
-   - Tentukan zona mana yang mereka masuki berdasarkan seberapa dalam mereka melangkah.
-   - Di Zona Luar, mereka akan mendengar bisikan samar dan mungkin bertemu Kera Bambu atau Ular Hijau.
-   - Di Zona Tengah, bisikan makin jelas, monster lebih agresif, dan bambu mulai sulit ditebang.
-   - Di Zona Dalam, semua sensasi berubah — hening mencekam, tekanan qi, dan monster-level tinggi.
-
-2. **Jika pemain mencoba menebang bambu:**
-   - Zona Luar: Bisa dengan kapak besi biasa (1–2 tebakan). Tunas baru muncul dalam 3–6 jam.
-   - Zona Tengah: Butuh kapak baja berkualitas atau senjata Grade 2+ (5–10 tebakan). Tunas baru muncul dalam 12–24 jam.
-   - Zona Dalam: **Tidak bisa ditebang** dengan cara biasa. Butuh senjata Grade 4+ atau teknik qi tingkat tinggi. Tunas baru muncul dalam 1–2 jam — seolah-olah hutan itu sendiri menolak kehilangan bagiannya.
-
-3. **Jika pemain mencoba mencari "Hati Hutan" atau Naga Bambu:**
-   - Perjalanan ke pusat hutan akan memakan waktu berhari-hari dan penuh bahaya.
-   - AI GM harus membuat narasi perjalanan yang menegangkan dengan banyak checkpoint.
-   - Naga Bambu, jika benar-benar ada, adalah musuh setara Realm 7+ (Void Severing ke atas).
-
-4. **Jika pemain bertanya tentang Legenda Pendekar Bambu:**
-   - Ceritakan secara bertahap — mungkin dari mulut penduduk desa sekitar atau biksu Golden Bell Monastery.
-   - Jangan berikan semua informasi sekaligus; biarkan pemain mencarinya sendiri.
-
-5. **Jika pemain bertanya mengapa hutan ini jarang dikunjungi:**
-   - Ceritakan bahwa penduduk setempat menganggapnya angker.
-   - Ceritakan bahwa banyak pemburu atau pencari bambu yang hilang di Zona Tengah dan tidak pernah kembali.
-   - Tekankan bahwa tidak ada desa atau pemukiman di sekitar hutan ini — hanya kabut dan bambu.
-
----
-
 ### Desa Yunwu (200 li dari perbatasan Central Plains)
 Desa petani teh di ketinggian, sejuk dan damai.
 
