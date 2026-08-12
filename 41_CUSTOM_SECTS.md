@@ -1,11 +1,3 @@
-
----
-
-## 📄 File 3: `41_CUSTOM_SECTS.md`
-
-**Lokasi:** `https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/41_CUSTOM_SECTS.md`
-
-```markdown
 # 🏯 Wuxian World — Sekte, Dojo & Organisasi Kustom (Custom Sects)
 
 > **Modul:** 41 — Custom Sects
