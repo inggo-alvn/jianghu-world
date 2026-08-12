@@ -143,7 +143,7 @@ Hutan Bambu Berbisik adalah rumah bagi berbagai makhluk yang hidup berkelompok (
 
 ---
 
-##### 🐉 6. Naga Bambu (Zona Dalam — Pusat Hutan)
+##### 🐉 6. Ular Bambu (Zona Dalam — Pusat Hutan)
 
 | Statistik | Nilai |
 |:---|:---|
@@ -154,7 +154,7 @@ Hutan Bambu Berbisik adalah rumah bagi berbagai makhluk yang hidup berkelompok (
 | **Kekuatan** | **Tidak Diketahui** — diduga setara Realm Void Severing+ |
 | **Loot** | **Tidak Diketahui** — tak ada yang selamat |
 
-> **Catatan:** Naga Bambu adalah mitos yang belum terbukti. Beberapa tetua Golden Bell Monastery percaya bahwa ia adalah penjaga terakhir "Hati Hutan" (Heart of the Forest) — sebuah artefak yang katanya bisa mengendalikan seluruh bambu di pegunungan ini.
+> **Catatan:** Ular Bambu adalah mitos yang belum terbukti. Beberapa tetua Golden Bell Monastery percaya bahwa ia adalah penjaga terakhir "Hati Hutan" (Heart of the Forest) — sebuah artefak yang katanya bisa mengendalikan seluruh bambu di pegunungan ini.
 
 ---
 
@@ -199,7 +199,7 @@ Konon, ribuan tahun lalu, seorang kultivator jenius bernama **"Pendekar Bambu"**
 | **Zona Tengah** | Babi Hutan Bertanduk | Keluarga 3–8 | 🟠 Menengah |
 | **Zona Tengah** | Roh Bambu | Kelompok 2–5 | 🟠 Menengah |
 | **Zona Dalam** | Prajurit Bambu | Sendirian (bergiliran) | 🔴 Tinggi |
-| **Zona Dalam** | Naga Bambu (mitos) | Sendirian | 🔴🔴 Sangat Tinggi |
+| **Zona Dalam** | Ular Bambu (mitos) | Sendirian | 🔴🔴 Sangat Tinggi |
 | **Semua Zona** | Bisikan Tanpa Sumber | Efek meluas | 🔴 Tinggi (mental) |
 
 ---
