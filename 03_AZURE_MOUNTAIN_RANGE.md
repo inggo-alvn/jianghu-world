@@ -40,6 +40,10 @@ Hutan ini terbagi menjadi **3 zona** dengan tingkat bahaya dan misteri yang sema
 | **Zona Tengah (Zona Sunyi)** | 5–20 li | Bambu setinggi 10–15 meter, berdiameter paha manusia, sangat keras — kapak besi biasa tumpul dalam beberapa tebakan. Bisikan terdengar jelas seperti kata-kata tak terbaca. | 🟠 Menengah |
 | **Zona Dalam (Zona Hening)** | 20–50+ li | Bambu raksasa setinggi 30–50 meter, berdiameter satu depa manusia, sekeras batu giok — **tidak bisa ditebang** oleh senjata biasa. Energi spiritual pekat terasa menekan. Bisikan berhenti — digantikan oleh keheningan mencekam yang justru lebih berbahaya. | 🔴 Tinggi |
 
+> **⚠️ Peringatan:** Hutan Bambu Berbisik adalah salah satu lokasi paling **jarang dikunjungi** di Pegunungan Azure. Bahkan penduduk setempat dan murid Golden Bell Monastery hanya berani masuk ke Zona Luar. Zona Tengah sudah dianggap "berbahaya", dan Zona Dalam dianggap "wilayah kematian" oleh sebagian besar kultivator. Tidak ada desa atau pemukiman di sekitar hutan ini — hanya pepohonan dan kabut.
+
+---
+
 #### 🎋 Karakteristik Bambu Hutan Berbisik
 
 - **Bambu Zona Luar:** Masih bisa dipanen untuk kerajinan biasa. Batangnya hijau terang dengan ruas-ruas berjarak rapat.
@@ -48,19 +52,129 @@ Hutan ini terbagi menjadi **3 zona** dengan tingkat bahaya dan misteri yang sema
 
 > **Catatan untuk AI GM:** Bambu Zona Dalam (Bambu Giok) bisa menjadi material craft tingkat tinggi untuk senjata atau jimat. Jika pemain berhasil mendapatkannya, nilai ekonominya sangat tinggi (lihat `10_ECONOMY_SYSTEM.md`).
 
-#### 👹 Monster & Iblis Penghuni Hutan Bambu Berbisik
+#### 🌱 Regenerasi Bambu — "Bambu Tak Pernah Mati"
 
-Hutan ini bukan tempat yang aman. Semakin dalam, semakin buas makhluk yang menghuninya:
+Salah satu misteri terbesar Hutan Bambu Berbisik adalah kemampuannya untuk **tumbuh kembali dalam hitungan jam** setelah ditebang.
 
-| Zona | Monster | Deskripsi | Tingkat Bahaya | Referensi |
-|:---|:---|:---|:---|:---|
-| **Zona Luar** | **Kera Bambu Abu-abu** | Kera berbulu abu-abu sebesar anak kecil, bergerak lincah di antara batang bambu. Agresif jika teritorinya diganggu, tapi biasanya hanya melempar ranting/rumbia. | 🟡 Rendah | — |
-| **Zona Luar** | **Ular Hijau Daun** | Ular kecil sepanjang lengan, bersisik hijau menyamai daun bambu. Bisa melompat dari cabang ke cabang. Racunnya menyebabkan mati rasa, tidak mematikan bagi kultivator. | 🟡 Rendah | — |
-| **Zona Tengah** | **Babi Hutan Bertanduk** | Babi hutan sebesar kerbau, bertanduk tajam seperti tombak bambu. Sangat agresif dan menyerang beramai-ramai. | 🟠 Menengah | Lihat `13_BESTIARY.md` |
-| **Zona Tengah** | **Roh Bambu (Bamboo Spirit)** | Entitas qi berbentuk humanoid ramping dari bambu, bergerak senyap tanpa suara. Menyerang dengan serangan qi tajam dari jarak dekat. | 🟠 Menengah | Lihat `13_BESTIARY.md` |
-| **Zona Dalam** | **Prajurit Bambu (Bamboo Warrior)** | Golem bambu raksasa setinggi 5 meter, tubuhnya dari bambu giok yang tak bisa ditembus. Menjaga pintu masuk ke zona paling dalam. | 🔴 Tinggi | — |
-| **Zona Dalam** | **Naga Bambu (Bamboo Dragon)** | Legenda mengatakan bahwa di pusat hutan, tepat di atas urat nadi spiritual utama, bersemayam Naga Bambu — iblis purba berwujud naga dengan sisik dari bambu giok. Konon ia adalah penjaga terakhir dari "Hati Hutan" (Heart of the Forest), sebuah artefak yang katanya bisa mengendalikan seluruh bambu di pegunungan ini. **Belum pernah terbukti kebenarannya** — tak ada yang selamat dari zona dalam untuk bercerita. | 🔴🔴 Sangat Tinggi | — |
-| **Zona Dalam** | **Bisikan Tanpa Sumber** | Bukan monster fisik. Di zona hening, pendengar kadang mendengar bisikan yang seolah-olah berasal dari dalam kepala sendiri — menyebabkan kebingungan, halusinasi, dan hilang arah. Efek ini makin kuat makin dalam seseorang masuk. | 🔴 Tinggi (Mental) | — |
+- **Zona Luar:** Bambu yang ditebang akan tumbuh tunas baru dalam **3–6 jam** dan mencapai ukuran semula dalam **2–3 hari**.
+- **Zona Tengah:** Bambu yang ditebang akan tumbuh kembali dalam **12–24 jam** dan mencapai ukuran semula dalam **5–7 hari**.
+- **Zona Dalam:** Bambu yang berhasil ditebang (sangat sulit) akan tumbuh kembali dalam **1–2 jam** — seolah-olah hutan itu sendiri menolak kehilangan bagian-bagiannya.
+
+> **Legenda:** Konon, akar-akar bambu di hutan ini saling terhubung dalam satu jaringan raksasa di bawah tanah. Selama akar induknya utuh, bambu mana pun yang ditebang akan segera digantikan. Inilah sebabnya mengapa hutan ini tidak pernah berkurang luasnya meskipun sudah ada selama ribuan tahun.
+
+---
+
+#### 🌿 Penghuni & Penjaga Hutan Bambu Berbisik
+
+Hutan Bambu Berbisik adalah rumah bagi berbagai makhluk yang hidup berkelompok (koloni/kawanan). Mereka melindungi hutan dan bambu-bambunya dari pengunjung yang tidak diinginkan.
+
+---
+
+##### 🐒 1. Kera Bambu Abu-abu (Zona Luar) — Koloni 10–30 Ekor
+
+| Statistik | Nilai |
+|:---|:---|
+| **Ukuran** | Sebesar anak kecil (tinggi ±1 meter) |
+| **Warna** | Abu-abu keperakan dengan mata kuning |
+| **Perilaku** | Agresif jika teritorinya diganggu, suka melempar ranting, buah, atau kotoran |
+| **Kelompok** | Koloni 10–30 ekor, dipimpin satu jantan alfa |
+| **Kekuatan** | Lemah secara individu, berbahaya dalam jumlah besar |
+| **Loot** | Bulu abu-abu, kadang batu giok kecil yang mereka kumpulkan |
+
+> **Cara Bertahan:** Mereka akan melempar benda dari kejauhan dan berteriak keras untuk memanggil koloni lain. Tidak menyerang langsung kecuali jumlahnya sangat unggul.
+
+---
+
+##### 🐍 2. Ular Hijau Daun (Zona Luar) — Sarang 5–15 Ekor
+
+| Statistik | Nilai |
+|:---|:---|
+| **Ukuran** | Panjang ±1 meter, setebal jari |
+| **Warna** | Hijau terang menyamai daun bambu |
+| **Perilaku** | Agresif saat terancam, bisa melompat dari cabang ke cabang |
+| **Kelompok** | Bersarang berkelompok 5–15 ekor di rumpun bambu |
+| **Racun** | Menyebabkan mati rasa sementara (1–2 jam), tidak mematikan bagi kultivator |
+| **Loot** | Taring beracun (bahan ramuan), sisik hijau (bahan jimat) |
+
+---
+
+##### 🐗 3. Babi Hutan Bertanduk (Zona Tengah) — Keluarga 3–8 Ekor
+
+| Statistik | Nilai |
+|:---|:---|
+| **Ukuran** | Sebesar kerbau (±1,5 meter tinggi, ±2 meter panjang) |
+| **Ciri Khas** | Tanduk tajam seperti tombak bambu di kedua sisi kepala |
+| **Perilaku** | Sangat agresif, menyerang beramai-ramai jika satu anggota terancam |
+| **Kelompok** | Keluarga 3–8 ekor (jantan, betina, anak-anak) |
+| **Kekuatan** | Setara Realm Foundation Establishment, Puncak (per ekor) |
+| **Loot** | Tanduk (bahan senjata), daging (makanan), kulit tebal (bahan zirah) |
+
+> **Cara Bertahan:** Jangan pernah menyerang satu ekor sendirian — mereka akan memanggil seluruh keluarga dan menyerang secara bergiliran.
+
+---
+
+##### 🌿 4. Roh Bambu (Zona Tengah) — Kelompok 2–5 Entitas
+
+| Statistik | Nilai |
+|:---|:---|
+| **Bentuk** | Humanoid ramping dari bambu, tinggi ±2 meter |
+| **Gerakan** | Hampir tanpa suara, bergerak seperti ditiup angin |
+| **Perilaku** | Menyerang dengan serangan qi tajam, menghindari kontak fisik |
+| **Kelompok** | Berkelompok 2–5 entitas, sering muncul di area dengan bambu giok kecil |
+| **Kekuatan** | Setara Realm Core Formation, Awal (per entitas) |
+| **Loot** | Serpihan bambu giok (bahan craft Grade 2–3), kadang batu roh |
+
+> **Catatan:** Roh Bambu muncul dari bambu-bambu tua yang sudah menyerap qi selama ratusan tahun. Mereka tidak mati — hanya kembali ke bambu jika "dikalahkan".
+
+---
+
+##### 🛡️ 5. Prajurit Bambu (Zona Dalam) — Berdiri Sendirian, Berjaga Bergiliran
+
+| Statistik | Nilai |
+|:---|:---|
+| **Ukuran** | Raksasa setinggi 5 meter |
+| **Bahan** | Bambu giok yang tak bisa ditembus |
+| **Perilaku** | Menjaga pintu masuk zona paling dalam, tidak pernah bergerak jauh dari posnya |
+| **Kelompok** | Selalu sendirian, tapi ada beberapa di posisi berbeda (berjaga bergiliran) |
+| **Kekuatan** | Setara Realm Nascent Soul, Puncak |
+| **Loot** | Tidak bisa diloot — tubuhnya hancur menjadi serpihan giok yang langsung diserap tanah |
+
+> **Pola Penjagaan:** Prajurit Bambu tidak menyerang pengunjung yang langsung pergi. Mereka hanya menyerang jika seseorang mencoba melewati mereka menuju zona paling dalam.
+
+---
+
+##### 🐉 6. Naga Bambu (Zona Dalam — Pusat Hutan)
+
+| Statistik | Nilai |
+|:---|:---|
+| **Bentuk** | Naga purba dengan sisik dari bambu giok |
+| **Tempat** | Pusat hutan, tepat di atas urat nadi spiritual utama |
+| **Perilaku** | Tidak pernah terlihat — hanya legenda |
+| **Kelompok** | Sendirian (jika benar-benar ada) |
+| **Kekuatan** | **Tidak Diketahui** — diduga setara Realm Void Severing+ |
+| **Loot** | **Tidak Diketahui** — tak ada yang selamat |
+
+> **Catatan:** Naga Bambu adalah mitos yang belum terbukti. Beberapa tetua Golden Bell Monastery percaya bahwa ia adalah penjaga terakhir "Hati Hutan" (Heart of the Forest) — sebuah artefak yang katanya bisa mengendalikan seluruh bambu di pegunungan ini.
+
+---
+
+##### 🗣️ 7. Bisikan Tanpa Sumber (Zona Dalam — Efek Mental)
+
+| Statistik | Nilai |
+|:---|:---|
+| **Bentuk** | Tidak terlihat — efek psikologis murni |
+| **Sumber** | Diduga dari jaringan akar bambu di bawah tanah |
+| **Efek** | Kebingungan, halusinasi, hilang arah, paranoia |
+| **Kelompok** | Tidak berkelompok — efek meluas ke semua yang masuk |
+| **Kekuatan** | Semakin dalam, semakin kuat |
+| **Penangkal** | Teknik penenang qi, jimat pelindung mental |
+
+> **Efek Spesifik:**
+> - **Zona Luar:** Bisikan samar — masih bisa diabaikan.
+> - **Zona Tengah:** Bisikan terdengar seperti kata-kata — mulai mengganggu konsentrasi.
+> - **Zona Dalam:** Bisikan masuk ke pikiran — bisa menyebabkan hilang akal jika terlalu lama.
+
+---
 
 #### 💀 Bahaya Lain di Zona Dalam
 
@@ -68,9 +182,27 @@ Hutan ini bukan tempat yang aman. Semakin dalam, semakin buas makhluk yang mengh
 - **Tekanan Qi:** Energi spiritual yang sangat pekat di zona dalam terasa seperti air berat yang menekan tubuh. Kultivator di bawah Realm 4 (Core Formation) akan kesulitan bernapas dan menggerakkan qi-nya.
 - **Bisikan Gila:** Mendengar bisikan terlalu lama bisa menyebabkan gangguan mental. Golden Bell Monastery melarang muridnya masuk lebih dari 5 li ke dalam zona hening tanpa pengawasan tetua.
 
+---
+
 #### 📜 Legenda & Mitos
 
 Konon, ribuan tahun lalu, seorang kultivator jenius bernama **"Pendekar Bambu"** (竹劍客) tinggal di hutan ini. Ia menguasai teknik pedang bambu yang konon bisa menebas awan. Sebelum naik ke alam abadi, ia menanam sebatang bambu di pusat hutan — dan dari bambu itulah seluruh hutan ini tumbuh. Kabarnya, di bawah bambu tertua itu tersembunyi **warisan pedang bambu** — teknik yang hanya bisa dipelajari oleh mereka yang "mendengar" bisikan hutan dengan benar.
+
+---
+
+#### 📊 Ringkasan Penghuni & Penjaga Hutan
+
+| Zona | Penghuni | Kelompok | Tingkat Bahaya |
+|:---|:---|:---|:---|
+| **Zona Luar** | Kera Bambu Abu-abu | Koloni 10–30 | 🟡 Rendah |
+| **Zona Luar** | Ular Hijau Daun | Sarang 5–15 | 🟡 Rendah |
+| **Zona Tengah** | Babi Hutan Bertanduk | Keluarga 3–8 | 🟠 Menengah |
+| **Zona Tengah** | Roh Bambu | Kelompok 2–5 | 🟠 Menengah |
+| **Zona Dalam** | Prajurit Bambu | Sendirian (bergiliran) | 🔴 Tinggi |
+| **Zona Dalam** | Naga Bambu (mitos) | Sendirian | 🔴🔴 Sangat Tinggi |
+| **Semua Zona** | Bisikan Tanpa Sumber | Efek meluas | 🔴 Tinggi (mental) |
+
+---
 
 #### 🧭 Panduan untuk AI GM
 
@@ -81,9 +213,9 @@ Konon, ribuan tahun lalu, seorang kultivator jenius bernama **"Pendekar Bambu"**
    - Di Zona Dalam, semua sensasi berubah — hening mencekam, tekanan qi, dan monster-level tinggi.
 
 2. **Jika pemain mencoba menebang bambu:**
-   - Zona Luar: Bisa dengan kapak besi biasa (1–2 tebakan).
-   - Zona Tengah: Butuh kapak baja berkualitas atau senjata Grade 2+ (5–10 tebakan).
-   - Zona Dalam: **Tidak bisa ditebang** dengan cara biasa. Butuh senjata Grade 4+ atau teknik qi tingkat tinggi.
+   - Zona Luar: Bisa dengan kapak besi biasa (1–2 tebakan). Tunas baru muncul dalam 3–6 jam.
+   - Zona Tengah: Butuh kapak baja berkualitas atau senjata Grade 2+ (5–10 tebakan). Tunas baru muncul dalam 12–24 jam.
+   - Zona Dalam: **Tidak bisa ditebang** dengan cara biasa. Butuh senjata Grade 4+ atau teknik qi tingkat tinggi. Tunas baru muncul dalam 1–2 jam — seolah-olah hutan itu sendiri menolak kehilangan bagiannya.
 
 3. **Jika pemain mencoba mencari "Hati Hutan" atau Naga Bambu:**
    - Perjalanan ke pusat hutan akan memakan waktu berhari-hari dan penuh bahaya.
@@ -93,6 +225,11 @@ Konon, ribuan tahun lalu, seorang kultivator jenius bernama **"Pendekar Bambu"**
 4. **Jika pemain bertanya tentang Legenda Pendekar Bambu:**
    - Ceritakan secara bertahap — mungkin dari mulut penduduk desa sekitar atau biksu Golden Bell Monastery.
    - Jangan berikan semua informasi sekaligus; biarkan pemain mencarinya sendiri.
+
+5. **Jika pemain bertanya mengapa hutan ini jarang dikunjungi:**
+   - Ceritakan bahwa penduduk setempat menganggapnya angker.
+   - Ceritakan bahwa banyak pemburu atau pencari bambu yang hilang di Zona Tengah dan tidak pernah kembali.
+   - Tekankan bahwa tidak ada desa atau pemukiman di sekitar hutan ini — hanya kabut dan bambu.
 
 ---
 
