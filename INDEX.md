@@ -16,9 +16,10 @@
    - **(c) Karakter benar-benar baru** (nama tidak ada di `players.md` maupun riwayat manapun) → perlakukan sebagai karakter baru custom sesuai `00_CORE_RULES_AI_GM.md` §1.6, minta Nama + Lokasi Awal.
 3. **Tentukan lokasi karakter** (dari `players.md` atau dari input baru pemain), lalu fetch modul wilayah yang sesuai (`01`–`07`) dari tabel §1.
 4. **Fetch `38_WORLD_CALENDAR_TIMELINE.md`** — tentukan Tahun/Musim/Tanggal berjalan (Tahun 1 untuk karakter benar-benar baru, atau lanjutkan dari waktu terakhir untuk karakter lama). Ini WAJIB agar peristiwa berkala & penuaan NPC konsisten sepanjang kampanye.
-5. **Mulai sesi** mengikuti format respon wajib di `00`.
-6. **Selama sesi berlangsung**, fetch modul tambahan secara dinamis begitu kondisinya muncul — lihat tabel pemicu di §2. Jangan fetch ke-18 file sekaligus di awal; itu boros token dan bertentangan dengan tujuan modularitas sistem ini.
-7. Jika sebuah link gagal diakses (404/error), beri tahu pemain bahwa file itu mungkin belum ter-upload atau nama filenya salah — **jangan mengarang isinya**.
+5. **Fetch `39_CUSTOM_EVENTS.md`** — cek apakah ada event aktif yang sedang berlangsung di dunia. Jika ada, pastikan event itu terasa dalam narasi (suasana, dialog NPC, kejadian acak).
+6. **Mulai sesi** mengikuti format respon wajib di `00`.
+7. **Selama sesi berlangsung**, fetch modul tambahan secara dinamis begitu kondisinya muncul — lihat tabel pemicu di §2. Jangan fetch banyak file sekaligus di awal; itu boros token dan bertentangan dengan tujuan modularitas sistem ini.
+8. Jika sebuah link gagal diakses (404/error), beri tahu pemain bahwa file itu mungkin belum ter-upload atau nama filenya salah — **jangan mengarang isinya**.
 
 ---
 
@@ -43,6 +44,9 @@
 | 13 | `13_BESTIARY.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/13_BESTIARY.md | Monster & spirit beast per wilayah, ambush, loot |
 | 14–37 | *(24 file sekte/dojo/organisasi individual)* | — | Lihat **§1a** di bawah untuk daftar lengkap per-file — **JANGAN** fetch semuanya sekaligus, cari nama sekte yang relevan lalu fetch HANYA file itu |
 | 38 | `38_WORLD_CALENDAR_TIMELINE.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/38_WORLD_CALENDAR_TIMELINE.md | Tanggal mulai kampanye (Tahun 1), peristiwa berkala, penuaan NPC, mekanisme dunia berkembang seiring waktu |
+| 39 | `39_CUSTOM_EVENTS.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/39_CUSTOM_EVENTS.md | **Event khusus & peristiwa dunia** — diisi Admin, AI wajib cek di awal sesi |
+| 40 | `40_CUSTOM_LAWS.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/40_CUSTOM_LAWS.md | **Hukum Kultivasi kustom** — buatan pemain/Admin, dicatat di sini agar resmi |
+| 41 | `41_CUSTOM_SECTS.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/41_CUSTOM_SECTS.md | **Sekte/Dojo/Organisasi kustom** — buatan pemain/Admin, dicatat di sini agar resmi |
 | — | `README.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/README.md | Dokumentasi setup untuk manusia (jarang perlu difetch AI) |
 
 ### 1a. Direktori Sekte, Dojo & Organisasi (24 File Individual)
@@ -100,6 +104,7 @@
 | Serambi Seribu Bisik (info broker) | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/35_SERAMBI_SERIBU_BISIK.md |
 | Rumah Gadai Giok Sejuk (bank tak resmi) | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/36_RUMAH_GADAI_GIOK_SEJUK.md |
 | Perhimpunan Tabib Pengembara | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/37_PERHIMPUNAN_TABIB_PENGEMBARA.md |
+
 ---
 
 ## 2. Alur Navigasi Otomatis (Trigger → Modul yang Difetch)
@@ -107,6 +112,7 @@
 | Trigger dalam Roleplay | Modul yang Difetch | Catatan |
 |---|---|---|
 | Awal sesi (selalu) | `00_CORE_RULES_AI_GM.md` | Wajib pertama, lihat §0 |
+| Awal sesi (setelah Bootstrap selesai) | `39_CUSTOM_EVENTS.md` | Cek apakah ada event aktif yang memengaruhi dunia |
 | Karakter terdaftar di `players.md`, baru pertama kali dimainkan | `players.md` | Muat data AWAL sebagai titik mulai (data statis, bukan save-state) |
 | Melanjutkan karakter yang sudah pernah dimainkan | — | Pakai blok "Profil Karakter" terakhir yang ditempel/ada di riwayat chat — **jangan** fetch `players.md` |
 | Karakter benar-benar baru (tidak ada di `players.md`) | — | Ikuti `00` §1.6: minta Nama + Lokasi Awal |
@@ -119,11 +125,13 @@
 | Butuh konteks Ibu Kota Tianjing / peta jarak besar dunia | `01_WORLD_OVERVIEW_AND_CAPITAL.md` | |
 | Bertemu info broker/pembunuh bayaran/sanxiu/kriminal mortal lintas wilayah | `08_CROSS_REGION_ORGANIZATIONS.md` | |
 | Breakthrough realm / klaim teknik baru / cek Law Origin | `09_CULTIVATION_LAW_SYSTEM.md` | |
+| Pemain menyebut Hukum kultivasi yang tidak ada di `09` | `40_CUSTOM_LAWS.md` | Cek apakah Hukum itu sudah dicatat Admin di file kustom |
 | Transaksi, tawar-menawar, cek harga barang/jasa/aset | `10_ECONOMY_SYSTEM.md` | |
 | Perlu hitung detail regen HP / efek kelaparan lanjut | `11_VITALITY_HUNGER_SYSTEM.md` | Formula dasarnya sudah ada ringkas di `00` §3 |
 | Pertarungan resmi dimulai (giliran, initiative, damage) | `12_COMBAT_SYSTEM.md` | |
 | Lawan monster/spirit beast liar, perjalanan lewat zona liar (ambush) | `13_BESTIARY.md` | Dipakai bersamaan dengan `12` |
 | Karakter mau bergabung sekte/dojo, eksplorasi fasilitas sekte, belajar teknik bertingkat, atau cek hierarki/artefak sekte tertentu | Fetch langsung dari link RAW di §1a | Jangan rakit URL sendiri. Gunakan link yang sudah tertulis di kolom "Link RAW" tabel §1a. Pilih HANYA satu file yang sesuai dengan sekte yang sedang berinteraksi. |
+| Pemain menyebut sekte yang tidak ada di `14`–`37` | `41_CUSTOM_SECTS.md` | Cek apakah sekte itu sudah dicatat Admin di file kustom |
 | Sesi baru dimulai / perlu tahu tanggal & tahun in-game / lompatan waktu panjang / cek apakah ada peristiwa berkala jatuh tempo / NPC lama muncul kembali (perlu update umur) | `38_WORLD_CALENDAR_TIMELINE.md` | Fetch di awal sesi manapun untuk tahu Tahun/Musim berjalan; fetch ulang tiap checkpoint waktu besar |
 | Pemain minta bantuan setup GitHub / nanya cara pakai sistem ini | `README.md` | Ini file untuk manusia, sampaikan isinya ke pemain, bukan role-play |
 
@@ -153,6 +161,7 @@
 - **Tidak ada sistem save di dunia ini.** `players.md` murni lembar data AWAL karakter yang statis — bukan file yang mengikuti progres cerita.
 - **Hanya admin (pemilik repo) yang boleh mengubah `players.md`.** AI tidak bisa dan tidak akan menulis, memperbarui, atau menyarankan perubahan pada file ini kapan pun, termasuk di akhir sesi.
 - Perkembangan karakter selama roleplay (HP, item, breakthrough, lokasi, dst.) sepenuhnya hidup **di dalam riwayat percakapan** lewat blok "Profil Karakter" — bukan di file manapun di repo.
+- **File `39_CUSTOM_EVENTS.md`, `40_CUSTOM_LAWS.md`, dan `41_CUSTOM_SECTS.md` dikelola sepenuhnya oleh Admin.** AI tidak boleh mengedit, menambah, atau menghapus isinya — hanya membaca dan menggunakan data yang sudah ada di dalamnya.
 - Jika sebuah link 404/gagal fetch, itu paling sering karena: nama file salah huruf besar-kecil (GitHub case-sensitive), file belum ter-push ke branch `main`, atau repo tidak publik.
 
 ---
