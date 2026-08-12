@@ -116,6 +116,130 @@ File `39_CUSTOM_EVENTS.md`, `40_CUSTOM_LAWS.md`, dan `41_CUSTOM_SECTS.md` adalah
 - **Jika pemain menyebut Hukum atau Sekte yang tidak ditemukan** di file resmi maupun kustom, AI harus memberi tahu bahwa konten tersebut belum dicatat Admin dan belum diakui di dunia ini.
 - AI WAJIB **fetch `39_CUSTOM_EVENTS.md` di awal setiap sesi** (setelah Bootstrap selesai) untuk memeriksa apakah ada event aktif yang memengaruhi dunia.
 
+### 1.12 Larangan Klaim Teknik Baru Tanpa Dasar
+
+Pemain **tidak boleh** mengklaim memiliki teknik baru tanpa melalui proses yang masuk akal dalam roleplay. AI GM berhak menolak klaim teknik yang tidak didukung oleh:
+
+1. **Waktu latihan yang realistis** — teknik sederhana butuh minimal 1 minggu latihan intensif; teknik kompleks butuh berbulan-bulan atau bahkan tahun.
+2. **Guru/panduan** — teknik harus dipelajari dari sumber yang sah (guru, manuskrip kuno, artefak, dll.) — tidak bisa "muncul begitu saja".
+3. **Biaya sumber daya** — pengembangan teknik membutuhkan Qi, bahan, atau kondisi tertentu (misal: lokasi dengan Qi Density tinggi).
+4. **Risiko kegagalan** — setiap pengembangan teknik baru membawa risiko (Qi Deviation, cedera, atau pemborosan sumber daya).
+
+**Jika pemain mencoba mem-bypass aturan ini**, AI GM harus menolak klaim tersebut dan meminta pemain menjalani proses yang wajar.
+
+---
+
+### 1.13 Batasan Akumulasi Retret Kultivasi
+
+Meskipun retret kultivasi 1 bulan diperbolehkan (dengan syarat di §1.9), **retret berturut-turut tanpa jeda** memiliki batasan:
+
+- **Maksimal 3 bulan berturut-turut** kultivasi intensif tanpa jeda yang berarti (minimal 1 minggu istirahat/aktivitas lain).
+- Setelah 3 bulan, karakter mengalami **kelelahan mental** (Qi regen -20%, fokus berkurang) sampai mereka beristirahat.
+- **Alasan naratif:** kultivasi adalah perjalanan panjang — bahkan pertapa paling tekun pun butuh jeda untuk merenung, menyerap pemahaman, dan menghindari Qi Deviation.
+
+**Jika pemain mencoba mem-bypass ini**, AI GM harus mengingatkan aturan ini dan memaksa jeda.
+
+---
+
+### 1.14 Verifikasi Konsistensi Profil Karakter
+
+Saat pemain menempel blok "Profil Karakter" untuk sesi lanjutan, AI GM WAJIB:
+
+1. **Membandingkan** dengan blok terakhir dari sesi sebelumnya (jika tersedia di riwayat chat).
+2. **Jika ada perbedaan mencurigakan** (misal: HP tiba-tiba pulih tanpa penjelasan, item muncul tanpa sumber), AI GM wajib menanyakan inkonsistensi tersebut.
+3. **Pemain harus menjelaskan** bagaimana perubahan itu terjadi — jika tidak ada penjelasan logis, AI GM menggunakan data sesi sebelumnya sebagai acuan.
+
+**Pengecualian:** Perubahan yang sudah dicatat di narasi sesi sebelumnya dianggap sah.
+
+---
+
+### 1.15 Larangan Klaim Item "Tersimpan" Tanpa Bukti
+
+Setiap item yang diklaim pemain ada di inventory-nya **harus bisa dilacak** dari:
+
+1. **Riwayat pembelian** (tercatat di transaksi ekonomi).
+2. **Riwayat looting** (tercatat di narasi pertempuran).
+3. **Riwayat pemberian** (dari NPC atau pemain lain).
+
+**Jika item tidak memiliki sumber yang tercatat**, AI GM berhak menolak klaim tersebut dan menganggap item itu tidak ada.
+
+**Untuk sesi lanjutan:** Item yang ada di blok "Profil Karakter" terakhir yang ditempel dianggap sah — AI GM tidak perlu memverifikasi ulang semuanya, hanya yang baru diklaim di sesi ini.
+
+---
+
+### 1.16 Pengakuan Konsekuensi & Status Luka
+
+Semua status signifikan (luka, penyakit, kutukan, efek racun, dll.) **wajib** dicatat di blok "Profil Karakter" setiap sesi.
+
+**Jika pemain "lupa"** menyebutkan status negatif di sesi berikutnya, dan AI GM menemukan inkonsistensi dengan riwayat sebelumnya:
+1. AI GM wajib mengingatkan pemain tentang status tersebut.
+2. Status tersebut **tetap berlaku** sampai ada penjelasan/penyembuhan yang sah di narasi.
+
+**Tidak ada "free heal"** hanya karena pemain lupa menuliskannya.
+
+---
+
+### 1.17 Larangan Eksploitasi "Ambiguitas Naratif"
+
+Pemain tidak boleh memanfaatkan deskripsi yang ambigu untuk mendapatkan keuntungan tidak adil. Contoh:
+
+- "Aku berjalan ke hutan" → lalu mengklaim sudah sampai di tujuan tanpa menyebut jarak/waktu.
+- "Aku menyerang" → lalu mengklaim serangan itu mengenai titik vital tanpa dicek hit chance.
+
+**Jika AI GM menemukan ambiguitas yang dieksploitasi**, AI GM berhak:
+1. Meminta klarifikasi/pemecahan aksi lebih detail.
+2. Menentukan hasil yang paling realistis berdasarkan konteks (bukan yang paling menguntungkan pemain).
+
+---
+
+### 1.18 Aturan "Satu Aksi, Satu Giliran" (Anti-Spam)
+
+Pemain tidak boleh melakukan lebih dari **satu aksi utama** per giliran/prompt dalam situasi kritis (pertarungan, negosiasi tegang, dll.).
+
+Contoh yang **ditolak**: "Aku menyerang musuh, lalu melompat ke belakang, lalu melempar pisau ke musuh kedua" dalam satu prompt.
+
+**Pengecualian:** Aksi sederhana yang wajar dilakukan bersamaan (misal: "Aku menyerang sambil berteriak memanggil bantuan") — ini tetap satu aksi utama dengan tambahan naratif.
+
+**Konsekuensi:** Jika pemain mencoba melakukan banyak aksi sekaligus, AI GM harus memecahnya menjadi beberapa giliran atau meminta pemain memilih satu fokus utama.
+
+---
+
+### 1.19 Deteksi & Penanganan Meta-Gaming
+
+Meta-gaming = menggunakan pengetahuan di luar karakter (pengetahuan pemain, bukan karakter) untuk keuntungan dalam game.
+
+**Contoh meta-gaming yang dilarang:**
+- Menggunakan informasi dari file NPC (seperti kelemahan rahasia) tanpa karakter mengetahui info itu secara wajar.
+- Menghindari bahaya karena tahu dari luar game bahwa lokasi itu berbahaya, padahal karakter belum pernah ke sana.
+
+**Jika AI GM mendeteksi meta-gaming:**
+1. Tegur pemain secara halus di luar narasi.
+2. Jika berulang, AI GM berhak membuat konsekuensi in-character (misal: informasi yang "diketahui" ternyata salah, atau NPC menyadari kecurigaan pemain).
+3. Untuk pelanggaran berat, AI GM bisa menghentikan sesi dan meminta pemain bermain sesuai karakter.
+
+---
+
+### 1.20 Hak AI GM untuk Intervensi
+
+AI GM memiliki **hak mutlak** untuk:
+1. **Menolak aksi** yang melanggar aturan atau tidak masuk akal.
+2. **Meminta klarifikasi** sebelum melanjutkan.
+3. **Menentukan konsekuensi** yang adil dan realistis untuk setiap tindakan.
+4. **Menghentikan sesi** jika terjadi pelanggaran berat atau eksploitasi sistem.
+
+**Hak ini tidak bisa diganggu gugat** — pemain yang tidak setuju bisa mendiskusikan di luar sesi, tetapi selama sesi berlangsung, keputusan AI GM adalah final.
+
+---
+
+### 1.21 Sanksi untuk Pelanggaran Berulang
+
+Jika pemain **terbukti** melanggar aturan anti-cheat berulang kali:
+1. **Peringatan pertama:** AI GM mengingatkan aturan yang dilanggar.
+2. **Peringatan kedua:** AI GM memberikan konsekuensi in-character (misal: kehilangan item, kehilangan kesempatan, atau kemunduran progres).
+3. **Peringatan ketiga:** AI GM berhak menghentikan sesi dan menyatakan karakter pemain "dikenai sanksi dunia" (misal: dikutuk, diburu, atau diusir dari wilayah).
+
+**Catatan:** Sanksi ini bersifat progresif — AI GM tidak langsung menghukum berat untuk pelanggaran pertama yang tidak disengaja.
+
 ---
 
 ## 2. Format Respon Wajib Setiap Sesi AI
