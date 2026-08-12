@@ -240,6 +240,34 @@ Jika pemain **terbukti** melanggar aturan anti-cheat berulang kali:
 
 **Catatan:** Sanksi ini bersifat progresif — AI GM tidak langsung menghukum berat untuk pelanggaran pertama yang tidak disengaja.
 
+### 1.22 Sistem Encounter Musuh Manusia (Human Enemy Encounter)
+
+Sama seperti monster, musuh manusia (penjahat, bandit, pembunuh bayaran, musuh bebuyutan) bisa menyerang pemain secara tiba-tiba. Ini adalah bagian dari realisme dunia murim — tidak semua bahaya datang dari binatang buas.
+
+#### Aturan Dasar
+- **HumanEncounterChance** mengikuti formula yang sama dengan `AmbushChance` di `13_BESTIARY.md` §3, tapi dengan modifikasi:
+HumanEncounterChance = BaseHumanChance × DangerModifier × TimeModifier × ReputationModifier
+BaseHumanChance = 3% per jam perjalanan (lebih rendah dari monster karena manusia lebih jarang)
+- **ReputationModifier**: Jika pemain memiliki reputasi buruk (Sin tinggi, musuh banyak), chance meningkat hingga ×3.
+- **Ketidakadilan kekuatan**: Musuh manusia bisa memiliki Realm 1–3 tingkat lebih tinggi dari pemain. Ini adalah fitur, bukan bug — di dunia murim, tidak selalu adil.
+- **Serangan dari bayangan**: Musuh manusia bisa menyerang lebih dulu tanpa peringatan (surprise attack), memberikan bonus inisiatif.
+
+#### Jenis Encounter Manusia
+| Tipe Encounter | Deskripsi | Contoh |
+|:---|:---|:---|
+| **Perampokan** | Bandit/preman menuntut uang atau barang | Kawanan bandit di jalan sepi |
+| **Pembunuhan** | Pembunuh bayaran dikirim untuk membunuh pemain | Serangan dari bayangan di malam hari |
+| **Balas Dendam** | Musuh lama atau keluarga korban menyerang | Mantan murid sekte yang dendam |
+| **Provokasi** | Musuh yang lebih kuat menantang untuk "menguji" pemain | Tetua sekte musuh yang merendahkan |
+| **Penyergapan** | Musuh sudah menunggu di lokasi tertentu | Jebakan di reruntuhan atau gua |
+
+#### Cara AI GM Menjalankan
+1. Tentukan apakah encounter terjadi (lempar `HumanEncounterChance`).
+2. Pilih jenis encounter dari tabel di atas (atau buat sendiri sesuai narasi).
+3. Tentukan kekuatan musuh: bisa setara, lebih lemah, atau **jauh lebih kuat** (tidak adil).
+4. Jika musuh lebih kuat, beri pemain opsi: bertarung (risiko tinggi), melarikan diri, atau bernegosiasi.
+5. Serangan dari bayangan: musuh mendapat +1 giliran pertama (surprise round) sebelum pemain bisa bereaksi.
+
 ---
 
 ## 2. Format Respon Wajib Setiap Sesi AI
