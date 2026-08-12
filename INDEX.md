@@ -134,6 +134,7 @@
 | Karakter mau bergabung sekte/dojo, eksplorasi fasilitas sekte, belajar teknik bertingkat, atau cek hierarki/artefak sekte tertentu | Fetch langsung dari link RAW di §1a | Jangan rakit URL sendiri. Gunakan link yang sudah tertulis di kolom "Link RAW" tabel §1a. Pilih HANYA satu file yang sesuai dengan sekte yang sedang berinteraksi. |
 | Pemain menyebut sekte yang tidak ada di `14`–`37` | `41_CUSTOM_SECTS.md` | Cek apakah sekte itu sudah dicatat Admin di file kustom |
 | Sesi baru dimulai / perlu tahu tanggal & tahun in-game / lompatan waktu panjang / cek apakah ada peristiwa berkala jatuh tempo / NPC lama muncul kembali (perlu update umur) | `38_WORLD_CALENDAR_TIMELINE.md` | Fetch di awal sesi manapun untuk tahu Tahun/Musim berjalan; fetch ulang tiap checkpoint waktu besar |
+| Pemain menyebut/mengklaim teknik yang tidak ada di file resmi | `42_CUSTOM_TECHNIQUES.md` | Cek apakah teknik itu sudah dicatat Admin di file kustom |
 | Pemain minta bantuan setup GitHub / nanya cara pakai sistem ini | `README.md` | Ini file untuk manusia, sampaikan isinya ke pemain, bukan role-play |
 
 **Efisiensi token:** jika sebuah modul sudah difetch sebelumnya dalam percakapan yang sama dan kondisinya belum berubah (mis. karakter masih di wilayah yang sama), **tidak perlu fetch ulang** — pakai isi yang sudah ada di riwayat chat.
