@@ -1,11 +1,3 @@
-
----
-
-## 📄 File 2: `40_CUSTOM_LAWS.md`
-
-**Lokasi:** `https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/40_CUSTOM_LAWS.md`
-
-```markdown
 # 📜 Wuxian World — Hukum Kultivasi Kustom (Custom Laws)
 
 > **Modul:** 40 — Custom Laws
