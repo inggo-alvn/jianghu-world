@@ -4,7 +4,7 @@
 **Genre:** Xianxia · Wuxia · Kultivasi · Hardcore Realism
 **Tujuan:** Roleplay kultivasi yang adil, mendalam, konsisten, dan realistis dengan AI Game Master — dioptimalkan agar AI tidak perlu memindai satu dokumen raksasa tiap giliran, dan agar dunia tetap **terkendali & konkrit** lewat rujukan file yang jelas.
 
-Repo ini adalah pecahan dari satu World Bible besar menjadi **17 file `.md`** yang saling terhubung: 15 modul lore/sistem, plus `INDEX.md` (hub navigasi) dan `players.md` (katalog **data awal** karakter, dikelola admin). Setiap modul berdiri sendiri (bisa ditautkan satu-satu), tapi tetap konsisten satu sama lain lewat sistem rujukan silang (`lihat 09_...md §8.2`, dst).
+Repo ini adalah pecahan dari satu World Bible besar menjadi **46 file `.md`** yang saling terhubung: 15 modul lore/sistem, plus `INDEX.md` (hub navigasi) dan `players.md` (katalog **data awal** karakter, dikelola admin). Setiap modul berdiri sendiri (bisa ditautkan satu-satu), tapi tetap konsisten satu sama lain lewat sistem rujukan silang (`lihat 09_...md §8.2`, dst).
 
 > 🧭 **Cara tercepat mulai main:** tempel **satu link saja** — raw link `INDEX.md` — lalu sebutkan nama karaktermu (atau nama + lokasi awal kalau karakter baru). AI akan menjelajah sendiri ke modul lain sesuai kebutuhan cerita. Lihat bagian "💬 Cara Main" di bawah.
 
@@ -41,7 +41,7 @@ Repo ini adalah pecahan dari satu World Bible besar menjadi **17 file `.md`** ya
 ## 🚀 Cara Setup di GitHub
 
 1. Buat repository baru di GitHub — **harus PUBLIC** (repo privat butuh token otentikasi supaya raw link bisa diakses AI, jadi hindari kecuali kamu tahu cara handle itu).
-2. Upload ke-17 file `.md` ini ke root repo (atau ke satu folder, misalnya `/world/`) — termasuk `INDEX.md` dan `players.md`.
+2. Upload ke-46 file `.md` ini ke root repo (atau ke satu folder, misalnya `/world/`) — termasuk `INDEX.md` dan `players.md`.
 3. Setiap file punya "raw link" dengan format:
    ```
    https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/NAMA_FILE.md
@@ -170,7 +170,7 @@ Kalau AI yang kamu pakai tidak punya kemampuan membuka link sendiri, kamu masih 
 
 ## ✅ Checklist Sebelum Main
 
-- [ ] Repo GitHub sudah publik & ke-42 file (15 modul inti `00`–`13`, 24 file sekte/dojo/organisasi `14`–`37`, `38_WORLD_CALENDAR_TIMELINE.md`, `INDEX.md`, `players.md`, `README.md`) sudah ter-upload
+- [ ] Repo GitHub sudah publik & ke-46 file (15 modul inti `00`–`13`, 24 file sekte/dojo/organisasi `14`–`37`, `38_WORLD_CALENDAR_TIMELINE.md`, `INDEX.md`, `players.md`, `README.md`) sudah ter-upload
 - [ ] Link raw `INDEX.md` sudah dites bisa dibuka di browser (harus menampilkan teks mentah markdown, bukan 404)
 - [ ] Semua link di dalam `INDEX.md` §1 sudah dicek cocok dengan username/repo-mu sendiri
 - [ ] Link `players.md` di `INDEX.md` §1 sudah diganti dari placeholder ke link raw yang sebenarnya setelah file itu di-upload
