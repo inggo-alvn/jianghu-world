@@ -235,6 +235,16 @@ Pemukiman tukang batu dan pemahat.
 |---|---|---|---|---|---|---|
 | Tetua Pertapaan Es Han Frost | Kultivator pertapa di dasar jurang | 115 | Soul Transformation, Menengah | **93.750** | *Hantaman Pedang Es Abadi* — gelombang qi dingin membekukan aliran qi lawan dalam radius 15m | Dingin bagai es, benci keributan, bertapa mencari terobosan Void Severing |
 
+### 🌿 🆕 Lembah Embun Lautan Bambu (Jade Bamboo Dew Valley — 600 li dari Golden Bell Monastery)
+Lembah tersembunyi yang tertutup bambu giok hijau transparan dan kabut embun spiritual kental. Di pusat lembah terdapat Mata Air Bambu Giok yang mempercepat pemulihan stamina raga.
+**Bahaya Alam Hardcore:**
+- *Tekanan Awan Embun:* Udara lembah sangat padat (+20% beban respirasi), mengurangi regenerasi Stamina sebesar -15% jika tidak menggunakan teknik penyesuaian Qi.
+- *Revolusi Akar Bambu:* Akar bambu tajam muncul tiba-tiba dari tanah jika melangkah terlalu cepat (Damage 50 Physical per jebakan).
+
+| NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
+|---|---|---|---|---|---|---|
+| Master Jiwa Bambu Qing Zhu | Kultivator penyendiri Lembah Bambu Giok | 88 | Soul Transformation, Awal | **62.500** | *Seribu Daun Bambu Tajam* — ribuan daun bambu tajam melayang secepat anak panah | Elegan, ramah namun tegas menjaga kesucian mata air spiritual |
+
 ---
 
 ## Sekte & Karakteristiknya

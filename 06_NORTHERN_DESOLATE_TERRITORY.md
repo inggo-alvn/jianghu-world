@@ -62,6 +62,16 @@ Desa tabib herbal es langka, damai tapi terisolasi salju.
 |---|---|---|---|---|---|---|
 | Tetua Badai Es Leng Xuan | Pertapa tua Lembah Angin Beku | 108 | Void Severing, Menengah | **468.750** | *Tarian Angin Es Pemotong Jiwa* — ribuan pisau es melayang memotong pertahanan dan tulang | Dingin, keras, menguji setiap pengunjung yang berani melangkah ke wilayah bertapanya |
 
+### 🌿 🆕 Hutan Salju Pinus Kuno (Ancient Pine Snow Forest — 550 li dari Desa Xueying)
+Hutan pinus purba berselimut es abadi di lereng pegunungan utara. Pohon-pohon pinus raksasa dilapisi jarum es yang tajam seperti belati.
+**Bahaya Alam Hardcore:**
+- *Napas Pembeku Jiwa:* Suhu dingin ekstrem memicu penurunan HP (-1% max HP per 20 menit) tanpa Pakaian Bulu Es / Perlindungan Qi Api.
+- *Guguran Jarum Es:* Badai angin menyebabkan guguran jarum pinus es tajam yang menembus zirah biasa (Damage 40 Physical/Cold per hempasan).
+
+| NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
+|---|---|---|---|---|---|---|
+| Pemburu Es Kuno Han Feng | Pertapa pemburu binatang salju purba | 80 | Soul Transformation, Menengah | **93.750** | *Panah Pembeku Darah* — tembakan panah es yang membekukan aliran Qi dan darah lawan | Pendiam, amat tangguh menghadapi suhu es, benci orang yang menyia-nyiakan buruan |
+
 ---
 
 ## Sekte & Karakteristiknya

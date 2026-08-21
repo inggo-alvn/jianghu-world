@@ -66,4 +66,12 @@ Pos pemeriksaan militer utama yang menyaring setiap kafilah dan kultivator yang 
 | Kapten Pos Lu Zhen | Komandan Pos Sembilan Gerbang | 42 | Foundation Establishment, Puncak | **1.000** | *Tebasan Segel Perbatasan* — tebasan pedang berenergi formasi untuk melumpuhkan pelanggar | Kaku, sangat patuh pada aturan, tidak menerima suap, selalu curiga pada kultivator tanpa tanda pengenal resmi |
 | Inspektur Khusus Yu Feng | Petugas intelijen pelacak buronan | 35 | Core Formation, Awal | **2.500** | *Cermin Pelacak Qi* — cermin kuno pelacak disguises dan Qi iblis terselubung | Cerdik, tidak banyak bicara, mengamati gerak-gerik dari sudut pos dengan sangat teliti |
 
+#### 🌿 🆕 Hutan Bambu Hitam Kekaisaran (Imperial Black Bamboo Grove — 180 li dari Tianjing)
+Hutan alami bambu berserat besi hitam di pinggiran wilayah kekaisaran. Udara diselimuti kabut embun racun ringan yang menembus pertahanan pernapasan biasa. Merupakan lokasi persembunyian pembunuh terlarang dan tempat tumbuh Herba Besi Hitam.
+**Bahaya Alam Hardcore:** Menghirup embun racun tanpa perlindungan Qi/Pil Penawar mengurangi Satiety +2% per jam dan memberikan debuff *-5% Movement Speed*.
+
+| NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
+|---|---|---|---|---|---|---|
+| Pertapa Bambu Hitam Mo Zhu | Kultivator buangan istana | 68 | Soul Transformation, Awal | **62.500** | *Pedang Bambu Hitam Membelah Awan* — tebasan cepat tanpa energi luar yang memotong Meridian lawan | Dingin, membenci pejabat istana korup, sangat menjaga kelestarian hutan |
+
 > **Fakta Cepat Central Plains** (wilayah tempat Tianjing berada): lihat `02_CENTRAL_PLAINS.md` untuk statistik lengkap wilayah, Qi Density Modifier, dan seluruh lokasi provinsi.

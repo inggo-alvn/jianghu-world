@@ -66,6 +66,16 @@ Penghasil racun & penawar terbaik dunia.
 |---|---|---|---|---|---|---|
 | Jagal Lembah Blood-Thirst | Kultivator kanibal penyendiri | 52 | Soul Transformation, Menengah | **93.750** | *Cengkeraman Darah Mendidih* — menarik darah dari luka lawan untuk memulihkan HP sendiri | Sadis, tidak kenal belas kasih, menganggap semua pengunjung lembah sebagai mangsa |
 
+### 🌿 🆕 Hutan Tulang Merah Beracun (Crimson Bone Poison Jungle — 680 li dari Desa Duchong)
+Hutan belantara lebat tempat pepohonan berkayu merah menyerupai tulang bersimbah darah tumbuh tinggi. Udara sarat akan gas Miasma Merah yang membusukkan daging dan melemahkan daya tahan raga.
+**Bahaya Alam Hardcore:**
+- *Miasma Darah Busuk:* Menghirup miasma tanpa Pil Penawar Racun Grade 3+ memberikan efek racun bertahap (-2% HP max per 30 menit) dan mengurangi HitChance sebesar -10%.
+- *Getah Pohon Tulang:* Dedaunan meneteskan getah korosif yang merusak daya tahan Equipment Zirah (-5 Durability per kontak).
+
+| NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
+|---|---|---|---|---|---|---|
+| Tetua Racun Gu Chi | Pengumpul serangga raksasa & racun purba | 82 | Soul Transformation, Menengah | **93.750** | *Semburan Hujan Racun Seribu Tulang* — tetesan darah beracun korosif yang menembus perisai Qi | Misterius, kejam pada penyusup, terobsesi membudidayakan serangga Gu pemakan raga |
+
 ---
 
 ## Sekte & Karakteristiknya
