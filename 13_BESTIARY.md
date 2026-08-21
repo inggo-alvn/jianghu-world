@@ -48,6 +48,7 @@ Wilayah paling padat dan "aman" relatif, tapi bukan tanpa bahaya. Monster di sin
 | Kera Batu | 🐺 Spirit Beast | 3, Menengah | 450 | 112 | Menghuni perbukitan batu di sekitar Tri-Sect Mountain, sangat agresif, suka melempar batu besar dari ketinggian. Bergerak dalam kelompok 5–15 ekor. | Umum: Kulit Kera Batu (Tier 2) — Jarang: Batu Inti Kera (Tier 3) |
 | Naga Lumpur | 🔥 Elemental (Tanah) | 4, Menengah | 2.812 | 675 | Menghuni rawa-rawa di sekitar Sungai Emas, makhluk purba berbentuk ular raksasa dengan sisik berlumpur. Bisa menenggelamkan korban ke dalam lumpur dalam hitungan detik. | Umum: Sisik Lumpur (Tier 3) — Jarang: Inti Lumpur Purba (Tier 4) |
 | Kalajengking Merah Kabut | 🐛 Insect/Gu Swarm | 4, Awal | 1.000 | 375 | Menghuni Lembah Kabut Merah (Chiwu Valley), bersembunyi di dalam tanah lembap dan kabut merah. Sengatan ekornya menyuntikkan racun pengendap Qi. | Umum: Cangkang Kalajengking Merah (Tier 3) — Jarang: Kelenjar Racun Pemurni (Tier 4) |
+| Monster Akar Purba Raksasa | 🌿 Flora/Plant Creature | 5, Awal | 5.000 | 1.875 | Menghuni Hutan Purba Akar Kuno, wujud sulur kayu purba beracun yang menjerat mangsa ke rawa lumpur isap Qi. | Umum: Kayu Akar Purba (Tier 4) — Jarang: Inti Kehidupan Purba (Tier 5) |
 
 ---
 
@@ -71,6 +72,7 @@ Wilayah pegunungan dengan qi kaya, monster di sini lebih kuat dan lebih bervaria
 | Elang Puncak Salju | 🐺 Spirit Beast | 4, Awal | 1.250 | 450 | Menghuni puncak-puncak tertinggi Azure Mountain Range, memangsa kambing gunung dan kadang anak-anak kera. Terbang tinggi dan menukik dengan kecepatan luar biasa. | Umum: Bulu Elang Salju (Tier 3) — Jarang: Cakar Elang Puncak (Tier 4) |
 | Ular Naga Gunung | 🐺 Spirit Beast | 5, Awal | 7.500 | 1.875 | Ular raksasa yang menghuni gua-gua dalam di Azure Mountain Range, konon keturunan naga kuno. Sisiknya berwarna hijau giok, bisa menyemburkan qi beracun dari jarak jauh. Sangat teritorial. | Umum: Sisik Ular Naga (Tier 4) — Jarang: Inti Ular Naga (Tier 5, bahan terobosan) |
 | Binatang Es Abadi (Frost Abyss Beast) | 🗿 Ancient Guardian | 6, Puncak | 125.000 | 33.750 | Makhluk purba raksasa bertanduk es yang menjaga kedalaman Jurang Es Abadi. Kulit tebal es giok kebal serangan fisik ringan; napas es membekukan jaringan tubuh (-20% Dex). | Umum: Tanduk Es Abadi (Tier 5) — Legendaris: Inti Jiwa Es Purba (Tier 7) |
+| Ular Bambu Giok Purba | 🐺 Spirit Beast | 5, Menengah | 7.500 | 2.812 | Menghuni Lembah Embun Lautan Bambu, berkulit sekeras bambu giok transparan, melilit target dan meremukkan pertahanan raga. | Umum: Sisik Bambu Giok (Tier 4) — Jarang: Mutiara Embun Bambu (Tier 5) |
 
 ---
 
@@ -93,6 +95,7 @@ Wilayah paling berbahaya di dunia. Monster di sini lebih buas, lebih agresif, da
 | Tawon Racun Rawa | 🐛 Insect/Gu Swarm | 2, Menengah | 90 | 22 | Kawanan tawon sebesar kepalan tangan, sarangnya di pepohonan rawa. Sengatannya menyebabkan demam tinggi dan halusinasi. | Umum: Sarang Tawon Racun (Tier 1) — Jarang: Sengat Tawon (Tier 2) |
 | Siluman Bayangan Malam | 👤 Bayangan/Yin | 6, Awal | 15.000 | 8.437 | Siluman tak berwujud yang muncul di malam hari di Southern Demon Domain, memangsa kultivator yang bepergian sendirian. Menyerang dari belakang tanpa suara. | Umum: Esens Bayangan Malam (Tier 5) — Jarang: Inti Bayangan (Tier 6) |
 | Ular Api Lahar | 🔥 Elemental (Api) | 5, Menengah | 7.500 | 2.812 | Menghuni Lembah Darah Mendidih (Boiling Blood Ravine), berenang di lahar mendidih. Menyemburkan semburan darah api yang membakar Qi dan vitalitas target secara bersamaan. | Umum: Sisik Lahar Merah (Tier 4) — Jarang: Inti Api Lahar Mendidih (Tier 5) |
+| Iblis Pohon Tulang Merah | 👻 Undead | 5, Puncak | 10.000 | 3.750 | Menghuni Hutan Tulang Merah Beracun, bergerak menyerap darah dan menembakkan duri tulang beracun Miasma. | Umum: Kayu Tulang Merah (Tier 4) — Jarang: Esens Darah Miasma (Tier 5) |
 
 ---
 
@@ -115,6 +118,7 @@ Wilayah maritim yang luas. Monster di sini sebagian besar adalah makhluk laut de
 | Paus Iblis Pemakan Kapal | 🗿 Ancient Guardian | 7, Awal | 390.625 | 56.250 | Paus raksasa yang dikutuk, muncul sekali setiap beberapa dekade. Menabrak kapal dengan kekuatan yang bisa menghancurkan kapal perang. | Legendaris: Tulang Paus Iblis (Tier 7) — Legendaris: Inti Paus Purba (Tier 8) |
 | Kuda Laut Iblis | 🐺 Spirit Beast | 2, Menengah | 90 | 22 | Makhluk kecil beracun yang bersembunyi di rumput laut. Sengatannya menyebabkan kelumpuhan sementara. | Umum: Sisik Kuda Laut (Tier 1) — Jarang: Racun Kuda Laut (Tier 2) |
 | Gurita Karang Gelap | 🐺 Spirit Beast | 5, Puncak | 10.000 | 3.750 | Menghuni Palung Karang Gelap (Canghai Abyss), menggunakan kamuflase kegelapan dasar laut. Tentakelnya menyerap Qi target yang dililit. | Umum: Tentakel Karang Gelap (Tier 4) — Jarang: Tinta Pemikat Bayangan (Tier 5) |
+| Kepiting Bakau Besi Hitam | 🐺 Spirit Beast | 4, Puncak | 2.000 | 750 | Menghuni Hutan Bakau Naga Hitam, memiliki cangkang sekeras besi baja dan supitu pelumat perahu. | Umum: Cangkang Bakau Besi (Tier 3) — Jarang: Supit Besi Hitam (Tier 4) |
 
 ---
 
@@ -138,6 +142,7 @@ Wilayah dingin dan tandus. Monster di sini tangguh dan tahan terhadap suhu ekstr
 | Yeti Gunung Es | 🐺 Spirit Beast | 5, Awal | 7.500 | 1.875 | Makhluk humanoid berbulu putih yang menghuni pegunungan es. Tingginya 3 meter, sangat kuat dan agresif jika teritorinya diganggu. | Umum: Bulu Yeti (Tier 4) — Jarang: Tulang Yeti (Tier 5) |
 | Naga Es Purba | 🗿 Ancient Guardian | 8, Awal | 1.562.500 | 421.875 | Legenda hidup yang konon menjaga rahasia Eternal Frost Peak. Sangat jarang muncul — pertarungan dengannya setara peristiwa besar. | Legendaris: Sisik Naga Es (Tier 8) — Legendaris: Inti Es Purba Abadi (Tier 9) |
 | Monster Badai Salju Gulch | 👤 Bayangan/Yin | 5, Awal | 5.000 | 1.875 | Menghuni Lembah Angin Beku (Frostwind Gulch), tercipta dari kumpulan roh pemburu yang tewas kedinginan. Menerkam target saat pandangan terhalang badai salju. | Umum: Esens Angin Beku (Tier 4) — Jarang: Inti Badai Es (Tier 5) |
+| Serigala Pinus Es Purba | 🐺 Spirit Beast | 5, Awal | 5.000 | 1.875 | Menghuni Hutan Salju Pinus Kuno, bergerak sangat cepat di atas salju, melesatkan pecahan jarum pinus es dari bulunya. | Umum: Bulu Pinus Es (Tier 4) — Jarang: Taring Es Purba (Tier 5) |
 
 ---
 
@@ -159,6 +164,7 @@ Wilayah gurun paling ekstrem. Monster di sini tangguh, tahan panas, dan sering b
 | Laba-laba Pasir Raksasa | 🐺 Spirit Beast | 4, Awal | 1.250 | 450 | Laba-laba sebesar kuda yang bersembunyi di bawah pasir, menjebak mangsa dengan jaring sutra yang kuat. | Umum: Kaki Laba-laba (Tier 3) — Jarang: Jaring Sutra (Tier 4) |
 | Naga Pasir | 🗿 Ancient Guardian | 7, Awal | 390.625 | 56.250 | Naga gurun purba yang konon menjaga reruntuhan kota kuno. Tubuhnya terbuat dari pasir dan batu. | Legendaris: Sisik Naga Pasir (Tier 7) — Legendaris: Inti Pasir Purba (Tier 8) |
 | Kalajengking Meratung | 🐛 Insect/Gu Swarm | 4, Menengah | 1.500 | 562 | Menghuni Lembah Angin Meratung (Whistling Canyon), cangkangnya sekeras batu pasir merah. Bergerak cepat menembus badai pasir untuk menyengat. | Umum: Cangkang Batu Pasir (Tier 3) — Jarang: Kelenjar Racun Meratung (Tier 4) |
+| Kalajengking Kurma Purba | 🐛 Insect/Gu Swarm | 4, Puncak | 2.000 | 750 | Menghuni Oasis Kuno Pohon Kurma Purba, bersembunyi di bawah pasir isap untuk menyengat mangsa dengan racun dahaga. | Umum: Cangkang Kurma Emas (Tier 3) — Jarang: Sengat Racun Dahaga (Tier 4) |
 
 ---
 

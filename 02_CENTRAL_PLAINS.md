@@ -74,6 +74,16 @@ Desa pandai besi turun-temurun.
 | Mbah Herba Hong Yan | Pencari herba legendaris | 76 | Core Formation, Puncak | **5.000** | *Tongkat Pengurai Kabut* — sapuan tongkat kayu kuno yang menyibak kabut beracun dan melumpuhkan saraf | Eksentrik, sangat protektif pada herba liar, benci kultivator yang merusak lingkungan lembah |
 | Pelarian Berdarah Yan Chou | Buronan bersembunyi di lembah | 38 | Core Formation, Menengah | **3.750** | *Pedang Bayangan Merah* — tebasan cepat dari balik kabut merusak organ dalam | Waspada tinggi, tidak mudah percaya orang asing, langsung menyerang jika merasa terancam |
 
+### 🌿 🆕 Hutan Purba Akar Kuno (Ancient Root Primeval Forest — 650 li dari Tianjing)
+Hutan belantara purba berumur ribuan tahun dengan pohon-pohon raksasa setinggi 80 meter yang akarnya saling bertautan membentuk labirin alami di bawah tanah.
+**Bahaya Alam Hardcore:**
+- *Lumpur Isap Qi:* Melangkah di rawa akar tanpa bantalan Qi akan menyedot 20 Qi per menit dan mengurangi Movement Speed sebesar -30%.
+- *Spora Halusinasi:* Menghirup spora bunga purba memicu efek halusinasi visual (kebingungan giliran pertempuran selama 2 turn).
+
+| NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
+|---|---|---|---|---|---|---|
+| Penjaga Hutan Kuno Mu Lao | Pertapa pelindung vegetasi purba | 94 | Nascent Soul, Menengah | **18.750** | *Akar Raksasa Menggulung Bumi* — akar kayu raksasa yang mencengkeram dan meremukkan pertahanan raga | Tenang bagai batu tua, sangat protektif terhadap pohon purba, benci perusak alam |
+
 ---
 
 ## Sekte & Karakteristiknya

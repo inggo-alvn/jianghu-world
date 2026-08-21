@@ -60,6 +60,16 @@ Pelabuhan utama provinsi, 100 li dari ibu kota provinsi laut; kota paling kosmop
 | Pedagang Asing Misterius | Pedagang dari luar peta yang jarang terlihat | ??? | Tidak Diketahui | ??? | Tidak diketahui — tak pernah terlihat bertarung | Sangat tertutup, tenang, tak pernah berkonflik dengan siapa pun secara terbuka |
 | Kuli Pelabuhan Ah Gang | Buruh pelabuhan | 25 | Non-Kultivator | — | *Pukulan Otot Kasar* — tenaga fisik murni tanpa teknik | Kuat dan blak-blakan, sedikit temperamental jika diperlakukan tak adil oleh atasan |
 
+### 🌿 🆕 Hutan Bakau Naga Hitam (Black Dragon Mangrove Forest — 450 li dari Pelabuhan Haiyun)
+Hutan bakau pantai berawa-rawa di pesisir selatan Laut Timur dengan akar-akar kayu bakau sehitam besi yang menyelimuti laguna terpencil.
+**Bahaya Alam Hardcore:**
+- *Rawa Lumpur Beracun Air Laut:* Menyusuri bakau tanpa kapal/perisai Qi menyebabkan luka korosif garam (+15% damage tambahan dari serangan air) dan mengurangi Movement Speed sebesar -25%.
+- *Arus Pasang Lepas:* Setiap 6 jam waktu in-game, arus pasang tinggi dapat menyeret karakter yang tidak terikat jangkatan (-30 Stamina per luapan).
+
+| NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
+|---|---|---|---|---|---|---|
+| Kapten Pesisir Tu Long | Pertapa penjinak binatang rawa | 71 | Soul Transformation, Menengah | **93.750** | *Tebasan Pedang Pasang Bakau* — ayunan pedang berat membelah air rawa dan meremukkan perahu | Tegas, wajah penuh parut luka, protektif pada habitat hewan laut langka |
+
 ---
 
 ## Sekte & Karakteristiknya

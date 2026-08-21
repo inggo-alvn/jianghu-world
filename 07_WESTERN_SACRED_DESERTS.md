@@ -62,6 +62,16 @@ Bekas kota kuno, kini pasar gelap barang antik spiritual.
 |---|---|---|---|---|---|---|
 | Penjaga Alkimia Kuno "Mata Angin" | Pertapa penjaga reruntuhan alkimia | 92 | Soul Transformation, Awal | **62.500** | *Badai Pasir Pemotong Daging* — mengendalikan pasir merobek zirah dan pertahanan | Keras kepala, pembenci penjarah harta, hanya membiarkan alkemis sejati masuk |
 
+### 🌿 🆕 Oasis Kuno Pohon Kurma Purba (Ancient Date Palm Oasis — 850 li dari Oasis Ganlu)
+Oasis alami tersembunyi di kedalaman gurun barat yang dikelilingi vegetasi pohon kurma spiritual raksasa berumur ratusan tahun dan mata air bening berenergi penyembuh.
+**Bahaya Alam Hardcore:**
+- *Gelombang Panas Fatamorgana:* Sengatan matahari ekstrem memicu dehidrasi berat (-10% Satiety per jam) dan risiko ilusi fatamorgana jika tidak berlindung di bawah naungan kurma/meminum air oasis.
+- *Pasir Isap Berputar:* Sekitar pinggiran oasis dikelilingi lingkaran pasir isap halus (penalti escape/movement -40%).
+
+| NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
+|---|---|---|---|---|---|---|
+| Penjaga Oasis Sha Mian | Pertapa suci pelindung mata air kurma | 85 | Soul Transformation, Awal | **62.500** | *Telapak Pasir Penenang Badai* — hentakan telapak tangan yang meredam badai pasir dan merobohkan musuh | Bijaksana, tenang, melindungi pencari air yang beritikad baik, tanpa ampun pada perusak oasis |
+
 ---
 
 ## Sekte & Karakteristiknya
