@@ -28,23 +28,23 @@ Desa suku pemburu, keras dan tertutup pada orang luar.
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Kepala Suku Xue Lang | Kepala Dojo Cakar Serigala & suku | 59 | Foundation Establishment, Puncak | **200** | *Cakaran Serigala Salju* — cakaran tangan kuat meniru gerak serigala menerkam | Keras dan tertutup, cepat curiga pada orang luar, tapi sangat setia pada sukunya |
-| Pemburu Muda Ah Bing | Pemburu berbakat | 21 | Qi Refining, Puncak | **40** | *Terkaman Serigala Muda* — serangan cepat menerkam dari sisi samping | Pendiam dan tangguh, tak suka basa-basi, langsung bertindak saat berburu |
+| Kepala Suku Xue Lang | Kepala Dojo Cakar Serigala & suku | 59 | Foundation Establishment, Puncak | **1.000** | *Cakaran Serigala Salju* — cakaran tangan kuat meniru gerak serigala menerkam | Keras dan tertutup, cepat curiga pada orang luar, tapi sangat setia pada sukunya |
+| Pemburu Muda Ah Bing | Pemburu berbakat | 21 | Qi Refining, Puncak | **200** | *Terkaman Serigala Muda* — serangan cepat menerkam dari sisi samping | Pendiam dan tangguh, tak suka basa-basi, langsung bertindak saat berburu |
 
 ### Benteng Beikuan (600 li)
 Kota benteng garis pertahanan utara, tegang sepanjang tahun.
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Komandan Benteng Bei Zhan | Komandan garnisun perbatasan | 50 | Nascent Soul, Awal | **2.500** | *Tombak Penjaga Perbatasan* — tusukan tombak panjang bergaya militer defensif | Tegang dan waspada, mudah curiga pada orang asing, tegas pada disiplin militer |
-| Prajurit Muda Gang Tie | Prajurit garnisun | 20 | Foundation Establishment, Awal | **100** | *Tebasan Pedang Standar* — gerak dasar militer tanpa variasi | Bersemangat tapi gugup, belum berpengalaman perang sesungguhnya |
+| Komandan Benteng Bei Zhan | Komandan garnisun perbatasan | 50 | Nascent Soul, Awal | **12.500** | *Tombak Penjaga Perbatasan* — tusukan tombak panjang bergaya militer defensif | Tegang dan waspada, mudah curiga pada orang asing, tegas pada disiplin militer |
+| Prajurit Muda Gang Tie | Prajurit garnisun | 20 | Foundation Establishment, Awal | **500** | *Tebasan Pedang Standar* — gerak dasar militer tanpa variasi | Bersemangat tapi gugup, belum berpengalaman perang sesungguhnya |
 
 ### Desa Bingxin (750 li)
 Desa tabib herbal es langka, damai tapi terisolasi salju.
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Tabib Es Bing Xin | Cabang kecil Whitecloud Medicine Hall | 65 | Nascent Soul, Awal | **2.500** | *Jarum Es Penenang* — akupunktur dengan sentuhan dingin untuk meredakan luka | Dingin sikapnya, pendiam, tapi sangat berdedikasi dan sabar merawat pasien tanpa pandang faksi |
+| Tabib Es Bing Xin | Cabang kecil Whitecloud Medicine Hall | 65 | Nascent Soul, Awal | **12.500** | *Jarum Es Penenang* — akupunktur dengan sentuhan dingin untuk meredakan luka | Dingin sikapnya, pendiam, tapi sangat berdedikasi dan sabar merawat pasien tanpa pandang faksi |
 
 ### 🆕 Kota Baru: Hanyue (寒月城, "Kota Bulan Dingin")
 900 li ke utara, kota terjauh yang masih dianggap wilayah manusia; karakteristik penduduknya sangat mandiri, jarang percaya pada kekaisaran maupun sekte besar karena merasa "selalu dilupakan" oleh pusat kekuasaan.
@@ -52,8 +52,15 @@ Desa tabib herbal es langka, damai tapi terisolasi salju.
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
 | Pemilik Kedai Arak Bulan Beku | Satu-satunya tempat hangat berkumpul, Kota Hanyue | 57 | Non-Kultivator | — | Tidak bertarung | Hangat pada pelanggan tetap, dingin dan curiga pada wajah baru yang belum dikenal |
-| Kepala Kota Mandiri Han Yue | Pemimpin kota terjauh utara | 58 | Core Formation, Menengah | **750** | *Pukulan Dingin Mandiri* — pukulan tangan kosong bertenaga dingin, jarang dipakai | Skeptis dan keras kepala, tegas memimpin lewat musyawarah, cepat curiga pada campur tangan luar |
-| Pengelana Tersesat Yi Ren | Orang misterius yang "muncul" di kota tanpa penjelasan | ??? | Soul Transformation, Awal (disembunyikan) | **12.500** | *Gerak Refleks Tanpa Nama* — gerakan bertarung tingkat tinggi yang muncul otomatis tanpa ia sadari | Bingung dan pendiam, tenang meski kehilangan ingatan, sesekali panik saat insting bertarungnya muncul tiba-tiba |
+| Kepala Kota Mandiri Han Yue | Pemimpin kota terjauh utara | 58 | Core Formation, Menengah | **3.750** | *Pukulan Dingin Mandiri* — pukulan tangan kosong bertenaga dingin, jarang dipakai | Skeptis dan keras kepala, tegas memimpin lewat musyawarah, cepat curiga pada campur tangan luar |
+| Pengelana Tersesat Yi Ren | Orang misterius yang "muncul" di kota tanpa penjelasan | ??? | Soul Transformation, Awal (disembunyikan) | **62.500** | *Gerak Refleks Tanpa Nama* — gerakan bertarung tingkat tinggi yang muncul otomatis tanpa ia sadari | Bingung dan pendiam, tenang meski kehilangan ingatan, sesekali panik saat insting bertarungnya muncul tiba-tiba |
+
+### 🆕 Lembah Angin Beku (Frostwind Gulch)
+1.050 li ke utara. Lembah celah salju tempat badai es bertiup tanpa henti. Angin tajam bertekanan tinggi merobek perlindungan Qi non-es (-15% Qi Cap efektif selama berada di dalam lembah). Lokasi ideal tempat bertapa pencari inti elemen es.
+
+| NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
+|---|---|---|---|---|---|---|
+| Tetua Badai Es Leng Xuan | Pertapa tua Lembah Angin Beku | 108 | Void Severing, Menengah | **468.750** | *Tarian Angin Es Pemotong Jiwa* — ribuan pisau es melayang memotong pertahanan dan tulang | Dingin, keras, menguji setiap pengunjung yang berani melangkah ke wilayah bertapanya |
 
 ---
 
@@ -66,8 +73,8 @@ Sekte pengobatan & alkimia. Netral secara politik, melayani siapa pun yang memba
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Kepala Tabib Bai Yun | Ketua Whitecloud Medicine Hall | 84 | Nascent Soul, Puncak | **5.000** | *Telapak Penyembuh Awan Putih* — qi penyembuh disalurkan lewat telapak tangan, bukan untuk menyerang | Netral mutlak, sangat sabar dan tenang, menolak terlibat konflik apa pun |
-| Murid Alkimia Muda Cao Yao | Murid peracik pil | 23 | Foundation Establishment, Menengah | **150** | *Lemparan Pil Kejut* — pil ringan yang meledak jadi asap penenang saat dilempar | Rajin dan teliti, sedikit gugup di bawah tekanan, sangat berdedikasi pada penelitiannya |
+| Kepala Tabib Bai Yun | Ketua Whitecloud Medicine Hall | 84 | Nascent Soul, Puncak | **25.000** | *Telapak Penyembuh Awan Putih* — qi penyembuh disalurkan lewat telapak tangan, bukan untuk menyerang | Netral mutlak, sangat sabar dan tenang, menolak terlibat konflik apa pun |
+| Murid Alkimia Muda Cao Yao | Murid peracik pil | 23 | Foundation Establishment, Menengah | **750** | *Lemparan Pil Kejut* — pil ringan yang meledak jadi asap penenang saat dilempar | Rajin dan teliti, sedikit gugup di bawah tekanan, sangat berdedikasi pada penelitiannya |
 
 ### 👻 Ghost Valley Sect
 *Lembah berkabut, 700 li dari Benteng Beikuan — Custom Law: Hukum Roh Hantu*
@@ -76,8 +83,8 @@ Sekte demonic ilmu roh. Ditakuti bahkan oleh sesama demonic karena dianggap terl
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
-| Ketua Lembah Gui Hun | Ketua Ghost Valley Sect | 156 | Void Severing, Awal | **62.500** | *Panggilan Seribu Roh* — memanggil roh terikat untuk menyerang lawan dari berbagai arah | Menyendiri dan dingin, jarang emosi terlihat, tanpa ampun dan tanpa batasan moral saat bertindak |
-| Murid Roh Muda Yin Ling | Murid pemanggil roh | 19 | Foundation Establishment, Puncak | **200** | *Bisikan Roh Kecil* — memanggil satu roh kecil untuk mengganggu konsentrasi lawan | Tertutup dan gelisah, mulai ragu dengan jalan gelapnya, jarang menyerang tanpa disuruh |
+| Ketua Lembah Gui Hun | Ketua Ghost Valley Sect | 156 | Void Severing, Awal | **312.500** | *Panggilan Seribu Roh* — memanggil roh terikat untuk menyerang lawan dari berbagai arah | Menyendiri dan dingin, jarang emosi terlihat, tanpa ampun dan tanpa batasan moral saat bertindak |
+| Murid Roh Muda Yin Ling | Murid pemanggil roh | 19 | Foundation Establishment, Puncak | **1.000** | *Bisikan Roh Kecil* — memanggil satu roh kecil untuk mengganggu konsentrasi lawan | Tertutup dan gelisah, mulai ragu dengan jalan gelapnya, jarang menyerang tanpa disuruh |
 
 ### 🐺 Dojo Cakar Serigala (Desa Xueying)
 Perguruan kecil suku. Dipandang primitif oleh sekte kota, tapi sangat dihormati di kalangan sukunya sendiri sebagai penjaga tradisi leluhur. *(NPC: lihat tabel Desa Xueying di atas.)*
