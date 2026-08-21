@@ -166,6 +166,11 @@ Kalau AI yang kamu pakai tidak punya kemampuan membuka link sendiri, kamu masih 
 - Ditetapkan **titik mulai resmi kampanye: Tahun 1, Kalender Tianyuan, Musim Semi, Tanggal 1 Bulan 1** — semua umur NPC di seluruh World Bible dihitung "per Tahun 1" dan bertambah otomatis seiring waktu in-game berjalan.
 - Ditambahkan sistem peristiwa berkala terjadwal (Turnamen Besar Lima Tahunan di Danau Cermin, Turnamen Immortal Peach Island tiap 60 tahun, ujian rekrutmen tahunan, musim dagang Haiyun, sensus kekaisaran), tabel perkiraan umur hidup per Realm, dan **mekanisme wajib "dunia berkembang seiring waktu"** — AI GM menjalankan checklist perkembangan dunia (peristiwa jatuh tempo, penuaan NPC, progres rahasia internal sekte, drift ekonomi) di tiap checkpoint waktu signifikan, diselipkan naratif bukan dibacakan mentah.
 
+**v3.0 — Ekspansi Wilayah, Bestiarium & Kalibrasi Qi Cap v3.0 Menyeluruh:**
+- **Ekspansi Lokasi & NPC:** Ditambahkan tempat-tempat baru beserta bahaya lingkungan dan NPC berpotensi di seluruh wilayah (`01`–`08`), termasuk Pos Perbatasan Sembilan Gerbang (Ibu Kota), Lembah Kabut Merah (Central Plains), Jurang Es Abadi (Azure Mountain Range), Lembah Darah Mendidih (Southern Demon Domain), Palung Karang Gelap (Eastern Sea), Lembah Angin Beku (Northern Desolate), dan Lembah Angin Meratung (Western Sacred Deserts).
+- **Ekspansi Bestiarium:** Ditambahkan 6 monster hardcore baru berisiko lingkungan tinggi (Kalajengking Merah Kabut, Frost Abyss Beast, Ular Api Lahar, Gurita Karang Gelap, Monster Badai Salju Gulch, Kalajengking Meratung) lengkap dengan formula statistik matematis v3.0 & tabel drop loot.
+- **Kalibrasi Matriks Qi Cap NPC v3.0:** Seluruh tabel NPC di modul `01`–`08` dikalibrasi total secara presisi mematuhi tabel RealmBase v3.0 (Mortal Foundation Qi Cap 0), menjamin kestabilan dan konsistensi penuh sistem GM Anti-Cheat.
+
 ---
 
 ## ✅ Checklist Sebelum Main
