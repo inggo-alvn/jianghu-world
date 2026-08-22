@@ -30,6 +30,7 @@
 | 神Nēru | Desa Tiedao, Central Plains | Mortal Foundation, Awal | Sanxiu (tanpa sekte) |
 | Lu Qingxuan | Desa Xingcun, Central Plains | Mortal Foundation, Awal | Sanxiu (tanpa sekte) |
 | Tian Wuhen | Desa Qingshui, Central Plains | Mortal Foundation, Awal | Sanxiu (tanpa sekte) |
+| Paijo | Kota Luoyang Kecil, Central Plains | Mortal Foundation, Awal | Sanxiu (tanpa sekte) |
 
 *(Admin menambah baris baru di sini setiap kali mendaftarkan karakter baru di §4.)*
 
@@ -385,3 +386,33 @@ Pemuda biasa yang lahir dari keluarga sederhana di sebuah desa kecil. Ia tidak m
 
 **Latar Belakang & Kepribadian:**
 Tian Wuhen lahir di sebuah desa kecil yang bahkan tidak tercatat dalam peta dunia kultivasi. Berasal dari keluarga biasa, sejak kecil ia dianggap tidak memiliki masa depan sebagai seorang kultivator. Pada usia tujuh tahun, desanya dihancurkan oleh sekte besar dan seluruh keluarganya tewas. Tanpa warisan kuno, artefak, maupun guru, Tian Wuhen hanya memiliki tekad membara untuk menjadi cukup kuat agar tidak pernah kehilangan sesuatu lagi. Memulai perjalanan dari titik nol tanpa basis Qi aktif, ia terus berlatih dengan disiplin besi dan tekad tak tergoyahkan.
+
+---
+
+### 👤 Paijo
+
+**Lokasi Awal:** Kota Luoyang Kecil, Central Plains *(lihat `02_CENTRAL_PLAINS.md`)*
+**Realm & Stage Awal:** Mortal Foundation (Fondasi Fana), Awal — Qi Cap: 0 *(RealmBase v3.0 — lihat `09_CULTIVATION_LAW_SYSTEM.md` §9)*
+**Hukum Kultivasi Awal:** Belum ada — akan ditentukan lewat roleplay
+**Law Origin (jika sudah ada Hukum):** Belum ada
+**Sekte/Afiliasi Awal:** Sanxiu (tanpa sekte)
+
+**Kondisi Awal:** HP 100/100 · Qi 0/0 · Stamina 100/100 · Satiety 100% · Kondisi Normal · Karma Netral
+
+**Currency Awal:**
+- Tael Tembaga × 30
+
+**Equipment Awal (terpakai/digenggam):**
+- Senjata: Tidak ada
+- Zirah/Pelindung: Baju Katun Lusuh Kota — Fan-Grade, pakaian kasar anak jalanan
+- Aksesoris: Tidak ada
+
+**Inventory Awal (dibawa, tidak terpakai):**
+- Bekal Makanan Sederhana × 1
+- Kantong Air Kulit × 1
+
+**Teknik Awal:**
+- Tidak ada
+
+**Latar Belakang & Kepribadian:**
+Orang tua Paijo adalah petani miskin yang tewas bukan karena perang persilatan yang mulia, melainkan akibat tertimpa genteng saat para pendekar ortodoks saling melempar batu bata di atap rumah mereka ketika mengejar penjahat. Tumbuh di kota perdagangan, Paijo belajar sejak dini bahwa kehormatan tidak bisa dimakan dan keadilan hanya milik mereka yang bertenaga dalam tinggi. Menyadari dirinya lemah tanpa bakat martial arts, garis keturunan dewa, maupun Neigong, Paijo memilih cara bertahan hidup paling praktis: menjadi parasit di tengah para raksasa Jianghu. Ia memanfaatkan rasa kasihan, keserakahan, dan ego pendekar-pendekar besar demi kelangsungan hidupnya sendiri dari titik nol.
