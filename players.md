@@ -29,6 +29,7 @@
 | Ying Luo | Desa Qingfeng, Azure Mountain Range | Mortal Foundation, Awal | Sanxiu (tanpa sekte) |
 | 神Nēru | Desa Tiedao, Central Plains | Mortal Foundation, Awal | Sanxiu (tanpa sekte) |
 | Lu Qingxuan | Desa Xingcun, Central Plains | Mortal Foundation, Awal | Sanxiu (tanpa sekte) |
+| Paijo | Kota Luoyang Kecil, Central Plains | Mortal Foundation, Awal | Sanxiu (tanpa sekte) |
 
 *(Admin menambah baris baru di sini setiap kali mendaftarkan karakter baru di §4.)*
 
@@ -354,3 +355,35 @@ Saat terbangun tiga tahun lalu, ia mendapati dirinya berada di tempat asing tanp
 
 **Latar Belakang & Kepribadian:**
 Pemuda biasa yang lahir dari keluarga sederhana di sebuah desa kecil. Ia tidak memiliki bakat khusus, nama besar, maupun keistimewaan apa pun. Sejak kecil ia menjalani hidup sederhana, namun di dalam dirinya menyimpan keinginan kuat untuk melihat dunia yang lebih luas dan membuktikan bahwa seseorang yang memulai dari nol tetap bisa menentukan jalannya sendiri. Lu Qingxuan meninggalkan desanya dan memulai perjalanan sebagai seorang pemula, tanpa kekuatan, tanpa guru, dan tanpa tujuan pasti — hanya berbekal keberanian dan kemauan keras untuk terus melangkah di Jianghu.
+
+---
+
+### 👤 Paijo
+
+**Lokasi Awal:** Kota Luoyang Kecil, Central Plains *(lihat `02_CENTRAL_PLAINS.md`)*
+**Realm & Stage Awal:** Mortal Foundation (Fondasi Fana), Awal — Qi Cap: 0 *(RealmBase v3.0 — lihat `09_CULTIVATION_LAW_SYSTEM.md` §9)*
+**Hukum Kultivasi Awal:** Belum ada — akan ditentukan lewat roleplay
+**Law Origin (jika sudah ada Hukum):** Belum ada
+**Sekte/Afiliasi Awal:** Sanxiu (tanpa sekte)
+
+**Kondisi Awal:** HP 100/100 · Qi 0/0 · Stamina 100/100 · Satiety 100% · Kondisi Normal · Karma Netral
+
+**Currency Awal:**
+- Tael Tembaga × 30
+
+**Equipment Awal (terpakai/digenggam):**
+- Senjata: Tidak ada
+- Zirah/Pelindung: Pakaian Katun Lusuh — Fan-Grade, pakaian jalanan biasa tanpa perlindungan
+- Aksesoris: Tidak ada
+
+**Inventory Awal (dibawa, tidak terpakai):**
+- Bekal Makanan Sederhana × 2
+- Kantong Air Kulit × 1
+
+**Teknik Awal:**
+- Tidak ada
+
+**Latar Belakang & Kepribadian:**
+Di dunia Jianghu, setiap yatim piatu biasanya memiliki masa lalu yang tragis dan mulia—orang tua mereka tewas demi membela kebenaran atau dibantai oleh sekte iblis. Tidak dengan Paijo. Kebenarannya sangat menyedihkan dan tidak heroik: Orang tuanya adalah petani miskin yang tewas bukan karena perang persilatan, melainkan karena tertimpa genteng saat para pendekar "berhati lurus" saling melempar batu bata di atas atap rumah mereka saat mengejar penjahat.
+
+Sejak saat itu, Paijo belajar satu hal penting di jalanan: Kehormatan tidak bisa dimakan, dan keadilan hanya milik mereka yang memiliki tenaga dalam (Neigong) tingkat tinggi. Ia tumbuh di kota perdagangan yang menjadi persimpangan berbagai sekte. Menyadari bahwa ia tidak memiliki bakat martial arts, tidak memiliki garis keturunan dewa, dan tubuhnya lemah, Paijo memilih jalan bertahan hidup yang paling efektif: Menjadi parasit di tengah para raksasa. Ia belajar bahwa para pendekar besar, meskipun bisa membelah gunung dengan pedang, sangat mudah ditipu oleh rasa kasihan, keserakahan, atau ego mereka sendiri.
