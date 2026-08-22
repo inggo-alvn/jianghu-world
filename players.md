@@ -28,6 +28,7 @@
 | Wang Zixiin | Desa Luoye, Central Plains | Mortal Foundation, Awal | Sanxiu (tanpa sekte) |
 | Ying Luo | Desa Qingfeng, Azure Mountain Range | Mortal Foundation, Awal | Sanxiu (tanpa sekte) |
 | 神Nēru | Desa Tiedao, Central Plains | Mortal Foundation, Awal | Sanxiu (tanpa sekte) |
+| Lu Qingxuan | Desa Xingcun, Central Plains | Mortal Foundation, Awal | Sanxiu (tanpa sekte) |
 
 *(Admin menambah baris baru di sini setiap kali mendaftarkan karakter baru di §4.)*
 
@@ -323,3 +324,33 @@ Gadis kecil bertubuh mungil dengan rambut hitam yang sering diikat dua kuncir pi
 
 **Latar Belakang & Kepribadian:**
 Saat terbangun tiga tahun lalu, ia mendapati dirinya berada di tempat asing tanpa mengetahui bagaimana ia bisa sampai di sana dan tanpa ingatan tentang masa lalunya. Sebagai orang luar yang belum memahami dunia Jianghu, ia lebih banyak mengamati dan mempelajari orang-orang di sekitarnya. Dengan sifat tenang dan rasa ingin tahu yang besar, ia perlahan terbiasa dengan lingkungan barunya. Kini terlihat sebaya dengan seseorang berusia 16 tahun, 神Nēru memulai perjalanannya untuk mengenal lebih banyak tentang Jianghu sekaligus mencari tahu tentang masa lalunya.
+
+---
+
+### 👤 Lu Qingxuan
+
+**Lokasi Awal:** Desa Xingcun, Central Plains *(lihat `02_CENTRAL_PLAINS.md`)*
+**Realm & Stage Awal:** Mortal Foundation (Fondasi Fana), Awal — Qi Cap: 0 *(RealmBase v3.0 — lihat `09_CULTIVATION_LAW_SYSTEM.md` §9)*
+**Hukum Kultivasi Awal:** Belum ada — akan ditentukan lewat roleplay
+**Law Origin (jika sudah ada Hukum):** Belum ada
+**Sekte/Afiliasi Awal:** Sanxiu (tanpa sekte)
+
+**Kondisi Awal:** HP 100/100 · Qi 0/0 · Stamina 100/100 · Satiety 100% · Kondisi Normal · Karma Netral
+
+**Currency Awal:**
+- Tael Tembaga × 50
+
+**Equipment Awal (terpakai/digenggam):**
+- Senjata: Tidak ada
+- Zirah/Pelindung: Baju Katun Desa — Fan-Grade, pakaian sederhana warga desa
+- Aksesoris: Tidak ada
+
+**Inventory Awal (dibawa, tidak terpakai):**
+- Bekal Makanan Sederhana × 2
+- Kantong Air Kulit × 1
+
+**Teknik Awal:**
+- Tidak ada
+
+**Latar Belakang & Kepribadian:**
+Pemuda biasa yang lahir dari keluarga sederhana di sebuah desa kecil. Ia tidak memiliki bakat khusus, nama besar, maupun keistimewaan apa pun. Sejak kecil ia menjalani hidup sederhana, namun di dalam dirinya menyimpan keinginan kuat untuk melihat dunia yang lebih luas dan membuktikan bahwa seseorang yang memulai dari nol tetap bisa menentukan jalannya sendiri. Lu Qingxuan meninggalkan desanya dan memulai perjalanan sebagai seorang pemula, tanpa kekuatan, tanpa guru, dan tanpa tujuan pasti — hanya berbekal keberanian dan kemauan keras untuk terus melangkah di Jianghu.
